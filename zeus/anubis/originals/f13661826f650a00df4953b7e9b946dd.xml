@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+  <report_version>
+	  <major>3</major>
+		<minor>2</minor>
+	</report_version>
+	<configuration>
+	  <time_needed>251 s</time_needed>
+		<report_created>07/21/12, 04:35:26 UTC</report_created>
+		<termination_reason>Timeout</termination_reason>
+		<ttanalyze_version>
+		  <prog_version>1.76.3886</prog_version>
+			<svn_revision>$Revision: 3886 $</svn_revision>
+			<build_date>Apr 11 2012 00:59:40</build_date>
+		</ttanalyze_version>
+	</configuration>
+	<summary>
+	  <auto_start>false</auto_start>
+		<internet_settings>false</internet_settings>
+		<bho>false</bho>
+		<win_dir_copy>false</win_dir_copy>
+		<av_kill>false</av_kill>
+		<com_object>false</com_object>
+		<dlf>false</dlf>
+		<ircbot>false</ircbot>
+		<spambot>false</spambot>
+		<addressscan>false</addressscan>
+		<portscan>false</portscan>
+		<file_modification_destruction>false</file_modification_destruction>
+		<process_spawn>false</process_spawn>
+		<all_reg_activities>false</all_reg_activities>
+		<write_to_foreign_mem_area>false</write_to_foreign_mem_area>
+		<install_service>false</install_service>
+		<load_driver>false</load_driver>
+		<install_ie_toolbar>false</install_ie_toolbar>
+		<disable_win_update>false</disable_win_update>
+		<change_win_firewall_settings>false</change_win_firewall_settings>
+		<harvesting_emails>false</harvesting_emails>
+		<mod_sys_files>false</mod_sys_files>
+		<modify_files_only_in_user_dir>true</modify_files_only_in_user_dir>
+		<packed_binary>false</packed_binary>
+		<av_hit>false</av_hit>
+		<crash>false</crash>
+		<autorun>false</autorun>
+		<severity_level>0</severity_level>
+	</summary>
+	<analysis_subject>
+	  <general>
+		  <id>2</id>
+			<parent_id>1</parent_id>
+			<analysis_reason>Primary Analysis Subject</analysis_reason>
+			<submission_fn>f13661826f650a00df4953b7e9b946dd</submission_fn>
+			<virtual_fn>f13661826f.exe</virtual_fn>
+			<virtual_path>C:\f13661826f.exe</virtual_path>
+			<arguments>"C:\f13661826f.exe"</arguments>
+			<status>alive</status>
+			<exit_code>0</exit_code>
+			<md5>f13661826f650a00df4953b7e9b946dd</md5>
+			<sha1>68ae023a4874f049dfdff90fd404f881a384dc61</sha1>
+			<file_size>32768</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+			<loaded_dll base_address="0x7E410000" base_name="user32.dll" full_name="C:\WINDOWS\system32\user32.dll" is_load_time_dependency="1" load_time="1" size="0x00091000"/>
+			<loaded_dll base_address="0x77F10000" base_name="GDI32.dll" full_name="C:\WINDOWS\system32\GDI32.dll" is_load_time_dependency="1" load_time="1" size="0x00049000"/>
+			<loaded_dll base_address="0x774E0000" base_name="ole32.dll" full_name="C:\WINDOWS\system32\ole32.dll" is_load_time_dependency="1" load_time="1" size="0x0013D000"/>
+			<loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.dll" full_name="C:\WINDOWS\system32\ADVAPI32.dll" is_load_time_dependency="1" load_time="1" size="0x0009B000"/>
+			<loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="1" load_time="1" size="0x00092000"/>
+			<loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="1" load_time="1" size="0x00011000"/>
+			<loaded_dll base_address="0x77C10000" base_name="msvcrt.dll" full_name="C:\WINDOWS\system32\msvcrt.dll" is_load_time_dependency="1" load_time="1" size="0x00058000"/>
+		</dll_dependencies>
+		<activities>
+		  <registry_activities>
+			  <reg_value_read count="1" key="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" value_data="2592000" value_name="CriticalSectionTimeout"/>
+				<reg_value_read count="3" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSAppCompat"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSUserEnabled"/>
+			</registry_activities>
+			<file_activities>
+			  <file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM1.tmp"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM2.tmp"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM3.tmp"/>
+				<file_deleted name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM1.tmp"/>
+				<file_deleted name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM2.tmp"/>
+				<file_deleted name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM3.tmp"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM1.tmp"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM2.tmp"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM3.tmp"/>
+				<file_read name="C:\WINDOWS\system32\kernel32.dll"/>
+				<file_read name="C:\WINDOWS\system32\ntdll.dll"/>
+				<section_object_created file_name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM1.tmp" section_name=""/>
+				<section_object_created file_name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM2.tmp" section_name=""/>
+				<section_object_created file_name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\~TM3.tmp" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\ntoskrnl.exe" section_name=""/>
+				<fs_control_communication control_code="0x00090028" count="1" file="C:\Program Files\Common Files\"/>
+				<device_control_communication control_code="0x00390008" count="1" file="\Device\KsecDD"/>
+			</file_activities>
+			<misc_activities>
+			  <exception_occurred count="1" description="Exception 0xc0000005 (STATUS_ACCESS_VIOLATION) at 0xff87fffc"/>
+				<exception_occurred count="1" description="Exception 0x80000003 (STATUS_BREAKPOINT) at 0x405df1"/>
+				<exception_occurred count="1" description="Exception 0x80000003 (STATUS_BREAKPOINT) at 0x405e23"/>
+			</misc_activities>
+		</activities>
+	</analysis_subject>
+	<global_file_info>
+	  <global_file info="PE32 executable for MS Windows (DLL) (console) Intel 80386 32-bit" md5="c24b983d211c34da8fcc1ac38477971d" mimetype="application/x-dosexec" name="~TM1.tmp" sha1="e4eb14f7a950a30bc632446a9c9b418837378aac"/>
+		<global_file info="PE32 executable for MS Windows (DLL) (console) Intel 80386 32-bit" md5="27d9ed8cb8b62d1e0a8e5ace6cf52e2f" mimetype="application/x-dosexec" name="~TM2.tmp" sha1="cc33461f7147042c14d739ba7dc1916e6ccc8139"/>
+		<global_file info="PE32 executable for MS Windows (DLL) (console) Intel 80386 32-bit" md5="27d9ed8cb8b62d1e0a8e5ace6cf52e2f" mimetype="application/x-dosexec" name="~TM3.tmp" sha1="cc33461f7147042c14d739ba7dc1916e6ccc8139"/>
+	</global_file_info>
+</analysis>

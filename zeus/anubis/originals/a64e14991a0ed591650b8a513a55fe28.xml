@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+  <report_version>
+	  <major>3</major>
+		<minor>1</minor>
+	</report_version>
+	<configuration>
+	  <time_needed>241 s</time_needed>
+		<report_created>04/07/10, 11:13:15 UTC</report_created>
+		<termination_reason>Timeout</termination_reason>
+		<ttanalyze_version>
+		  <prog_version>1.74.2681</prog_version>
+			<svn_revision>$Revision: 2682 $</svn_revision>
+			<build_date>Mar 15 2010 16:51:43</build_date>
+		</ttanalyze_version>
+	</configuration>
+	<summary>
+	  <auto_start>false</auto_start>
+		<internet_settings>false</internet_settings>
+		<bho>false</bho>
+		<win_dir_copy>true</win_dir_copy>
+		<av_kill>false</av_kill>
+		<com_object>false</com_object>
+		<dlf>false</dlf>
+		<ircbot>false</ircbot>
+		<spambot>false</spambot>
+		<addressscan>false</addressscan>
+		<portscan>false</portscan>
+		<file_modification_destruction>true</file_modification_destruction>
+		<process_spawn>true</process_spawn>
+		<all_reg_activities>true</all_reg_activities>
+		<severity_level>3</severity_level>
+	</summary>
+	<analysis_subject>
+	  <general>
+		  <id>2</id>
+			<parent_id>1</parent_id>
+			<analysis_reason>Primary Analysis Subject</analysis_reason>
+			<submission_fn>0eff94d5ad49b92400285a25313cc776</submission_fn>
+			<virtual_fn>0eff94d5ad49b92400285a25313cc776</virtual_fn>
+			<virtual_path>C:\0eff94d5ad49b92400285a25313cc776</virtual_path>
+			<arguments>"C:\0eff94d5ad49b92400285a25313cc776" </arguments>
+			<status>alive</status>
+			<exit_code>0</exit_code>
+			<md5>a64e14991a0ed591650b8a513a55fe28</md5>
+			<sha1>642ff8b0d024ecc9ef47edfed47a261ed47edaee</sha1>
+			<file_size>25088</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+			<loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.dll" full_name="C:\WINDOWS\system32\ADVAPI32.dll" is_load_time_dependency="1" load_time="1" size="0x0009B000"/>
+			<loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="1" load_time="1" size="0x00092000"/>
+			<loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="1" load_time="1" size="0x00011000"/>
+			<loaded_dll base_address="0x77F10000" base_name="GDI32.dll" full_name="C:\WINDOWS\system32\GDI32.dll" is_load_time_dependency="1" load_time="1" size="0x00049000"/>
+			<loaded_dll base_address="0x7E410000" base_name="USER32.dll" full_name="C:\WINDOWS\system32\USER32.dll" is_load_time_dependency="1" load_time="1" size="0x00091000"/>
+			<loaded_dll base_address="0x5B860000" base_name="NETAPI32.dll" full_name="C:\WINDOWS\system32\NETAPI32.dll" is_load_time_dependency="0" load_time="2" size="0x00055000"/>
+			<loaded_dll base_address="0x5D090000" base_name="comctl32.dll" full_name="C:\WINDOWS\system32\comctl32.dll" is_load_time_dependency="0" load_time="2" size="0x0009A000"/>
+			<loaded_dll base_address="0x71AA0000" base_name="WS2HELP.dll" full_name="C:\WINDOWS\system32\WS2HELP.dll" is_load_time_dependency="0" load_time="2" size="0x00008000"/>
+			<loaded_dll base_address="0x71AB0000" base_name="WS2_32.DLL" full_name="C:\WINDOWS\system32\WS2_32.DLL" is_load_time_dependency="0" load_time="2" size="0x00017000"/>
+			<loaded_dll base_address="0x76360000" base_name="WINSTA.dll" full_name="C:\WINDOWS\system32\WINSTA.dll" is_load_time_dependency="0" load_time="2" size="0x00010000"/>
+			<loaded_dll base_address="0x76F20000" base_name="DNSAPI.DLL" full_name="C:\WINDOWS\system32\DNSAPI.DLL" is_load_time_dependency="0" load_time="2" size="0x00027000"/>
+			<loaded_dll base_address="0x76F50000" base_name="WTSAPI32.DLL" full_name="C:\WINDOWS\system32\WTSAPI32.DLL" is_load_time_dependency="0" load_time="2" size="0x00008000"/>
+			<loaded_dll base_address="0x773D0000" base_name="comctl32.dll" full_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" is_load_time_dependency="0" load_time="2" size="0x00103000"/>
+			<loaded_dll base_address="0x774E0000" base_name="ole32.dll" full_name="C:\WINDOWS\system32\ole32.dll" is_load_time_dependency="0" load_time="2" size="0x0013D000"/>
+			<loaded_dll base_address="0x77C00000" base_name="VERSION.dll" full_name="C:\WINDOWS\system32\VERSION.dll" is_load_time_dependency="0" load_time="2" size="0x00008000"/>
+			<loaded_dll base_address="0x77C10000" base_name="msvcrt.dll" full_name="C:\WINDOWS\system32\msvcrt.dll" is_load_time_dependency="0" load_time="2" size="0x00058000"/>
+			<loaded_dll base_address="0x77F60000" base_name="SHLWAPI.dll" full_name="C:\WINDOWS\system32\SHLWAPI.dll" is_load_time_dependency="0" load_time="2" size="0x00076000"/>
+			<loaded_dll base_address="0x7C9C0000" base_name="SHELL32.DLL" full_name="C:\WINDOWS\system32\SHELL32.DLL" is_load_time_dependency="0" load_time="2" size="0x00817000"/>
+			<loaded_dll base_address="0x7E1E0000" base_name="URLMON.DLL" full_name="C:\WINDOWS\system32\URLMON.DLL" is_load_time_dependency="0" load_time="2" size="0x000A2000"/>
+		</dll_dependencies>
+		<activities>
+		  <registry_activities>
+			  <reg_value_read count="1" key="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" value_data="2592000" value_name="CriticalSectionTimeout"/>
+				<reg_value_read count="1" key="HKLM\SYSTEM\Setup" value_data="0" value_name="SystemSetupInProgress"/>
+				<reg_value_read count="1" key="HKLM\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BEHAVIORS" value_data="1" value_name="*"/>
+				<reg_value_read count="1" key="HKLM\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_DISABLE_MK_PROTOCOL" value_data="1" value_name="*"/>
+				<reg_value_read count="1" key="HKLM\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers" value_data="1" value_name="TransparentEnabled"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName" value_data="PC" value_name="ComputerName"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSUserEnabled"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\Tcpip\Parameters" value_data="0" value_name="UseDomainNameDevolution"/>
+				<reg_value_read count="1" key="HKLM\System\Setup" value_data="0" value_name="SystemSetupInProgress"/>
+			</registry_activities>
+			<file_activities>
+			  <file_created name="C:\WINDOWS\system32\avast!CacheAgent.exe"/>
+				<file_modified description="file_modification_destruction" name="C:\WINDOWS\system32\avast!CacheAgent.exe"/>
+				<file_modified description="file_modification_destruction" name="PIPE\lsarpc"/>
+				<file_read name="PIPE\lsarpc"/>
+				<section_object_created file_name="C:\0eff94d5ad49b92400285a25313cc776" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\WindowsShell.Manifest" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\DNSAPI.DLL" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\SHELL32.DLL" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\URLMON.DLL" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\WINSTA.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\WS2HELP.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\WS2_32.DLL" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\WTSAPI32.DLL" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\comctl32.dll" section_name=""/>
+				<device_control_communication control_code="0x00390008" count="8" file="\Device\KsecDD"/>
+				<fs_control_communication control_code="0x0011C017" count="6" file="PIPE\lsarpc"/>
+			</file_activities>
+			<service_activities>
+			  <service_created name="avast!CacheAgent.exe" path="%SystemRoot%\System32\avast!CacheAgent.exe -k netsvcs" type="SERVICE_AUTO_START"/>
+			</service_activities>
+			<misc_activities>
+			  <mutex_created name="ZonesCacheCounterMutex"/>
+				<mutex_created name="ZonesCounterMutex"/>
+				<mutex_created name="ZonesLockedCacheCounterMutex"/>
+				<exception_occurred count="23040" description="Exception 0xc0000096 (STATUS_PRIVILEGED_INSTRUCTION) at 0x7ffa012d"/>
+			</misc_activities>
+		</activities>
+		<sigbuster>UPX All_Versions SN:1634</sigbuster>
+		<ikarus_scanner>
+		  <sig id="35223679" name="Trojan-Spy.Win32.Zbot"/>
+		</ikarus_scanner>
+	</analysis_subject>
+	<analysis_subject>
+	  <general>
+		  <id>3</id>
+			<parent_id>2</parent_id>
+			<analysis_reason>A service was started.</analysis_reason>
+			<virtual_fn>services.exe</virtual_fn>
+			<virtual_path>C:\WINDOWS\system32\services.exe</virtual_path>
+			<arguments>C:\WINDOWS\system32\services.exe</arguments>
+			<status>alive</status>
+			<exit_code>0</exit_code>
+			<md5>0e776ed5f7cc9f94299e70461b7b8185</md5>
+			<sha1>cb5a33cec4c7b8ef4bd5dc8c241005b66b26cbbf</sha1>
+			<file_size>108544</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+			<loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.dll" full_name="C:\WINDOWS\system32\ADVAPI32.dll" is_load_time_dependency="1" load_time="1" size="0x0009B000"/>
+			<loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="1" load_time="1" size="0x00092000"/>
+			<loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="1" load_time="1" size="0x00011000"/>
+			<loaded_dll base_address="0x77C10000" base_name="msvcrt.dll" full_name="C:\WINDOWS\system32\msvcrt.dll" is_load_time_dependency="1" load_time="1" size="0x00058000"/>
+			<loaded_dll base_address="0x5F770000" base_name="NCObjAPI.DLL" full_name="C:\WINDOWS\system32\NCObjAPI.DLL" is_load_time_dependency="1" load_time="1" size="0x0000C000"/>
+			<loaded_dll base_address="0x76080000" base_name="MSVCP60.dll" full_name="C:\WINDOWS\system32\MSVCP60.dll" is_load_time_dependency="1" load_time="1" size="0x00065000"/>
+			<loaded_dll base_address="0x7DBD0000" base_name="SCESRV.dll" full_name="C:\WINDOWS\system32\SCESRV.dll" is_load_time_dependency="1" load_time="1" size="0x00051000"/>
+			<loaded_dll base_address="0x776C0000" base_name="AUTHZ.dll" full_name="C:\WINDOWS\system32\AUTHZ.dll" is_load_time_dependency="1" load_time="1" size="0x00012000"/>
+			<loaded_dll base_address="0x7E410000" base_name="USER32.dll" full_name="C:\WINDOWS\system32\USER32.dll" is_load_time_dependency="1" load_time="1" size="0x00091000"/>
+			<loaded_dll base_address="0x77F10000" base_name="GDI32.dll" full_name="C:\WINDOWS\system32\GDI32.dll" is_load_time_dependency="1" load_time="1" size="0x00049000"/>
+			<loaded_dll base_address="0x769C0000" base_name="USERENV.dll" full_name="C:\WINDOWS\system32\USERENV.dll" is_load_time_dependency="1" load_time="1" size="0x000B4000"/>
+			<loaded_dll base_address="0x7DBA0000" base_name="umpnpmgr.dll" full_name="C:\WINDOWS\system32\umpnpmgr.dll" is_load_time_dependency="1" load_time="1" size="0x00021000"/>
+			<loaded_dll base_address="0x76360000" base_name="WINSTA.dll" full_name="C:\WINDOWS\system32\WINSTA.dll" is_load_time_dependency="1" load_time="1" size="0x00010000"/>
+			<loaded_dll base_address="0x5B860000" base_name="NETAPI32.dll" full_name="C:\WINDOWS\system32\NETAPI32.dll" is_load_time_dependency="1" load_time="1" size="0x00055000"/>
+			<loaded_dll base_address="0x5CB70000" base_name="ShimEng.dll" full_name="C:\WINDOWS\system32\ShimEng.dll" is_load_time_dependency="1" load_time="1" size="0x00026000"/>
+			<loaded_dll base_address="0x47260000" base_name="AcAdProc.dll" full_name="C:\WINDOWS\AppPatch\AcAdProc.dll" is_load_time_dependency="1" load_time="1" size="0x0000F000"/>
+			<loaded_dll base_address="0x77B40000" base_name="Apphelp.dll" full_name="C:\WINDOWS\system32\Apphelp.dll" is_load_time_dependency="1" load_time="1" size="0x00022000"/>
+			<loaded_dll base_address="0x77C00000" base_name="VERSION.dll" full_name="C:\WINDOWS\system32\VERSION.dll" is_load_time_dependency="1" load_time="1" size="0x00008000"/>
+			<loaded_dll base_address="0x77B70000" base_name="eventlog.dll" full_name="C:\WINDOWS\system32\eventlog.dll" is_load_time_dependency="1" load_time="1" size="0x00011000"/>
+			<loaded_dll base_address="0x76BF0000" base_name="PSAPI.DLL" full_name="C:\WINDOWS\system32\PSAPI.DLL" is_load_time_dependency="1" load_time="1" size="0x0000B000"/>
+			<loaded_dll base_address="0x71AB0000" base_name="WS2_32.dll" full_name="C:\WINDOWS\system32\WS2_32.dll" is_load_time_dependency="1" load_time="1" size="0x00017000"/>
+			<loaded_dll base_address="0x71AA0000" base_name="WS2HELP.dll" full_name="C:\WINDOWS\system32\WS2HELP.dll" is_load_time_dependency="1" load_time="1" size="0x00008000"/>
+			<loaded_dll base_address="0x76F50000" base_name="wtsapi32.dll" full_name="C:\WINDOWS\system32\wtsapi32.dll" is_load_time_dependency="1" load_time="1" size="0x00008000"/>
+		</dll_dependencies>
+		<activities>
+		  <registry_activities>
+			  <reg_value_modified count="1" key="HKLM\SYSTEM\CONTROLSET001\CONTROL\SERVICECURRENT" value_data="9" value_name=""/>
+				<reg_value_read count="1" key="HKLM\SYSTEM\CONTROLSET001\SERVICES\avast!CacheAgent.exe\Enum" value_data="Root\LEGACY_AVAST!CACHEAGENT.EXE\0000" value_name="0"/>
+				<reg_value_read count="2" key="HKLM\SYSTEM\CONTROLSET001\SERVICES\avast!CacheAgent.exe\Enum" value_data="1" value_name="Count"/>
+				<reg_value_read count="1" key="HKLM\SYSTEM\WPA\MediaCenter" value_data="0" value_name="Installed"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\avast!CacheAgent.exe" value_data="%SystemRoot%\System32\avast!CacheAgent.exe -k netsvcs" value_name="ImagePath"/>
+				<reg_value_read count="2" key="HKLM\System\CurrentControlSet\Services\avast!CacheAgent.exe" value_data="LocalSystem" value_name="ObjectName"/>
+			</registry_activities>
+			<file_activities>
+			  <file_created name="pipe\net\NtControlPipe9"/>
+				<section_object_created file_name="C:\WINDOWS\System32\avast!CacheAgent.exe" section_name=""/>
+				<section_object_created file_name="C:\Windows\AppPatch\sysmain.sdb" section_name=""/>
+				<fs_control_communication control_code="0x00110008" count="1" file="pipe\net\NtControlPipe9"/>
+			</file_activities>
+			<process_activities>
+			  <remote_thread_created process="C:\WINDOWS\System32\avast!CacheAgent.exe"/>
+				<foreign_mem_area_read process="C:\WINDOWS\System32\avast!CacheAgent.exe"/>
+				<foreign_mem_area_write process="C:\WINDOWS\System32\avast!CacheAgent.exe"/>
+				<process_created cmd_line="" description="process_spawn" exe_name="C:\WINDOWS\System32\avast!CacheAgent.exe"/>
+				<process_created cmd_line="C:\WINDOWS\System32\avast!CacheAgent.exe -k netsvcs" description="process_spawn" exe_name=""/>
+			</process_activities>
+		</activities>
+	</analysis_subject>
+	<analysis_subject>
+	  <general>
+		  <id>4</id>
+			<parent_id>3</parent_id>
+			<analysis_reason>Started by services.exe</analysis_reason>
+			<virtual_fn>avast!CacheAgent.exe</virtual_fn>
+			<virtual_path>C:\WINDOWS\System32\avast!CacheAgent.exe</virtual_path>
+			<arguments>C:\WINDOWS\System32\avast!CacheAgent.exe -k netsvcs</arguments>
+			<status>alive</status>
+			<exit_code>0</exit_code>
+			<md5>a64e14991a0ed591650b8a513a55fe28</md5>
+			<sha1>642ff8b0d024ecc9ef47edfed47a261ed47edaee</sha1>
+			<file_size>25088</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+			<loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.dll" full_name="C:\WINDOWS\system32\ADVAPI32.dll" is_load_time_dependency="1" load_time="1" size="0x0009B000"/>
+			<loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="1" load_time="1" size="0x00092000"/>
+			<loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="1" load_time="1" size="0x00011000"/>
+			<loaded_dll base_address="0x77F10000" base_name="GDI32.dll" full_name="C:\WINDOWS\system32\GDI32.dll" is_load_time_dependency="1" load_time="1" size="0x00049000"/>
+			<loaded_dll base_address="0x7E410000" base_name="USER32.dll" full_name="C:\WINDOWS\system32\USER32.dll" is_load_time_dependency="1" load_time="1" size="0x00091000"/>
+		</dll_dependencies>
+		<activities>
+		  <registry_activities>
+			  <reg_value_read count="2" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSAppCompat"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSUserEnabled"/>
+			</registry_activities>
+			<file_activities>
+			  <fs_control_communication control_code="0x00090028" count="1" file="C:\WINDOWS\system32\"/>
+			</file_activities>
+		</activities>
+		<sigbuster>UPX All_Versions SN:1634</sigbuster>
+		<ikarus_scanner>
+		  <sig id="35223679" name="Trojan-Spy.Win32.Zbot"/>
+		</ikarus_scanner>
+	</analysis_subject>
+	<global_file_info>
+	  <global_file info="PE32 executable for MS Windows (GUI) Intel 80386 32-bit" md5="a64e14991a0ed591650b8a513a55fe28" mimetype="application/x-dosexec" name="avast!CacheAgent.exe"/>
+	</global_file_info>
+</analysis>

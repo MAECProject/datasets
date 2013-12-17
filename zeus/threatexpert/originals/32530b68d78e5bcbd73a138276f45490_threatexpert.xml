@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>23</day>
+						<month>5</month>
+						<year>2011</year>
+						<hour>8</hour>
+						<minute>56</minute>
+						<second>49</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>16</minutes>
+						<seconds>44</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>32530B68D78E5BCBD73A138276F45490</md5>
+							<sha1>698F4DE6FF18CCAC37EFE0D51255064DC35DA2AB</sha1>
+							<filesize>244816</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer>UPX</packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Creates a startup registry entry.</description>
+						<severity>2</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>c:\Recycle.Bin\config.bin</filename>
+							</filenames_collection>
+							<md5>B471C738D2C4099823BC21CB9A6A2D83</md5>
+							<sha1>64D01F283B9681A2B8972BA9E5397A7BC3B3365A</sha1>
+							<filesize>28522</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>c:\Recycle.Bin\Recycle.Bin.exe</filename>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>32530B68D78E5BCBD73A138276F45490</md5>
+							<sha1>698F4DE6FF18CCAC37EFE0D51255064DC35DA2AB</sha1>
+							<filesize>244816</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer>UPX</packer>
+						</added_file>
+					</added_files_collection>
+				</added_files>
+				<added_directories>
+					<dirnames_collection>
+						<dirname>c:\Recycle.Bin</dirname>
+					</dirnames_collection>
+				</added_directories>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>Recycle.Bin.exe</process_name>
+							<process_filename>C:\Recycle.Bin\Recycle.Bin.exe</process_filename>
+							<main_module_size>393216</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<added_regkeys>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft Windows</regkey>
+					<regkey>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\PhishingFilter</regkey>
+					<regkey>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Recovery</regkey>
+					<regkey>HKEY_CURRENT_USER\Software\Microsoft Windows</regkey>
+				</added_regkeys>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft Windows</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>00000045D6EBC2C4</value>
+								<contents>B5 6D 79 68 46 47 47 47 47 40 43 43 43 43 41 41 41 41 4C 4C 4C 4C 38 57 77 03 62 00 6C 09 09 7B 1E 6E 5F 2F 2D 2D 34 13 13 13 13 71 1E 6A 35 52 27 4E 2A 2A 1F 31 00 2E 1C 2A 1A 2A 0B 48 07 4A 1A 4F 1B 5E 0C 42 03 4E 0B 2A 1A 2A 69 2D 1C 5D 69 59 20 2</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000492012736F</value>
+								<contents>CA AC AD 6F 40 41 41 41 41 46 45 45 45 45 47 47 47 47 4A 4A 4A 4A 3E 51 71 05 64 06 6A 0F 0F 7D 18 68 59 29 2B 2B 32 15 15 15 15 77 18 6C 33 54 21 48 2C 2C 19 37 06 28 1A 2C 1C 2C 0D 4E 01 4C 1C 49 1D 58 0A 44 05 48 0D 2C 1C 2C 6F 2B 1A 5B 6F 5F 26 2</contents>
+							</regvalue>
+							<regvalue>
+								<value>0000004ABB81114A</value>
+								<contents>3A 37 FF 74 5B 5A 5A 5A 5A 5D 5E 5E 5E 5E 5C 5C 5C 5C 51 51 51 51 25 4A 6A 1E 7F 1D 71 14 14 66 03 73 42 32 30 30 29 0E 0E 0E 0E 6C 03 77 28 4F 3A 53 37 37 02 2C 1D 33 01 37 07 37 16 55 1A 57 07 52 06 43 11 5F 1E 53 16 37 07 37 74 30 01 40 74 44 3D 3</contents>
+							</regvalue>
+							<regvalue>
+								<value>0000004D4037AFBD</value>
+								<contents>BD 9A 5F D1 FE FF FF FF FF F8 FB FB FB FB F9 F9 F9 F9 F4 F4 F4 F4 80 EF CF BB DA B8 D4 B1 B1 C3 A6 D6 E7 97 95 95 8C AB AB AB AB C9 A6 D2 8D EA 9F F6 92 92 A7 89 B8 96 A4 92 A2 92 B3 F0 BF F2 A2 F7 A3 E6 B4 FA BB F6 B3 92 A2 92 D1 95 A4 E5 D1 E1 98 9</contents>
+							</regvalue>
+							<regvalue>
+								<value>0000004FC56B18A9</value>
+								<contents>CF C2 AA 09 26 27 27 27 27 20 23 23 23 23 21 21 21 21 2C 2C 2C 2C 58 37 17 63 02 60 0C 69 69 1B 7E 0E 3F 4F 4D 4D 54 73 73 73 73 11 7E 0A 55 32 47 2E 4A 4A 7F 51 60 4E 7C 4A 7A 4A 6B 28 67 2A 7A 2F 7B 3E 6C 22 63 2E 6B 4A 7A 4A 09 4D 7C 3D 09 39 40 4</contents>
+							</regvalue>
+							<regvalue>
+								<value>00000052FB107039</value>
+								<contents>04 FB 6C EA C5 C4 C4 C4 C4 C3 C0 C0 C0 C0 C2 C2 C2 C2 CF CF CF CF BB D4 F4 80 E1 83 EF 8A 8A F8 9D ED DC AC AE AE B7 90 90 90 90 F2 9D E9 B6 D1 A4 CD A9 A9 9C B2 83 AD 9F A9 99 A9 88 CB 84 C9 99 CC 98 DD 8F C1 80 CD 88 A9 99 A9 EA AE 9F DE EA DA A3 A</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000566BA4AE74</value>
+								<contents>CE E5 B6 FD D2 D3 D3 D3 D3 D4 D7 D7 D7 D7 D5 D5 D5 D5 D8 D8 D8 D8 AC C3 E3 97 F6 94 F8 9D 9D EF 8A FA CB BB B9 B9 A0 87 87 87 87 E5 8A FE A1 C6 B3 DA BE BE 8B A5 94 BA 88 BE 8E BE 9F DC 93 DE 8E DB 8F CA 98 D6 97 DA 9F BE 8E BE FD B9 88 C9 FD CD B4 B</contents>
+							</regvalue>
+							<regvalue>
+								<value>00000059659FFC94</value>
+								<contents>E8 A4 86 DE F1 F0 F0 F0 F0 F7 F4 F4 F4 F4 F6 F6 F6 F6 FB FB FB FB 8F E0 C0 B4 D5 B7 DB BE BE CC A9 D9 E8 98 9A 9A 83 A4 A4 A4 A4 C6 A9 DD 82 E5 90 F9 9D 9D A8 86 B7 99 AB 9D AD 9D BC FF B0 FD AD F8 AC E9 BB F5 B4 F9 BC 9D AD 9D DE 9A AB EA DE EE 97 9</contents>
+							</regvalue>
+							<regvalue>
+								<value>0000005DC10B336B</value>
+								<contents>83 96 CB EF C0 C1 C1 C1 C1 C6 C5 C5 C5 C5 C7 C7 C7 C7 CA CA CA CA BE D1 F1 85 E4 86 EA 8F 8F FD 98 E8 D9 A9 AB AB B2 95 95 95 95 F7 98 EC B3 D4 A1 C8 AC AC 99 B7 86 A8 9A AC 9C AC 8D CE 81 CC 9C C9 9D D8 8A C4 85 C8 8D AC 9C AC EF AB 9A DB EF DF A6 A</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000617F8A39B2</value>
+								<contents>D1 96 F4 9C B3 B2 B2 B2 B2 B5 B6 B6 B6 B6 B4 B4 B4 B4 B9 B9 B9 B9 CD A2 82 F6 97 F5 99 FC FC 8E EB 9B AA DA D8 D8 C1 E6 E6 E6 E6 84 EB 9F C0 A7 D2 BB DF DF EA C4 F5 DB E9 DF EF DF FE BD F2 BF EF BA EE AB F9 B7 F6 BB FE DF EF DF 9C D8 E9 A8 9C AC D5 D</contents>
+							</regvalue>
+							<regvalue>
+								<value>0000006AD0AC3743</value>
+								<contents>D2 0B B1 C0 EF EE EE EE EE E9 EA EA EA EA E8 E8 E8 E8 E5 E5 E5 E5 91 FE DE AA CB A9 C5 A0 A0 D2 B7 C7 F6 86 84 84 9D BA BA BA BA D8 B7 C3 9C FB 8E E7 83 83 B6 98 A9 87 B5 83 B3 83 A2 E1 AE E3 B3 E6 B2 F7 A5 EB AA E7 A2 83 B3 83 C0 84 B5 F4 C0 F0 89 8</contents>
+							</regvalue>
+							<regvalue>
+								<value>00000072129D4FE9</value>
+								<contents>90 BC 36 68 47 46 46 46 46 41 42 42 42 42 40 40 40 40 4D 4D 4D 4D 39 56 76 02 63 01 6D 08 08 7A 1F 6F 5E 2E 2C 2C 35 12 12 12 12 70 1F 6B 34 53 26 4F 2B 2B 1E 30 01 2F 1D 2B 1B 2B 0A 49 06 4B 1B 4E 1A 5F 0D 43 02 4F 0A 2B 1B 2B 68 2C 1D 5C 68 58 21 2</contents>
+							</regvalue>
+							<regvalue>
+								<value>00000078DF4694A5</value>
+								<contents>AE 32 97 14 3B 3A 3A 3A 3A 3D 3E 3E 3E 3E 3C 3C 3C 3C 31 31 31 31 45 2A 0A 7E 1F 7D 11 74 74 06 63 13 22 52 50 50 49 6E 6E 6E 6E 0C 63 17 48 2F 5A 33 57 57 62 4C 7D 53 61 57 67 57 76 35 7A 37 67 32 66 23 71 3F 7E 33 76 57 67 57 14 50 61 20 14 24 5D 5</contents>
+							</regvalue>
+							<regvalue>
+								<value>0000007C74B53F92</value>
+								<contents>86 CF 59 2D 02 03 03 03 03 04 07 07 07 07 05 05 05 05 08 08 08 08 7C 13 33 47 26 44 28 4D 4D 3F 5A 2A 1B 6B 69 69 70 57 57 57 57 35 5A 2E 71 16 63 0A 6E 6E 5B 75 44 6A 58 6E 5E 6E 4F 0C 43 0E 5E 0B 5F 1A 48 06 47 0A 4F 6E 5E 6E 2D 69 58 19 2D 1D 64 6</contents>
+							</regvalue>
+							<regvalue>
+								<value>0000008117320A11</value>
+								<contents>60 9A B5 A2 8D 8C 8C 8C 8C 8B 88 88 88 88 8A 8A 8A 8A 87 87 87 87 F3 9C BC C8 A9 CB A7 C2 C2 B0 D5 A5 94 E4 E6 E6 FF D8 D8 D8 D8 BA D5 A1 FE 99 EC 85 E1 E1 D4 FA CB E5 D7 E1 D1 E1 C0 83 CC 81 D1 84 D0 95 C7 89 C8 85 C0 E1 D1 E1 A2 E6 D7 96 A2 92 EB E</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000878B3CC470</value>
+								<contents>0E F9 A5 45 6A 6B 6B 6B 6B 6C 6F 6F 6F 6F 6D 6D 6D 6D 60 60 60 60 14 7B 5B 2F 4E 2C 40 25 25 57 32 42 73 03 01 01 18 3F 3F 3F 3F 5D 32 46 19 7E 0B 62 06 06 33 1D 2C 02 30 06 36 06 27 64 2B 66 36 63 37 72 20 6E 2F 62 27 06 36 06 45 01 30 71 45 75 0C 0</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000959920D1AF</value>
+								<contents>BE A5 31 E9 C6 C7 C7 C7 C7 C0 C3 C3 C3 C3 C1 C1 C1 C1 CC CC CC CC B8 D7 F7 83 E2 80 EC 89 89 FB 9E EE DF AF AD AD B4 93 93 93 93 F1 9E EA B5 D2 A7 CE AA AA 9F B1 80 AE 9C AA 9A AA 8B C8 87 CA 9A CF 9B DE 8C C2 83 CE 8B AA 9A AA E9 AD 9C DD E9 D9 A0 A</contents>
+							</regvalue>
+							<regvalue>
+								<value>00000099B93B04E0</value>
+								<contents>F1 4B F8 10 3F 3E 3E 3E 3E 39 3A 3A 3A 3A 38 38 38 38 35 35 35 35 41 2E 0E 7A 1B 79 15 70 70 02 67 17 26 56 54 54 4D 6A 6A 6A 6A 08 67 13 4C 2B 5E 37 53 53 66 48 79 57 65 53 63 53 72 31 7E 33 63 36 62 27 75 3B 7A 37 72 53 63 53 10 54 65 24 10 20 59 5</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000A31F39F845</value>
+								<contents>32 F6 C3 57 78 79 79 79 79 7E 7D 7D 7D 7D 7F 7F 7F 7F 72 72 72 72 06 69 49 3D 5C 3E 52 37 37 45 20 50 61 11 13 13 0A 2D 2D 2D 2D 4F 20 54 0B 6C 19 70 14 14 21 0F 3E 10 22 14 24 14 35 76 39 74 24 71 25 60 32 7C 3D 70 35 14 24 14 57 13 22 63 57 67 1E 1</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000AEE2A5FF41</value>
+								<contents>40 3C EA DE F1 F0 F0 F0 F0 F7 F4 F4 F4 F4 F6 F6 F6 F6 FB FB FB FB 8F E0 C0 B4 D5 B7 DB BE BE CC A9 D9 E8 98 9A 9A 83 A4 A4 A4 A4 C6 A9 DD 82 E5 90 F9 9D 9D A8 86 B7 99 AB 9D AD 9D BC FF B0 FD AD F8 AC E9 BB F5 B4 F9 BC 9D AD 9D DE 9A AB EA DE EE 97 9</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000B101D520D7</value>
+								<contents>40 26 0E 8E A1 A0 A0 A0 A0 A7 A4 A4 A4 A4 A6 A6 A6 A6 AB AB AB AB DF B0 90 E4 85 E7 8B EE EE 9C F9 89 B8 C8 CA CA D3 F4 F4 F4 F4 96 F9 8D D2 B5 C0 A9 CD CD F8 D6 E7 C9 FB CD FD CD EC AF E0 AD FD A8 FC B9 EB A5 E4 A9 EC CD FD CD 8E CA FB BA 8E BE C7 C</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000BB2FE99888</value>
+								<contents>0B 2F 04 0B 24 25 25 25 25 22 21 21 21 21 23 23 23 23 2E 2E 2E 2E 5A 35 15 61 00 62 0E 6B 6B 19 7C 0C 3D 4D 4F 4F 56 71 71 71 71 13 7C 08 57 30 45 2C 48 48 7D 53 62 4C 7E 48 78 48 69 2A 65 28 78 2D 79 3C 6E 20 61 2C 69 48 78 48 0B 4F 7E 3F 0B 3B 42 4</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000BC5AA9D3C3</value>
+								<contents>E6 7D C3 2C 03 02 02 02 02 05 06 06 06 06 04 04 04 04 09 09 09 09 7D 12 32 46 27 45 29 4C 4C 3E 5B 2B 1A 6A 68 68 71 56 56 56 56 34 5B 2F 70 17 62 0B 6F 6F 5A 74 45 6B 59 6F 5F 6F 4E 0D 42 0F 5F 0A 5E 1B 49 07 46 0B 4E 6F 5F 6F 2C 68 59 18 2C 1C 65 6</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000D613DADBAA</value>
+								<contents>F7 61 6C D3 FC FD FD FD FD FA F9 F9 F9 F9 FB FB FB FB F6 F6 F6 F6 82 ED CD B9 D8 BA D6 B3 B3 C1 A4 D4 E5 95 97 97 8E A9 A9 A9 A9 CB A4 D0 8F E8 9D F4 90 90 A5 8B BA 94 A6 90 A0 90 B1 F2 BD F0 A0 F5 A1 E4 B6 F8 B9 F4 B1 90 A0 90 D3 97 A6 E7 D3 E3 9A 9</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000DD3B4093E1</value>
+								<contents>31 06 76 24 0B 0A 0A 0A 0A 0D 0E 0E 0E 0E 0C 0C 0C 0C 01 01 01 01 75 1A 3A 4E 2F 4D 21 44 44 36 53 23 12 62 60 60 79 5E 5E 5E 5E 3C 53 27 78 1F 6A 03 67 67 52 7C 4D 63 51 67 57 67 46 05 4A 07 57 02 56 13 41 0F 4E 03 46 67 57 67 24 60 51 10 24 14 6D 6</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000E81B60C647</value>
+								<contents>F9 76 64 49 66 67 67 67 67 60 63 63 63 63 61 61 61 61 6C 6C 6C 6C 18 77 57 23 42 20 4C 29 29 5B 3E 4E 7F 0F 0D 0D 14 33 33 33 33 51 3E 4A 15 72 07 6E 0A 0A 3F 11 20 0E 3C 0A 3A 0A 2B 68 27 6A 3A 6F 3B 7E 2C 62 23 6E 2B 0A 3A 0A 49 0D 3C 7D 49 79 00 0</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000ED7AFCA6D9</value>
+								<contents>7F 76 CA 75 5A 5B 5B 5B 5B 5C 5F 5F 5F 5F 5D 5D 5D 5D 50 50 50 50 24 4B 6B 1F 7E 1C 70 15 15 67 02 72 43 33 31 31 28 0F 0F 0F 0F 6D 02 76 29 4E 3B 52 36 36 03 2D 1C 32 00 36 06 36 17 54 1B 56 06 53 07 42 10 5E 1F 52 17 36 06 36 75 31 00 41 75 45 3C 3</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000F6C6624899</value>
+								<contents>75 FA 39 0E 21 20 20 20 20 27 24 24 24 24 26 26 26 26 2B 2B 2B 2B 5F 30 10 64 05 67 0B 6E 6E 1C 79 09 38 48 4A 4A 53 74 74 74 74 16 79 0D 52 35 40 29 4D 4D 78 56 67 49 7B 4D 7D 4D 6C 2F 60 2D 7D 28 7C 39 6B 25 64 29 6C 4D 7D 4D 0E 4A 7B 3A 0E 3E 47 4</contents>
+							</regvalue>
+							<regvalue>
+								<value>000001110F827D87</value>
+								<contents>3C 7F FE BC 93 92 92 92 92 95 96 96 96 96 94 94 94 94 99 99 99 99 ED 82 A2 D6 B7 D5 B9 DC DC AE CB BB 8A FA F8 F8 E1 C6 C6 C6 C6 A4 CB BF E0 87 F2 9B FF FF CA E4 D5 FB C9 FF CF FF DE 9D D2 9F CF 9A CE 8B D9 97 D6 9B DE FF CF FF BC F8 C9 88 BC 8C F5 F</contents>
+							</regvalue>
+							<regvalue>
+								<value>000001198AC68B20</value>
+								<contents>FF 7A D8 CA E5 E4 E4 E4 E4 E3 E0 E0 E0 E0 E2 E2 E2 E2 EF EF EF EF 9B F4 D4 A0 C1 A3 CF AA AA D8 BD CD FC 8C 8E 8E 97 B0 B0 B0 B0 D2 BD C9 96 F1 84 ED 89 89 BC 92 A3 8D BF 89 B9 89 A8 EB A4 E9 B9 EC B8 FD AF E1 A0 ED A8 89 B9 89 CA 8E BF FE CA FA 83 8</contents>
+							</regvalue>
+							<regvalue>
+								<value>000001207E736139</value>
+								<contents>B1 69 F7 92 BD BC BC BC BC BB B8 B8 B8 B8 BA BA BA BA B7 B7 B7 B7 C3 AC 8C F8 99 FB 97 F2 F2 80 E5 95 A4 D4 D6 D6 CF E8 E8 E8 E8 8A E5 91 CE A9 DC B5 D1 D1 E4 CA FB D5 E7 D1 E1 D1 F0 B3 FC B1 E1 B4 E0 A5 F7 B9 F8 B5 F0 D1 E1 D1 92 D6 E7 A6 92 A2 DB D</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\PhishingFilter</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>EnabledV8</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>ShownServiceDownBalloon</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Recovery</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>ClearBrowsingHistoryOnExit</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>ProxyHttp1.1</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>WarnOnPostRedirect</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>WarnOnIntranet</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\0</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>1409</value>
+								<contents>0x00000003</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>1409</value>
+								<contents>0x00000003</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>1409</value>
+								<contents>0x00000003</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>1409</value>
+								<contents>0x00000003</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>1409</value>
+								<contents>0x00000003</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Recycle.Bin.exe</value>
+								<contents>&quot;C:\Recycle.Bin\Recycle.Bin.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+						<notes_collection>
+							<note>so that Recycle.Bin.exe runs every time Windows starts</note>
+						</notes_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft Windows</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>000000CB8DC7422F</value>
+								<contents>B2 5E 0C BA 95 94 94 94 94 93 90 90 90 90 92 92 92 92 9F 9F 9F 9F EB 84 A4 D0 B1 D3 BF DA DA A8 CD BD 8C FC FE FE E7 C0 C0 C0 C0 A2 CD B9 E6 81 F4 9D F9 F9 CC E2 D3 FD CF F9 C9 F9 D8 9B D4 99 C9 9C C8 8D DF 91 D0 9D D8 F9 C9 F9 BA FE CF 8E BA 8A F3 F</contents>
+							</regvalue>
+							<regvalue>
+								<value>000000CF39478740</value>
+								<contents>33 62 ED 37 18 19 19 19 19 1E 1D 1D 1D 1D 1F 1F 1F 1F 12 12 12 12 66 09 29 5D 3C 5E 32 57 57 25 40 30 01 71 73 73 6A 4D 4D 4D 4D 2F 40 34 6B 0C 79 10 74 74 41 6F 5E 70 42 74 44 74 55 16 59 14 44 11 45 00 52 1C 5D 10 55 74 44 74 37 73 42 03 37 07 7E 7</contents>
+							</regvalue>
+							<regvalue>
+								<value>000001003CBEA9C5</value>
+								<contents>D6 05 CA 77 58 59 59 59 59 5E 5D 5D 5D 5D 5F 5F 5F 5F 52 52 52 52 26 49 69 1D 7C 1E 72 17 17 65 00 70 41 31 33 33 2A 0D 0D 0D 0D 6F 00 74 2B 4C 39 50 34 34 01 2F 1E 30 02 34 04 34 15 56 19 54 04 51 05 40 12 5C 1D 50 15 34 04 34 77 33 02 43 77 47 3E 3</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<mutexes>
+					<mutex>O185VNHF7IQ4ST8IetYlzFNGWEMIV</mutex>
+					<mutex>SystemService</mutex>
+					<mutex>6sNObKJSXYLWYELR3uUBSBCHTDIUCSQ</mutex>
+					<mutex>w8L5ZlgKXHHi4qJ47cJH5g6cVI5PtOP</mutex>
+					<mutex>yMXsF8A4G3SUGbB6BBbB6BBbB6BBbbb</mutex>
+					<mutex>D0EOTz0zUXxTGIZZ8L5ZUQFK18KGPaV</mutex>
+					<mutex>5EGBEQHrZ5a0PgAW2DrcABPcBRP6K</mutex>
+					<mutex>tUN9T8JaBWegQUTPhP2DNcW833iL3T</mutex>
+					<mutex>DKJ659oL9tCYK3tYLgL9nU0YPE7LsX</mutex>
+					<mutex>BB6BbBB6BbBB6BbBB6BbBiikAWzWIZ</mutex>
+					<mutex>mjER5OLo4ABBBb6FVEsePAXlH0rNrUC</mutex>
+					<mutex>CMLa3UHFE1aCIVOQHXBZQ9L666666Bb</mutex>
+					<mutex>K6bBBB6bBBB6bBBB6bBBB6bBBB6bBb6</mutex>
+					<mutex>6bBBB6bBBB6bBBB6bBBB6bBBB6bBBBb</mutex>
+					<mutex>BbB6BBbB6BBbB6BBbB6BBbB6BBbB666</mutex>
+					<mutex>BB6bBBB6bBBB6bBBB6bBBKWoW9UcXpV</mutex>
+					<mutex>b6BBBb6BBBb6BBBb6BBBb6BBBb6BB6B</mutex>
+					<mutex>Ft69K5P4DBANUBBBBBBBBBBBBBBBBB6</mutex>
+					<mutex>G3YMLYUUYGmVB6BBbB6BBbB6BBbB666</mutex>
+					<mutex>ESwuBIEJUZTYR9kHO3EW5Y4XM05Oc</mutex>
+					<mutex>H0UFPB3jJwIBVR3RYjSFMTZRUWUVY0</mutex>
+					<mutex>J2CUCuLyM6FBMKRuIfvY9WesGEWZFgW</mutex>
+					<mutex>CBBUu4sqUR5NWGPLONWWGbWKYhXIJ</mutex>
+					<mutex>6FPJGXZOIoZsau9BDhO0gQhIjVTBY8</mutex>
+					<mutex>JZLkTF5u1E3O8R6MzZRq9M3KVsQyx</mutex>
+					<mutex>37EPROf9P4BsDFLHJNZTURQVYLOTU9Z</mutex>
+					<mutex>8nTk263o8GIIY9m25MXwPfT085oOc</mutex>
+					<mutex>BZhmY3Xe8Gr7ZYKO1KBUTUALCPX3I46</mutex>
+					<mutex>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbBB</mutex>
+					<mutex>2GsY6yTaHCWX0tBhNz3GNKTlBGTlBV</mutex>
+					<mutex>5TBWMDMQxCCFJAUlDEgXOZXNwMpWK</mutex>
+					<mutex>6FPIN27IXGClJE2KKAB6BbBB6BbBBBB</mutex>
+					<mutex>rI3W7O9OWxGANK5BBbB6BBbB6BBbBBB</mutex>
+					<mutex>BBBb6BBBb6BBBb6BBBb6BBBb6BBBbB6</mutex>
+					<mutex>B6BbBB6BbBB6BbBB6BbBB6BbBB6BbBB</mutex>
+					<mutex>h8SXVT483UEQWJKyJbEPAXIMQw8w9HW</mutex>
+					<mutex>QOWaQDWG7NLN1XDwsXORZq4DPBkW10E</mutex>
+				</mutexes>
+				<gethostbyname_api>
+					<host>91.213.217.36</host>
+					<host>markizak.com</host>
+					<host>www.microsoft.com</host>
+				</gethostbyname_api>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

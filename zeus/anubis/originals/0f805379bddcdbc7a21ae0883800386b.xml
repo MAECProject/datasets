@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+  <report_version>
+	  <major>3</major>
+		<minor>2</minor>
+	</report_version>
+	<configuration>
+	  <time_needed>252 s</time_needed>
+		<report_created>07/25/12, 18:02:33 UTC</report_created>
+		<termination_reason>Timeout</termination_reason>
+		<ttanalyze_version>
+		  <prog_version>1.76.3886</prog_version>
+			<svn_revision>$Revision: 3886 $</svn_revision>
+			<build_date>Apr 11 2012 00:59:40</build_date>
+		</ttanalyze_version>
+	</configuration>
+	<summary>
+	  <auto_start>false</auto_start>
+		<internet_settings>false</internet_settings>
+		<bho>false</bho>
+		<win_dir_copy>false</win_dir_copy>
+		<av_kill>false</av_kill>
+		<com_object>false</com_object>
+		<dlf>false</dlf>
+		<ircbot>false</ircbot>
+		<spambot>false</spambot>
+		<addressscan>false</addressscan>
+		<portscan>false</portscan>
+		<file_modification_destruction>false</file_modification_destruction>
+		<process_spawn>false</process_spawn>
+		<all_reg_activities>false</all_reg_activities>
+		<write_to_foreign_mem_area>false</write_to_foreign_mem_area>
+		<install_service>false</install_service>
+		<load_driver>false</load_driver>
+		<install_ie_toolbar>false</install_ie_toolbar>
+		<disable_win_update>false</disable_win_update>
+		<change_win_firewall_settings>false</change_win_firewall_settings>
+		<harvesting_emails>false</harvesting_emails>
+		<mod_sys_files>false</mod_sys_files>
+		<modify_files_only_in_user_dir>false</modify_files_only_in_user_dir>
+		<packed_binary>false</packed_binary>
+		<av_hit>false</av_hit>
+		<crash>false</crash>
+		<autorun>false</autorun>
+		<severity_level>0</severity_level>
+	</summary>
+	<analysis_subject>
+	  <general>
+		  <id>2</id>
+			<parent_id>1</parent_id>
+			<analysis_reason>Primary Analysis Subject</analysis_reason>
+			<submission_fn>0f805379bddcdbc7a21ae0883800386b</submission_fn>
+			<virtual_fn>0f805379bd.exe</virtual_fn>
+			<virtual_path>C:\0f805379bd.exe</virtual_path>
+			<arguments>"C:\0f805379bd.exe"</arguments>
+			<status>alive</status>
+			<exit_code>0</exit_code>
+			<md5>0f805379bddcdbc7a21ae0883800386b</md5>
+			<sha1>51c59274aca7ba2c84d22d9605362beae45ac02c</sha1>
+			<file_size>44032</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+			<loaded_dll base_address="0x7C9C0000" base_name="shell32.dll" full_name="C:\WINDOWS\system32\shell32.dll" is_load_time_dependency="1" load_time="1" size="0x00817000"/>
+			<loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.dll" full_name="C:\WINDOWS\system32\ADVAPI32.dll" is_load_time_dependency="1" load_time="1" size="0x0009B000"/>
+			<loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="1" load_time="1" size="0x00092000"/>
+			<loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="1" load_time="1" size="0x00011000"/>
+			<loaded_dll base_address="0x77F10000" base_name="GDI32.dll" full_name="C:\WINDOWS\system32\GDI32.dll" is_load_time_dependency="1" load_time="1" size="0x00049000"/>
+			<loaded_dll base_address="0x7E410000" base_name="USER32.dll" full_name="C:\WINDOWS\system32\USER32.dll" is_load_time_dependency="1" load_time="1" size="0x00091000"/>
+			<loaded_dll base_address="0x77C10000" base_name="msvcrt.dll" full_name="C:\WINDOWS\system32\msvcrt.dll" is_load_time_dependency="1" load_time="1" size="0x00058000"/>
+			<loaded_dll base_address="0x77F60000" base_name="SHLWAPI.dll" full_name="C:\WINDOWS\system32\SHLWAPI.dll" is_load_time_dependency="1" load_time="1" size="0x00076000"/>
+			<loaded_dll base_address="0x773D0000" base_name="comctl32.dll" full_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" is_load_time_dependency="1" load_time="1" size="0x00103000"/>
+			<loaded_dll base_address="0x5D090000" base_name="comctl32.dll" full_name="C:\WINDOWS\system32\comctl32.dll" is_load_time_dependency="1" load_time="1" size="0x0009A000"/>
+		</dll_dependencies>
+		<activities>
+		  <registry_activities>
+			  <reg_value_read count="1" key="HKLM\SYSTEM\Setup" value_data="0" value_name="SystemSetupInProgress"/>
+				<reg_value_read count="1" key="HKLM\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers" value_data="1" value_name="TransparentEnabled"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSUserEnabled"/>
+			</registry_activities>
+			<file_activities>
+			  <section_object_created file_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\WindowsShell.Manifest" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\comctl32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\shell32.dll" section_name=""/>
+				<fs_control_communication control_code="0x00090028" count="1" file="C:\Program Files\Common Files\"/>
+			</file_activities>
+			<misc_activities>
+			  <exception_occurred count="1" description="Exception 0xc0000094 (STATUS_INTEGER_DIVIDE_BY_ZERO) at 0x422355"/>
+			</misc_activities>
+		</activities>
+	</analysis_subject>
+	<global_file_info/>
+</analysis>

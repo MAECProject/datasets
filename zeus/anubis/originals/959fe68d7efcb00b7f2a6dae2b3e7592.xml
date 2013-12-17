@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+ <report_version>1.2</report_version>
+ <configuration>
+  <time_needed>240 s</time_needed>
+  <report_created>04/22/08, 23:16:47</report_created>
+  <termination_reason>Timeout</termination_reason>
+  <ttanalyze_version>
+   <prog_version>1.5</prog_version>
+   <build_mode>Release build</build_mode>
+   <svn_revision>$Revision: 645 $</svn_revision>
+   <build_date>Mar  5 2008 23:28:12</build_date>
+  </ttanalyze_version>
+ </configuration>
+ <summary>
+  <auto_start>false</auto_start>
+  <internet_settings>false</internet_settings>
+  <bho>false</bho>
+  <win_dir_copy>false</win_dir_copy>
+  <av_kill>false</av_kill>
+  <com_object>false</com_object>
+  <dlf>false</dlf>
+  <ircbot>false</ircbot>
+  <spambot>false</spambot>
+  <addressscan>false</addressscan>
+  <portscan>false</portscan>
+ </summary>
+ <analysis_subject>
+  <general>
+   <id>2</id>
+   <parent_id>1</parent_id>
+   <analysis_reason>Primary Analysis Subject</analysis_reason>
+   <virtual_fn>sample.exe</virtual_fn>
+   <virtual_path>C:\sample.exe</virtual_path>
+   <arguments>C:\sample.exe </arguments>
+   <status>alive</status>
+   <exit_code>0</exit_code>
+   <md5>959fe68d7efcb00b7f2a6dae2b3e7592</md5>
+   <sha1>4deb140df3532ecfad4bd179249d099c5b3bab7e</sha1>
+   <file_size>45056</file_size>
+  </general>
+  <dll_dependencies>
+   <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000B0000"/>
+   <loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F5000"/>
+   <loaded_dll base_address="0x77DD0000" base_name="advapi32.dll" full_name="C:\WINDOWS\system32\advapi32.dll" is_load_time_dependency="0" load_time="2" size="0x0009B000"/>
+   <loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="0" load_time="2" size="0x00092000"/>
+   <loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="0" load_time="2" size="0x00011000"/>
+  </dll_dependencies>
+  <activities>
+  </activities>
+  </analysis_subject>
+  </analysis>

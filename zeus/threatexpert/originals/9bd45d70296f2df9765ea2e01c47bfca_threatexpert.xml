@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>2</day>
+						<month>5</month>
+						<year>2011</year>
+						<hour>3</hour>
+						<minute>28</minute>
+						<second>19</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>11</minutes>
+						<seconds>19</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>9BD45D70296F2DF9765EA2E01C47BFCA</md5>
+							<sha1>E2F2A35BA45263B53D7071459C0032A273E8A1C7</sha1>
+							<filesize>161280</filesize>
+							<alias_nav>Trojan.Spyeye</alias_nav>
+							<alias_kav>Trojan-Spy.Win32.Zbot.avzx</alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus>Trojan-Spy.Win32.Zbot</alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer>UPX</packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Keylogger</name>
+						<description>A keylogger program that can capture all user keystrokes (including confidential details such username, password, credit card number, etc.)</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Trojan</name>
+						<description>A malicious trojan horse or bot that may represent security risk for the compromised system and/or its network environment</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>%AppData%\pac.exe</filename>
+								<filename>%AppData%\zfhn.exe</filename>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>9BD45D70296F2DF9765EA2E01C47BFCA</md5>
+							<sha1>E2F2A35BA45263B53D7071459C0032A273E8A1C7</sha1>
+							<filesize>161280</filesize>
+							<alias_nav>Trojan.Spyeye</alias_nav>
+							<alias_kav>Trojan-Spy.Win32.Zbot.avzx</alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus>Trojan-Spy.Win32.Zbot</alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer>UPX</packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%Windir%\Tasks\fbagent.job</filename>
+							</filenames_collection>
+							<md5>C3B543055F552DE4465860FEC53DD579</md5>
+							<sha1>7F02A9E20FB468DE8BE5423BA1DDE42371B79356</sha1>
+							<filesize>322</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+					<notes_collection>
+						<note>%AppData% is a variable that refers to the file system directory that serves as a common repository for application-specific data. A typical path is C:\Documents and Settings\[UserName]\Application Data.</note>
+						<note>%Windir% is a variable that refers to the Windows installation folder. By default, this is C:\Windows or C:\Winnt.</note>
+					</notes_collection>
+				</added_files>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>196608</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<added_regkeys>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\facebook</regkey>
+				</added_regkeys>
+				<countries>
+					<country>Russian Federation</country>
+				</countries>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

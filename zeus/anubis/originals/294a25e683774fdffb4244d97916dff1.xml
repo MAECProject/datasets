@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+  <report_version>
+	  <major>3</major>
+		<minor>2</minor>
+	</report_version>
+	<configuration>
+	  <time_needed>257 s</time_needed>
+		<report_created>08/03/12, 12:31:17 UTC</report_created>
+		<termination_reason>Timeout</termination_reason>
+		<ttanalyze_version>
+		  <prog_version>1.76.3886</prog_version>
+			<svn_revision>$Revision: 3914 $</svn_revision>
+			<build_date>May 14 2012 20:16:24</build_date>
+		</ttanalyze_version>
+	</configuration>
+	<summary>
+	  <auto_start>true</auto_start>
+		<internet_settings>false</internet_settings>
+		<bho>false</bho>
+		<win_dir_copy>true</win_dir_copy>
+		<av_kill>false</av_kill>
+		<com_object>false</com_object>
+		<dlf>false</dlf>
+		<ircbot>false</ircbot>
+		<spambot>false</spambot>
+		<addressscan>false</addressscan>
+		<portscan>false</portscan>
+		<file_modification_destruction>false</file_modification_destruction>
+		<process_spawn>false</process_spawn>
+		<all_reg_activities>true</all_reg_activities>
+		<write_to_foreign_mem_area>false</write_to_foreign_mem_area>
+		<install_service>false</install_service>
+		<load_driver>false</load_driver>
+		<install_ie_toolbar>false</install_ie_toolbar>
+		<disable_win_update>false</disable_win_update>
+		<change_win_firewall_settings>false</change_win_firewall_settings>
+		<harvesting_emails>false</harvesting_emails>
+		<mod_sys_files>true</mod_sys_files>
+		<modify_files_only_in_user_dir>false</modify_files_only_in_user_dir>
+		<packed_binary>false</packed_binary>
+		<av_hit>false</av_hit>
+		<crash>false</crash>
+		<autorun>false</autorun>
+		<severity_level>2</severity_level>
+	</summary>
+	<analysis_subject>
+	  <general>
+		  <id>2</id>
+			<parent_id>1</parent_id>
+			<analysis_reason>Primary Analysis Subject</analysis_reason>
+			<submission_fn>(67)oembios.exe</submission_fn>
+			<virtual_fn>(67)oembio.exe</virtual_fn>
+			<virtual_path>C:\(67)oembio.exe</virtual_path>
+			<arguments>"C:\(67)oembio.exe"</arguments>
+			<status>alive</status>
+			<exit_code>0</exit_code>
+			<md5>294a25e683774fdffb4244d97916dff1</md5>
+			<sha1>2154a24208084444b99bf1de33ad80380bebdc37</sha1>
+			<file_size>330240</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+			<loaded_dll base_address="0x7E410000" base_name="user32.dll" full_name="C:\WINDOWS\system32\user32.dll" is_load_time_dependency="1" load_time="1" size="0x00091000"/>
+			<loaded_dll base_address="0x77F10000" base_name="GDI32.dll" full_name="C:\WINDOWS\system32\GDI32.dll" is_load_time_dependency="1" load_time="1" size="0x00049000"/>
+			<loaded_dll base_address="0x5D090000" base_name="comctl32.dll" full_name="C:\WINDOWS\system32\comctl32.dll" is_load_time_dependency="1" load_time="1" size="0x0009A000"/>
+			<loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.dll" full_name="C:\WINDOWS\system32\ADVAPI32.dll" is_load_time_dependency="1" load_time="1" size="0x0009B000"/>
+			<loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="1" load_time="1" size="0x00092000"/>
+			<loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="1" load_time="1" size="0x00011000"/>
+			<loaded_dll base_address="0x76BF0000" base_name="psapi.dll" full_name="C:\WINDOWS\system32\psapi.dll" is_load_time_dependency="0" load_time="2" size="0x0000B000"/>
+			<loaded_dll base_address="0x773D0000" base_name="comctl32.dll" full_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" is_load_time_dependency="0" load_time="2" size="0x00103000"/>
+			<loaded_dll base_address="0x774E0000" base_name="ole32.dll" full_name="C:\WINDOWS\system32\ole32.dll" is_load_time_dependency="0" load_time="2" size="0x0013D000"/>
+			<loaded_dll base_address="0x77C10000" base_name="msvcrt.dll" full_name="C:\WINDOWS\system32\msvcrt.dll" is_load_time_dependency="0" load_time="2" size="0x00058000"/>
+			<loaded_dll base_address="0x77F60000" base_name="shlwapi.dll" full_name="C:\WINDOWS\system32\shlwapi.dll" is_load_time_dependency="0" load_time="2" size="0x00076000"/>
+			<loaded_dll base_address="0x7C9C0000" base_name="shell32.dll" full_name="C:\WINDOWS\system32\shell32.dll" is_load_time_dependency="0" load_time="2" size="0x00817000"/>
+		</dll_dependencies>
+		<activities>
+		  <registry_activities>
+			  <reg_value_modified count="1" description="auto_start" key="HKLM\software\microsoft\windows nt\currentversion\winlogon" value_data="C:\WINDOWS\system32\userinit.exe,C:\WINDOWS\system32\oembios.exe," value_name="userinit"/>
+				<reg_value_read count="1" key="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" value_data="2592000" value_name="CriticalSectionTimeout"/>
+				<reg_value_read count="1" key="HKLM\SYSTEM\Setup" value_data="0" value_name="SystemSetupInProgress"/>
+				<reg_value_read count="1" key="HKLM\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers" value_data="1" value_name="TransparentEnabled"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName" value_data="PC" value_name="ComputerName"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSUserEnabled"/>
+				<reg_value_read count="2" key="HKLM\software\microsoft\windows nt\currentversion\winlogon" value_data="C:\WINDOWS\system32\userinit.exe," value_name="userinit"/>
+			</registry_activities>
+			<file_activities>
+			  <file_created name="C:\WINDOWS\system32\oembios.exe"/>
+				<file_modified name="C:\WINDOWS\system32\oembios.exe"/>
+				<file_modified name="PIPE\lsarpc"/>
+				<file_read name="C:\(67)oembio.exe"/>
+				<file_read name="PIPE\lsarpc"/>
+				<section_object_created file_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\WindowsShell.Manifest" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\comctl32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\psapi.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\shell32.dll" section_name=""/>
+				<fs_control_communication control_code="0x00090028" count="1" file="C:\Program Files\Common Files\"/>
+				<device_control_communication control_code="0x00390008" count="1" file="\Device\KsecDD"/>
+				<fs_control_communication control_code="0x0011C017" count="3" file="PIPE\lsarpc"/>
+			</file_activities>
+			<misc_activities>
+			  <mutex_created name="__SYSTEM__91C38905__"/>
+				<exception_occurred count="1" description="Exception 0xc000001d (STATUS_ILLEGAL_INSTRUCTION) at 0x401362"/>
+			</misc_activities>
+		</activities>
+	</analysis_subject>
+	<global_file_info>
+	  <global_file info="PE32 executable for MS Windows (GUI) Intel 80386 32-bit" md5="294a25e683774fdffb4244d97916dff1" mimetype="application/x-dosexec" name="oembios.exe" sha1="2154a24208084444b99bf1de33ad80380bebdc37"/>
+	</global_file_info>
+</analysis>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>6</day>
+						<month>12</month>
+						<year>2011</year>
+						<hour>21</hour>
+						<minute>40</minute>
+						<second>14</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>7</minutes>
+						<seconds>58</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>3D0FB1FAB61BE9B7E7ADF51ED08558E0</md5>
+							<sha1>BBC170B55793F66793A3A33D084161B75C232D8D</sha1>
+							<filesize>360448</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+			</submission_summary>
+			<technical_details>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>3D0FB1FAB61BE9B7E7ADF51ED08558E0</md5>
+							<sha1>BBC170B55793F66793A3A33D084161B75C232D8D</sha1>
+							<filesize>360448</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+				</added_files>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>241664</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<open_ports>
+					<open_ports_collection>
+						<open_port>
+							<port_number>1054</port_number>
+							<protocol>TCP</protocol>
+							<procname>[file and pathname of the sample #1]</procname>
+						</open_port>
+					</open_ports_collection>
+				</open_ports>
+				<connect_ip_api>
+					<connect_ip>
+						<ip>176.9.42.247</ip>
+						<port_number>8332</port_number>
+					</connect_ip>
+				</connect_ip_api>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

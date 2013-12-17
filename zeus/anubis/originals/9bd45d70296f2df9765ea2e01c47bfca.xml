@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+  <report_version>
+	  <major>3</major>
+		<minor>1</minor>
+	</report_version>
+	<configuration>
+	  <time_needed>241 s</time_needed>
+		<report_created>12/21/10, 07:32:00 UTC</report_created>
+		<termination_reason>Timeout</termination_reason>
+		<ttanalyze_version>
+		  <prog_version>1.74.3195</prog_version>
+			<svn_revision>$Revision: 3195 $</svn_revision>
+			<build_date>Sep 24 2010 16:09:28</build_date>
+		</ttanalyze_version>
+	</configuration>
+	<summary>
+	  <auto_start>false</auto_start>
+		<internet_settings>false</internet_settings>
+		<bho>false</bho>
+		<win_dir_copy>true</win_dir_copy>
+		<av_kill>false</av_kill>
+		<com_object>false</com_object>
+		<dlf>false</dlf>
+		<ircbot>false</ircbot>
+		<spambot>false</spambot>
+		<addressscan>false</addressscan>
+		<portscan>false</portscan>
+		<file_modification_destruction>true</file_modification_destruction>
+		<process_spawn>false</process_spawn>
+		<all_reg_activities>true</all_reg_activities>
+		<severity_level>2</severity_level>
+	</summary>
+	<analysis_subject>
+	  <general>
+		  <id>2</id>
+			<parent_id>1</parent_id>
+			<analysis_reason>Primary Analysis Subject</analysis_reason>
+			<submission_fn>1853189.9bd45d70296f2df9765ea2e01c47bfca</submission_fn>
+			<virtual_fn>1853189.9b.exe</virtual_fn>
+			<virtual_path>C:\1853189.9b.exe</virtual_path>
+			<arguments>"C:\1853189.9b.exe" </arguments>
+			<status>alive</status>
+			<exit_code>0</exit_code>
+			<md5>9bd45d70296f2df9765ea2e01c47bfca</md5>
+			<sha1>e2f2a35ba45263b53d7071459c0032a273e8a1c7</sha1>
+			<file_size>161280</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+			<loaded_dll base_address="0x5B860000" base_name="NETAPI32.dll" full_name="C:\WINDOWS\system32\NETAPI32.dll" is_load_time_dependency="0" load_time="2" size="0x00055000"/>
+			<loaded_dll base_address="0x5D090000" base_name="comctl32.dll" full_name="C:\WINDOWS\system32\comctl32.dll" is_load_time_dependency="0" load_time="2" size="0x0009A000"/>
+			<loaded_dll base_address="0x71AA0000" base_name="WS2HELP.dll" full_name="C:\WINDOWS\system32\WS2HELP.dll" is_load_time_dependency="0" load_time="2" size="0x00008000"/>
+			<loaded_dll base_address="0x71AB0000" base_name="WS2_32.dll" full_name="C:\WINDOWS\system32\WS2_32.dll" is_load_time_dependency="0" load_time="2" size="0x00017000"/>
+			<loaded_dll base_address="0x71B20000" base_name="MPR.dll" full_name="C:\WINDOWS\system32\MPR.dll" is_load_time_dependency="0" load_time="2" size="0x00012000"/>
+			<loaded_dll base_address="0x74720000" base_name="MSCTF.dll" full_name="C:\WINDOWS\system32\MSCTF.dll" is_load_time_dependency="0" load_time="2" size="0x0004C000"/>
+			<loaded_dll base_address="0x75830000" base_name="mstask.dll" full_name="C:\WINDOWS\system32\mstask.dll" is_load_time_dependency="0" load_time="2" size="0x00045000"/>
+			<loaded_dll base_address="0x763B0000" base_name="comdlg32.dll" full_name="C:\WINDOWS\system32\comdlg32.dll" is_load_time_dependency="0" load_time="2" size="0x00049000"/>
+			<loaded_dll base_address="0x767A0000" base_name="NTDSAPI.dll" full_name="C:\WINDOWS\system32\NTDSAPI.dll" is_load_time_dependency="0" load_time="2" size="0x00013000"/>
+			<loaded_dll base_address="0x769C0000" base_name="USERENV.dll" full_name="C:\WINDOWS\system32\USERENV.dll" is_load_time_dependency="0" load_time="2" size="0x000B4000"/>
+			<loaded_dll base_address="0x76F20000" base_name="DNSAPI.dll" full_name="C:\WINDOWS\system32\DNSAPI.dll" is_load_time_dependency="0" load_time="2" size="0x00027000"/>
+			<loaded_dll base_address="0x76F60000" base_name="WLDAP32.dll" full_name="C:\WINDOWS\system32\WLDAP32.dll" is_load_time_dependency="0" load_time="2" size="0x0002C000"/>
+			<loaded_dll base_address="0x76FD0000" base_name="CLBCATQ.DLL" full_name="C:\WINDOWS\system32\CLBCATQ.DLL" is_load_time_dependency="0" load_time="2" size="0x0007F000"/>
+			<loaded_dll base_address="0x77050000" base_name="COMRes.dll" full_name="C:\WINDOWS\system32\COMRes.dll" is_load_time_dependency="0" load_time="2" size="0x000C5000"/>
+			<loaded_dll base_address="0x77120000" base_name="OLEAUT32.dll" full_name="C:\WINDOWS\system32\OLEAUT32.dll" is_load_time_dependency="0" load_time="2" size="0x0008B000"/>
+			<loaded_dll base_address="0x773D0000" base_name="comctl32.dll" full_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" is_load_time_dependency="0" load_time="2" size="0x00103000"/>
+			<loaded_dll base_address="0x774E0000" base_name="ole32.dll" full_name="C:\WINDOWS\system32\ole32.dll" is_load_time_dependency="0" load_time="2" size="0x0013D000"/>
+			<loaded_dll base_address="0x77C00000" base_name="VERSION.dll" full_name="C:\WINDOWS\system32\VERSION.dll" is_load_time_dependency="0" load_time="2" size="0x00008000"/>
+			<loaded_dll base_address="0x77C10000" base_name="msvcrt.dll" full_name="C:\WINDOWS\system32\msvcrt.dll" is_load_time_dependency="0" load_time="2" size="0x00058000"/>
+			<loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.dll" full_name="C:\WINDOWS\system32\ADVAPI32.dll" is_load_time_dependency="0" load_time="2" size="0x0009B000"/>
+			<loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="0" load_time="2" size="0x00092000"/>
+			<loaded_dll base_address="0x77F10000" base_name="GDI32.dll" full_name="C:\WINDOWS\system32\GDI32.dll" is_load_time_dependency="0" load_time="2" size="0x00049000"/>
+			<loaded_dll base_address="0x77F60000" base_name="SHLWAPI.dll" full_name="C:\WINDOWS\system32\SHLWAPI.dll" is_load_time_dependency="0" load_time="2" size="0x00076000"/>
+			<loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="0" load_time="2" size="0x00011000"/>
+			<loaded_dll base_address="0x7C9C0000" base_name="SHELL32.dll" full_name="C:\WINDOWS\system32\SHELL32.dll" is_load_time_dependency="0" load_time="2" size="0x00817000"/>
+			<loaded_dll base_address="0x7E410000" base_name="USER32.dll" full_name="C:\WINDOWS\system32\USER32.dll" is_load_time_dependency="0" load_time="2" size="0x00091000"/>
+		</dll_dependencies>
+		<activities>
+		  <registry_activities>
+			  <reg_key_created name="HKLM\Software\facebook"/>
+				<reg_value_modified count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders" value_data="C:\Documents and Settings\Administrator\Application Data" value_name="AppData"/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\CLASSES\CLSID\{148BD52A-A2AB-11CE-B11F-00AA00530503}\INPROCSERVER32" value_data="C:\WINDOWS\system32\mstask.dll" value_name=""/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\CLASSES\CLSID\{148BD52A-A2AB-11CE-B11F-00AA00530503}\INPROCSERVER32" value_data="Both" value_name="ThreadingModel"/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\CLASSES\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\INPROCSERVER32" value_data="%SystemRoot%\system32\SHELL32.dll" value_name=""/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\CLASSES\DRIVE\SHELLEX\FOLDEREXTENSIONS\{FBEB8A05-BEEE-4442-804E-409D6C4515E9}" value_data="32" value_name="DriveMask"/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\Microsoft\CTF\SystemShared\" value_data="0" value_name="CUAS"/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\Microsoft\SchedulingAgent" value_data="%SystemRoot%\Tasks" value_name="TasksFolder"/>
+				<reg_value_read count="1" key="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" value_data="2592000" value_name="CriticalSectionTimeout"/>
+				<reg_value_read count="1" key="HKLM\SYSTEM\Setup" value_data="0" value_name="SystemSetupInProgress"/>
+				<reg_value_read count="2" key="HKLM\Software\Microsoft\COM3" value_data="1" value_name="Com+Enabled"/>
+				<reg_value_read count="2" key="HKLM\Software\Microsoft\COM3" value_data="0x0700000000000000" value_name="REGDBVersion"/>
+				<reg_value_read count="1" key="HKLM\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers" value_data="1" value_name="TransparentEnabled"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName" value_data="PC" value_name="ComputerName"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Nls\Language Groups" value_data="1" value_name="1"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Nls\Locale" value_data="1" value_name="00000C07"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\ProductOptions" value_data="WinNT" value_name="ProductType"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\LDAP" value_data="1" value_name="LdapClientIntegrity"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\Tcpip\Parameters" value_data="0" value_name="UseDomainNameDevolution"/>
+				<reg_value_read count="2" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters" value_data="2.0" value_name="WinSock_Registry_Version"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5" value_data="3" value_name="Num_Catalog_Entries"/>
+				<reg_value_read count="2" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5" value_data="4" value_name="Serial_Access_Num"/>
+				<reg_value_read count="4" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001" value_data="Tcpip" value_name="DisplayString"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001" value_data="1" value_name="Enabled"/>
+				<reg_value_read count="2" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001" value_data="%SystemRoot%\System32\mswsock.dll" value_name="LibraryPath"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001" value_data="0x409d05229e7ecf11ae5a00aa00a7112b" value_name="ProviderId"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001" value_data="0" value_name="StoresServiceClassInfo"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001" value_data="12" value_name="SupportedNameSpace"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000001" value_data="0" value_name="Version"/>
+				<reg_value_read count="4" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002" value_data="NTDS" value_name="DisplayString"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002" value_data="1" value_name="Enabled"/>
+				<reg_value_read count="2" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002" value_data="%SystemRoot%\System32\winrnr.dll" value_name="LibraryPath"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002" value_data="0xee37263b80e5cf11a55500c04fd8d4ac" value_name="ProviderId"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002" value_data="0" value_name="StoresServiceClassInfo"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002" value_data="32" value_name="SupportedNameSpace"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000002" value_data="0" value_name="Version"/>
+				<reg_value_read count="4" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003" value_data="Network Location Awareness (NLA) Namespace" value_name="DisplayString"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003" value_data="1" value_name="Enabled"/>
+				<reg_value_read count="2" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003" value_data="%SystemRoot%\System32\mswsock.dll" value_name="LibraryPath"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003" value_data="0x3a244266a83ba64abaa52e0bd71fdd83" value_name="ProviderId"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003" value_data="0" value_name="StoresServiceClassInfo"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003" value_data="15" value_name="SupportedNameSpace"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5\Catalog_Entries\000000000003" value_data="0" value_name="Version"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9" value_data="1012" value_name="Next_Catalog_Entry_ID"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9" value_data="11" value_name="Num_Catalog_Entries"/>
+				<reg_value_read count="2" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9" value_data="4" value_name="Serial_Access_Num"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000001" value_data="%SystemRoot%\system32\mswsock." value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000002" value_data="%SystemRoot%\system32\mswsock." value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000003" value_data="%SystemRoot%\system32\mswsock." value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000004" value_data="%SystemRoot%\system32\rsvpsp.d" value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000005" value_data="%SystemRoot%\system32\rsvpsp.d" value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000006" value_data="%SystemRoot%\system32\mswsock." value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000007" value_data="%SystemRoot%\system32\mswsock." value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000008" value_data="%SystemRoot%\system32\mswsock." value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000009" value_data="%SystemRoot%\system32\mswsock." value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000010" value_data="%SystemRoot%\system32\mswsock." value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9\Catalog_Entries\000000000011" value_data="%SystemRoot%\system32\mswsock." value_name="PackedCatalogItem"/>
+				<reg_value_read count="1" key="HKLM\System\Setup" value_data="0" value_name="SystemSetupInProgress"/>
+				<reg_value_read count="2" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Keyboard Layout\Toggle" value_data="1" value_name="Language Hotkey"/>
+				<reg_value_read count="2" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Keyboard Layout\Toggle" value_data="2" value_name="Layout Hotkey"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" value_data="%USERPROFILE%\Application Data" value_name="AppData"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" value_data="%USERPROFILE%\Local Settings" value_name="Local Settings"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders" value_data="%USERPROFILE%\My Documents" value_name="Personal"/>
+				<reg_key_monitored count="3" key="HKLM\Software\Classes" notify_filter="Key Change,Value Change" watch_subtree="1"/>
+				<reg_key_monitored count="2" key="HKLM\Software\Classes\CLSID" notify_filter="Key Change,Value Change" watch_subtree="1"/>
+				<reg_key_monitored count="6" key="HKLM\Software\Microsoft\COM3" notify_filter="Key Change,Value Change" watch_subtree="1"/>
+				<reg_key_monitored count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\NameSpace_Catalog5" notify_filter="Key Change" watch_subtree="0"/>
+				<reg_key_monitored count="1" key="HKLM\System\CurrentControlSet\Services\WinSock2\Parameters\Protocol_Catalog9" notify_filter="Key Change" watch_subtree="0"/>
+				<reg_key_monitored count="1" key="HKLM\system\CurrentControlSet\control\NetworkProvider\HwOrder" notify_filter="Value Change" watch_subtree="0"/>
+				<reg_key_monitored count="3" key="HKU" notify_filter="Key Change,Value Change" watch_subtree="1"/>
+			</registry_activities>
+			<file_activities>
+			  <file_created name="C:\Documents and Settings\Administrator\Application Data\oduro.exe"/>
+				<file_created name="C:\WINDOWS\Tasks\fbagent.job"/>
+				<file_created name="pipe\facebook"/>
+				<file_modified description="file_modification_destruction" name="C:\Documents and Settings\Administrator\Application Data\oduro.exe"/>
+				<file_modified description="file_modification_destruction" name="C:\WINDOWS\Tasks\fbagent.job"/>
+				<file_modified description="file_modification_destruction" name="PIPE\lsarpc"/>
+				<file_read name="C:\WINDOWS\Registration\R000000000007.clb"/>
+				<file_read name="PIPE\lsarpc"/>
+				<section_object_created file_name="C:\1853189.9b.exe" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\WindowsShell.Manifest" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\CLBCATQ.DLL" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\COMRes.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\DNSAPI.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\MSCTF.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\NTDSAPI.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\SHELL32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\WS2HELP.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\WS2_32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\comctl32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\imm32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\mstask.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\rpcss.dll" section_name=""/>
+				<device_control_communication control_code="0x00390008" count="8" file="\Device\KsecDD"/>
+				<fs_control_communication control_code="0x0011C017" count="10" file="PIPE\lsarpc"/>
+			</file_activities>
+			<misc_activities>
+			  <mutex_created name="CTF.Asm.MutexDefaultS-1-5-21-842925246-1425521274-308236825-500"/>
+				<mutex_created name="CTF.Compart.MutexDefaultS-1-5-21-842925246-1425521274-308236825-500"/>
+				<mutex_created name="CTF.LBES.MutexDefaultS-1-5-21-842925246-1425521274-308236825-500"/>
+				<mutex_created name="CTF.Layouts.MutexDefaultS-1-5-21-842925246-1425521274-308236825-500"/>
+				<mutex_created name="CTF.TMD.MutexDefaultS-1-5-21-842925246-1425521274-308236825-500"/>
+				<mutex_created name="CTF.TimListCache.FMPDefaultS-1-5-21-842925246-1425521274-308236825-500MUTEX.DefaultS-1-5-21-842925246-1425521274-308236825-500"/>
+				<mutex_created name="DBWinMutex"/>
+				<exception_occurred count="7" description="Exception 0x40010006 at 0x7c812aeb"/>
+			</misc_activities>
+		</activities>
+		<sigbuster>UPX All_Versions SN:1634</sigbuster>
+	</analysis_subject>
+	<global_file_info>
+	  <global_file info="locale data table" md5="84f6a450b61e1b509296e3fd4aea87d8" mimetype="application/octet-stream" name="fbagent.job" sha1="dbb74d5d3cc83c7b450b40a6cc4585200750beba"/>
+		<global_file info="data" md5="fcce3bc4d2f7619dfa1cd26b988210e2" mimetype="application/octet-stream" name="oduro.exe" sha1="2b107a8763556ede813433c2f8d4d491aba96943"/>
+	</global_file_info>
+</analysis>

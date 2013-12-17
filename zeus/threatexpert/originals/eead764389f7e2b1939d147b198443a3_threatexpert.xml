@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>10</day>
+						<month>10</month>
+						<year>2008</year>
+						<hour>13</hour>
+						<minute>35</minute>
+						<second>52</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>5</minutes>
+						<seconds>46</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>EEAD764389F7E2B1939D147B198443A3</md5>
+							<sha1>94332EB2EAD4BC9464AE1108EA2AB2B3C60D824B</sha1>
+							<filesize>58368</filesize>
+							<alias_kav>Trojan-Spy.Win32.Zbot.dri</alias_kav>
+							<alias_nav>Trojan.Wsnpoem</alias_nav>
+							<alias_nai>Spy-Agent.bw</alias_nai>
+							<alias_trend>TSPY_ZBOT.OJ</alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Troj/Agent-HJN</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Threat characteristics of ZBot - a banking trojan that disables firewall, steals sensitive financial data (credit card numbers, online banking login details), makes screen snapshots, downloads additional components, and provides a hacker with the remote access to the compromised system.</description>
+						<severity>10</severity>
+					</flag>
+					<flag>
+						<description>Downloads/requests other files from Internet.</description>
+						<severity>1</severity>
+					</flag>
+					<flag>
+						<description>Creates a startup registry entry.</description>
+						<severity>2</severity>
+					</flag>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_collection>
+					<known_threat>
+						<name>Trojan-Spy.Zbot</name>
+						<description>Trojan-Spy.Zbot is a rootkit trojan which steals online banking information and downloads other malware as well. It opens backdoors on infected computer to allow malicious attacker unauthorized access.</description>
+					</known_threat>
+				</known_threat_collection>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Keylogger</name>
+						<description>A keylogger program that can capture all user keystrokes (including confidential details such username, password, credit card number, etc.)</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Trojan</name>
+						<description>A malicious trojan horse or bot that may represent security risk for the compromised system and/or its network environment</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Backdoor</name>
+						<description>A malicious backdoor trojan that runs in the background and allows remote access to the compromised system</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>%Profiles%\LocalService\Application Data\wsnpoem\audio.dll</filename>
+							</filenames_collection>
+							<md5>408D9246C436EC2655C4C08EF2457A48</md5>
+							<sha1>F920ABE345709FB626FC005172F594C74CEEAD0F</sha1>
+							<filesize>104</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%Profiles%\NetworkService\Application Data\wsnpoem\audio.dll</filename>
+							</filenames_collection>
+							<md5>2116718F425972E69929316B14397476</md5>
+							<sha1>529BDFFECD00F01224AB23A925FEC9861FDBE66F</sha1>
+							<filesize>108</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%Profiles%\NetworkService\Cookies\index.dat</filename>
+							</filenames_collection>
+							<md5>D7A950FEFD60DBAA01DF2D85FEFB3862</md5>
+							<sha1>15740B197555BA8E162C37A60BA655151E3BEBAE</sha1>
+							<filesize>16384</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\CPO1O32R\desktop.ini</filename>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\KTAF2BS5\desktop.ini</filename>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\MRA7WXIV\desktop.ini</filename>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\Y30BG7K7\desktop.ini</filename>
+							</filenames_collection>
+							<md5>4A3DEB274BB5F0212C2419D3D8D08612</md5>
+							<sha1>FA52F823B821155CF0EC527D52CE9B1390EC615E</sha1>
+							<filesize>67</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\index.dat</filename>
+							</filenames_collection>
+							<md5>2FC1429097BE2D9FDB3B6DD805A0A761</md5>
+							<sha1>D1CE6BB0E174C5D6AE660B654E60F5486CD7A3EA</sha1>
+							<filesize>32768</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\ntos.exe</filename>
+							</filenames_collection>
+							<md5>8929DCFDD540F887B022311534898B39</md5>
+							<sha1>7CAEE4DE36ADE701D25DF7948EC46D779E50DB9E</sha1>
+							<filesize>449536</filesize>
+							<alias_kav>Trojan-Spy.Win32.Zbot.dri</alias_kav>
+							<alias_nav>Trojan.Wsnpoem</alias_nav>
+							<alias_nai>Spy-Agent.bw</alias_nai>
+							<alias_trend>TSPY_ZBOT.OJ</alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Mal/EncPk-CZ</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>EEAD764389F7E2B1939D147B198443A3</md5>
+							<sha1>94332EB2EAD4BC9464AE1108EA2AB2B3C60D824B</sha1>
+							<filesize>58368</filesize>
+							<alias_kav>Trojan-Spy.Win32.Zbot.dri</alias_kav>
+							<alias_nav>Trojan.Wsnpoem</alias_nav>
+							<alias_nai>Spy-Agent.bw</alias_nai>
+							<alias_trend>TSPY_ZBOT.OJ</alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Troj/Agent-HJN</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\wsnpoem\audio.dll</filename>
+							</filenames_collection>
+							<md5>069227E7458487B48902204D4D2178AF</md5>
+							<sha1>C5DF2B24462F638B1FDF51210CAB24A2AE15A701</sha1>
+							<filesize>524</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\wsnpoem\video.dll</filename>
+							</filenames_collection>
+							<md5>D41D8CD98F00B204E9800998ECF8427E</md5>
+							<sha1>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</sha1>
+							<filesize>0</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+						</added_file>
+					</added_files_collection>
+					<notes_collection>
+						<note>%Profiles% is a variable that refers to the file system directory containing user profile folders. A typical path is C:\Documents and Settings.</note>
+						<note>%System% is a variable that refers to the System folder. By default, this is C:\Windows\System (Windows 95/98/Me), C:\Winnt\System32 (Windows NT/2000), or C:\Windows\System32 (Windows XP).</note>
+					</notes_collection>
+				</added_files>
+				<added_directories>
+					<dirnames_collection>
+						<dirname>%Profiles%\LocalService\Application Data\wsnpoem</dirname>
+						<dirname>%Profiles%\NetworkService\Application Data\wsnpoem</dirname>
+						<dirname>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\CPO1O32R</dirname>
+						<dirname>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\KTAF2BS5</dirname>
+						<dirname>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\MRA7WXIV</dirname>
+						<dirname>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\Y30BG7K7</dirname>
+						<dirname>%System%\wsnpoem</dirname>
+					</dirnames_collection>
+				</added_directories>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>163840</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<injected_mempages>
+					<injected_mempages_collection>
+						<injected_mempage>
+							<process_name>services.exe</process_name>
+							<process_filename>%System%\services.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>heap_dump_b.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>lsass.exe</process_name>
+							<process_filename>%System%\lsass.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>heap_dump_c.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>svchost.exe</process_name>
+							<process_filename>%System%\svchost.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>heap_dump_d.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>svchost.exe</process_name>
+							<process_filename>%System%\svchost.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>heap_dump_e.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>svchost.exe</process_name>
+							<process_filename>%System%\svchost.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>heap_dump_f.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>svchost.exe</process_name>
+							<process_filename>%System%\svchost.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>heap_dump_g.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>VMwareService.exe</process_name>
+							<process_filename>%ProgramFiles%\vmware\vmware tools\vmwareservice.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>heap_dump_h.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>alg.exe</process_name>
+							<process_filename>%System%\alg.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>heap_dump_i.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>VMwareUser.exe</process_name>
+							<process_filename>%ProgramFiles%\vmware\vmware tools\vmwareuser.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>heap_dump_j.zip</attached_zip_dump>
+						</injected_mempage>
+					</injected_mempages_collection>
+					<notes_collection>
+						<note>%ProgramFiles% is a variable that refers to the Program Files folder. A typical path is C:\Program Files.</note>
+					</notes_collection>
+				</injected_mempages>
+				<added_regkeys>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{19127AD2-394B-70F5-C650-B97867BAA1F7}</regkey>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{334613DB-50C1-B3BE-95ED-E9915A134FF1}</regkey>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{43BF8CD1-C5D5-2230-7BB2-98F22C2B7DC6}</regkey>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Protected Storage System Provider</regkey>
+				</added_regkeys>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Network</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>UID</value>
+								<contents>&quot;%ComputerName%_001FAAFE&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{334613DB-50C1-B3BE-95ED-E9915A134FF1}</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>{F710FA10-2031-3106-8872-93A2B5C5C620}</value>
+								<contents>F7 09 F2 0D</contents>
+							</regvalue>
+							<regvalue>
+								<value>{E716FA10-2031-AA96-8E72-93A205C5C62C}</value>
+								<contents>47 09 F2 0D</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{43BF8CD1-C5D5-2230-7BB2-98F22C2B7DC6}</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>{F710FA10-2031-3106-8872-93A2B5C5C620}</value>
+								<contents>F7 09 F2 0D</contents>
+							</regvalue>
+							<regvalue>
+								<value>{E716FA10-2031-AA96-8E72-93A205C5C62C}</value>
+								<contents>47 09 F2 0D</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<modified_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Userinit</value>
+								<contents>&quot;%System%\userinit.exe,%System%\ntos.exe,&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+						<notes_collection>
+							<note>so that ntos.exe runs every time Windows starts</note>
+						</notes_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Cookies</value>
+								<contents>&quot;%Profiles%\LocalService\Cookies&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>History</value>
+								<contents>&quot;%Profiles%\LocalService\Local Settings\History&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</modified_regvalues>
+				<countries>
+					<country>Russian Federation</country>
+				</countries>
+				<mutexes>
+					<mutex>__SYSTEM__91C38905__</mutex>
+				</mutexes>
+				<internetopenurl_api>
+					<url>http://ahleinaks.ru/millioner/millionertest.bin</url>
+				</internetopenurl_api>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>17</day>
+						<month>7</month>
+						<year>2009</year>
+						<hour>15</hour>
+						<minute>29</minute>
+						<second>36</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>5</minutes>
+						<seconds>54</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>22F40912C68FB165B21B74CD74AF0996</md5>
+							<sha1>BF5E271D3D7BEA1439B5EA69763C5003DBC4906E</sha1>
+							<filesize>80896</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Threat characteristics of ZBot - a banking trojan that disables firewall, steals sensitive financial data (credit card numbers, online banking login details), makes screen snapshots, downloads additional components, and provides a hacker with the remote access to the compromised system.</description>
+						<severity>10</severity>
+					</flag>
+					<flag>
+						<description>Creates a startup registry entry.</description>
+						<severity>2</severity>
+					</flag>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_collection>
+					<known_threat>
+						<name>Trojan-Spy.Zbot.YETH</name>
+						<description>Trojan-Spy.Zbot.YETH is a rootkit trojan which steals online banking information and downloads other malware as well.</description>
+					</known_threat>
+				</known_threat_collection>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Keylogger</name>
+						<description>A keylogger program that can capture all user keystrokes (including confidential details such username, password, credit card number, etc.)</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Trojan</name>
+						<description>A malicious trojan horse or bot that may represent security risk for the compromised system and/or its network environment</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Backdoor</name>
+						<description>A malicious backdoor trojan that runs in the background and allows remote access to the compromised system</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\lowsec\local.ds</filename>
+								<filename>%System%\lowsec\user.ds</filename>
+							</filenames_collection>
+							<md5>D41D8CD98F00B204E9800998ECF8427E</md5>
+							<sha1>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</sha1>
+							<filesize>0</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\lowsec\user.ds.lll</filename>
+							</filenames_collection>
+							<md5>07C464FD5C525425E91AF83915B3C8B9</md5>
+							<sha1>8D0C782589D1B6B9957C306C6BC405ECFB6FC327</sha1>
+							<filesize>312</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>22F40912C68FB165B21B74CD74AF0996</md5>
+							<sha1>BF5E271D3D7BEA1439B5EA69763C5003DBC4906E</sha1>
+							<filesize>80896</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\sdra64.exe</filename>
+							</filenames_collection>
+							<md5>0D808AA920960391B14FA3C249E59E90</md5>
+							<sha1>1FE38D649D7C2E44BC1D45B2BE1DCA9DE4FB6098</sha1>
+							<filesize>437760</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+					<notes_collection>
+						<note>%System% is a variable that refers to the System folder. By default, this is C:\Windows\System (Windows 95/98/Me), C:\Winnt\System32 (Windows NT/2000), or C:\Windows\System32 (Windows XP).</note>
+					</notes_collection>
+				</added_files>
+				<added_directories>
+					<dirnames_collection>
+						<dirname>%System%\lowsec</dirname>
+					</dirnames_collection>
+				</added_directories>
+				<added_regkeys>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{43BF8CD1-C5D5-2230-7BB2-98F22C2B7DC6}</regkey>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Protected Storage System Provider</regkey>
+				</added_regkeys>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Network</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>UID</value>
+								<contents>&quot;%ComputerName%_0004CF72&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{43BF8CD1-C5D5-2230-7BB2-98F22C2B7DC6}</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>{3039636B-5F3D-6C64-6675-696870667265}</value>
+								<contents>F7 09 F2 0D</contents>
+							</regvalue>
+							<regvalue>
+								<value>{33373039-3132-3864-6B30-303233343434}</value>
+								<contents>47 09 F2 0D</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>ProxyEnable</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<modified_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Userinit</value>
+								<contents>&quot;%System%\userinit.exe,%System%\sdra64.exe,&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+						<notes_collection>
+							<note>so that sdra64.exe runs every time Windows starts</note>
+						</notes_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>AppData</value>
+								<contents>&quot;%System%\config\systemprofile\Application Data&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Cookies</value>
+								<contents>&quot;%System%\config\systemprofile\Cookies&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Cache</value>
+								<contents>&quot;%System%\config\systemprofile\Local Settings\Temporary Internet Files&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>History</value>
+								<contents>&quot;%System%\config\systemprofile\Local Settings\History&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</modified_regvalues>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

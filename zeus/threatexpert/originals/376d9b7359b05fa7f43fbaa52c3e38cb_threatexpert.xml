@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>Threat Expert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>24</day>
+						<month>8</month>
+						<year>2007</year>
+						<hour>16</hour>
+						<minute>24</minute>
+						<second>11</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>3</minutes>
+						<seconds>34</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>376D9B7359B05FA7F43FBAA52C3E38CB</md5>
+							<filesize>86016</filesize>
+							<alias_kav>Trojan.Win32.Pakes.am</alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai>New Win32.g2</alias_nai>
+							<alias_trend>TROJ_AGENT.TFW</alias_trend>
+							<alias_pctools></alias_pctools>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Trojan</name>
+						<description>A malicious trojan horse or bot that may represent security risk for the compromised system and/or its network environment</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>376D9B7359B05FA7F43FBAA52C3E38CB</md5>
+							<filesize>86016</filesize>
+							<alias_kav>Trojan.Win32.Pakes.am</alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai>New Win32.g2</alias_nai>
+							<alias_trend>TROJ_AGENT.TFW</alias_trend>
+							<alias_pctools></alias_pctools>
+						</added_file>
+					</added_files_collection>
+				</added_files>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>57344</main_module_size>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<countries>
+					<country>Russian Federation</country>
+				</countries>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

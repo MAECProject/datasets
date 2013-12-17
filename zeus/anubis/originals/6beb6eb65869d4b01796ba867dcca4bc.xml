@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+ <report_version>
+  <major>3</major>
+  <minor>0</minor>
+ </report_version>
+ <configuration>
+  <time_needed>242 s</time_needed>
+  <report_created>08/20/08, 17:57:14</report_created>
+  <termination_reason>Timeout</termination_reason>
+  <ttanalyze_version>
+   <prog_version>1.62.0</prog_version>
+   <svn_revision>$Revision: 645 $</svn_revision>
+   <build_date>Jun  5 2008 17:10:39</build_date>
+  </ttanalyze_version>
+ </configuration>
+ <summary>
+  <auto_start>true</auto_start>
+  <internet_settings>false</internet_settings>
+  <bho>false</bho>
+  <win_dir_copy>true</win_dir_copy>
+  <av_kill>false</av_kill>
+  <com_object>false</com_object>
+  <dlf>false</dlf>
+  <ircbot>false</ircbot>
+  <spambot>false</spambot>
+  <addressscan>false</addressscan>
+  <portscan>false</portscan>
+ </summary>
+ <analysis_subject>
+  <general>
+   <id>2</id>
+   <parent_id>1</parent_id>
+   <analysis_reason>Primary Analysis Subject</analysis_reason>
+   <virtual_fn>sample.exe</virtual_fn>
+   <virtual_path>C:\sample.exe</virtual_path>
+   <arguments>"C:\sample.exe"</arguments>
+   <status>alive</status>
+   <exit_code>0</exit_code>
+   <md5>6beb6eb65869d4b01796ba867dcca4bc</md5>
+   <sha1>2eb1347ee0fc3f88cb878cc4956e67197fd077de</sha1>
+   <file_size>53248</file_size>
+  </general>
+  <dll_dependencies>
+   <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+   <loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+   <loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.DLL" full_name="C:\WINDOWS\system32\ADVAPI32.DLL" is_load_time_dependency="1" load_time="1" size="0x0009B000"/>
+   <loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="1" load_time="1" size="0x00092000"/>
+   <loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="1" load_time="1" size="0x00011000"/>
+   <loaded_dll base_address="0x77F10000" base_name="GDI32.DLL" full_name="C:\WINDOWS\system32\GDI32.DLL" is_load_time_dependency="1" load_time="1" size="0x00049000"/>
+   <loaded_dll base_address="0x7E410000" base_name="USER32.dll" full_name="C:\WINDOWS\system32\USER32.dll" is_load_time_dependency="1" load_time="1" size="0x00091000"/>
+   <loaded_dll base_address="0x76390000" base_name="IMM32.DLL" full_name="C:\WINDOWS\system32\IMM32.DLL" is_load_time_dependency="1" load_time="1" size="0x0001D000"/>
+   <loaded_dll base_address="0x008B0000" base_name="Normaliz.dll" full_name="C:\WINDOWS\system32\Normaliz.dll" is_load_time_dependency="0" load_time="2" size="0x00009000"/>
+   <loaded_dll base_address="0x42990000" base_name="iertutil.dll" full_name="C:\WINDOWS\system32\iertutil.dll" is_load_time_dependency="0" load_time="2" size="0x00045000"/>
+   <loaded_dll base_address="0x42C10000" base_name="wininet.dll" full_name="C:\WINDOWS\system32\wininet.dll" is_load_time_dependency="0" load_time="2" size="0x000CF000"/>
+   <loaded_dll base_address="0x5D090000" base_name="comctl32.dll" full_name="C:\WINDOWS\system32\comctl32.dll" is_load_time_dependency="0" load_time="2" size="0x0009A000"/>
+   <loaded_dll base_address="0x76BF0000" base_name="psapi.dll" full_name="C:\WINDOWS\system32\psapi.dll" is_load_time_dependency="0" load_time="2" size="0x0000B000"/>
+   <loaded_dll base_address="0x773D0000" base_name="comctl32.dll" full_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" is_load_time_dependency="0" load_time="2" size="0x00103000"/>
+   <loaded_dll base_address="0x774E0000" base_name="ole32.dll" full_name="C:\WINDOWS\system32\ole32.dll" is_load_time_dependency="0" load_time="2" size="0x0013D000"/>
+   <loaded_dll base_address="0x77A80000" base_name="crypt32.dll" full_name="C:\WINDOWS\system32\crypt32.dll" is_load_time_dependency="0" load_time="2" size="0x00095000"/>
+   <loaded_dll base_address="0x77B20000" base_name="MSASN1.dll" full_name="C:\WINDOWS\system32\MSASN1.dll" is_load_time_dependency="0" load_time="2" size="0x00012000"/>
+   <loaded_dll base_address="0x77C10000" base_name="msvcrt.dll" full_name="C:\WINDOWS\system32\msvcrt.dll" is_load_time_dependency="0" load_time="2" size="0x00058000"/>
+   <loaded_dll base_address="0x77F60000" base_name="SHLWAPI.dll" full_name="C:\WINDOWS\system32\SHLWAPI.dll" is_load_time_dependency="0" load_time="2" size="0x00076000"/>
+   <loaded_dll base_address="0x7C9C0000" base_name="shell32.dll" full_name="C:\WINDOWS\system32\shell32.dll" is_load_time_dependency="0" load_time="2" size="0x00817000"/>
+  </dll_dependencies>
+  <activities>
+   <registry_activities>
+    <reg_value_modified count="1" description="auto_start" key="HKLM\software\microsoft\windows nt\currentversion\winlogon" value_data="C:\WINDOWS\system32\userinit.exe,C:\WINDOWS\system32\ntos.exe," value_name="userinit"/>
+    <reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName" value_data="USER" value_name="ComputerName"/>
+    <reg_value_read count="2" key="HKLM\software\microsoft\windows nt\currentversion\winlogon" value_data="C:\WINDOWS\system32\userinit.exe," value_name="userinit"/>
+   </registry_activities>
+   <file_activities>
+    <file_created name="C:\WINDOWS\system32\ntos.exe"/>
+    <file_modified name="PIPE\lsarpc"/>
+    <file_read name="PIPE\lsarpc"/>
+    <section_object_created file_name="C:\sample.exe" section_name=""/>
+    <device_control_communication control_code="0x00228144" count="2" file="WMIDataDevice"/>
+    <fs_control_communication control_code="0x0011C017" count="3" file="PIPE\lsarpc"/>
+   </file_activities>
+   <process_activities>
+    <thread_information>
+     <thread_status number_of_threads="1" time="164"/>
+    </thread_information>
+   </process_activities>
+   <misc_activities>
+    <mutex_created name="__SYSTEM__91C38905__"/>
+    <exception_occurred count="1" description="Exception 0xc0000005 (STATUS_ACCESS_VIOLATION) at 0x7e42ea71"/>
+    <exception_occurred count="1" description="Exception 0x80000003 (STATUS_BREAKPOINT) at 0x405162"/>
+    <exception_occurred count="1" description="Exception 0x80000003 (STATUS_BREAKPOINT) at 0x405172"/>
+   </misc_activities>
+  </activities>
+ </analysis_subject>
+</analysis>

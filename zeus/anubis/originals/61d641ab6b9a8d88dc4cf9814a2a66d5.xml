@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+ <report_version>
+  <major>3</major>
+  <minor>1</minor>
+ </report_version>
+ <configuration>
+  <time_needed>242 s</time_needed>
+  <report_created>02/11/09, 14:27:30 UTC</report_created>
+  <termination_reason>Timeout</termination_reason>
+  <ttanalyze_version>
+   <prog_version>1.67.0</prog_version>
+   <svn_revision>$Revision: 1558 $</svn_revision>
+   <build_date>Dec 22 2008 16:54:40</build_date>
+  </ttanalyze_version>
+ </configuration>
+ <summary>
+  <auto_start>false</auto_start>
+  <internet_settings>false</internet_settings>
+  <bho>false</bho>
+  <win_dir_copy>false</win_dir_copy>
+  <av_kill>false</av_kill>
+  <com_object>false</com_object>
+  <dlf>false</dlf>
+  <ircbot>false</ircbot>
+  <spambot>false</spambot>
+  <addressscan>false</addressscan>
+  <portscan>false</portscan>
+  <file_modification_destruction>false</file_modification_destruction>
+  <process_spawn>false</process_spawn>
+  <all_reg_activities>true</all_reg_activities>
+  <severity_level>0</severity_level>
+ </summary>
+ <analysis_subject>
+  <general>
+   <id>2</id>
+   <parent_id>1</parent_id>
+   <analysis_reason>Primary Analysis Subject</analysis_reason>
+   <submission_fn>Zeus_1.0.6.24.exe</submission_fn>
+   <virtual_fn>sample.exe</virtual_fn>
+   <virtual_path>C:\sample.exe</virtual_path>
+   <arguments>"C:\sample.exe"</arguments>
+   <status>alive</status>
+   <exit_code>0</exit_code>
+   <md5>61d641ab6b9a8d88dc4cf9814a2a66d5</md5>
+   <sha1>d567d2128f9450da288439be415fe98eff3e70ac</sha1>
+   <file_size>362608</file_size>
+  </general>
+  <dll_dependencies>
+   <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+   <loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+   <loaded_dll base_address="0x5D090000" base_name="comctl32.dll" full_name="C:\WINDOWS\system32\comctl32.dll" is_load_time_dependency="0" load_time="2" size="0x0009A000"/>
+   <loaded_dll base_address="0x74720000" base_name="MSCTF.dll" full_name="C:\WINDOWS\system32\MSCTF.dll" is_load_time_dependency="0" load_time="2" size="0x0004C000"/>
+   <loaded_dll base_address="0x755C0000" base_name="msctfime.ime" full_name="C:\WINDOWS\system32\msctfime.ime" is_load_time_dependency="0" load_time="2" size="0x0002E000"/>
+   <loaded_dll base_address="0x76390000" base_name="IMM32.DLL" full_name="C:\WINDOWS\system32\IMM32.DLL" is_load_time_dependency="0" load_time="2" size="0x0001D000"/>
+   <loaded_dll base_address="0x763B0000" base_name="comdlg32.dll" full_name="C:\WINDOWS\system32\comdlg32.dll" is_load_time_dependency="0" load_time="2" size="0x00049000"/>
+   <loaded_dll base_address="0x773D0000" base_name="comctl32.dll" full_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" is_load_time_dependency="0" load_time="2" size="0x00103000"/>
+   <loaded_dll base_address="0x774E0000" base_name="ole32.dll" full_name="C:\WINDOWS\system32\ole32.dll" is_load_time_dependency="0" load_time="2" size="0x0013D000"/>
+   <loaded_dll base_address="0x77C00000" base_name="version.dll" full_name="C:\WINDOWS\system32\version.dll" is_load_time_dependency="0" load_time="2" size="0x00008000"/>
+   <loaded_dll base_address="0x77C10000" base_name="msvcrt.dll" full_name="C:\WINDOWS\system32\msvcrt.dll" is_load_time_dependency="0" load_time="2" size="0x00058000"/>
+   <loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.dll" full_name="C:\WINDOWS\system32\ADVAPI32.dll" is_load_time_dependency="0" load_time="2" size="0x0009B000"/>
+   <loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="0" load_time="2" size="0x00092000"/>
+   <loaded_dll base_address="0x77F10000" base_name="GDI32.dll" full_name="C:\WINDOWS\system32\GDI32.dll" is_load_time_dependency="0" load_time="2" size="0x00049000"/>
+   <loaded_dll base_address="0x77F60000" base_name="SHLWAPI.dll" full_name="C:\WINDOWS\system32\SHLWAPI.dll" is_load_time_dependency="0" load_time="2" size="0x00076000"/>
+   <loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="0" load_time="2" size="0x00011000"/>
+   <loaded_dll base_address="0x7C9C0000" base_name="shell32.dll" full_name="C:\WINDOWS\system32\shell32.dll" is_load_time_dependency="0" load_time="2" size="0x00817000"/>
+   <loaded_dll base_address="0x7E410000" base_name="USER32.dll" full_name="C:\WINDOWS\system32\USER32.dll" is_load_time_dependency="0" load_time="2" size="0x00091000"/>
+  </dll_dependencies>
+  <activities>
+   <registry_activities>
+    <reg_value_read count="1" key="HKLM\SOFTWARE\Microsoft\CTF\SystemShared\" value_data="0" value_name="CUAS"/>
+    <reg_value_read count="1" key="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" value_data="2592000" value_name="CriticalSectionTimeout"/>
+    <reg_value_read count="1" key="HKLM\SYSTEM\Setup" value_data="0" value_name="SystemSetupInProgress"/>
+    <reg_value_read count="1" key="HKLM\Software\Microsoft\CTF\SystemShared" value_data="0" value_name="CUAS"/>
+    <reg_value_read count="1" key="HKLM\Software\Microsoft\Windows NT\CurrentVersion\IMM" value_data="msctfime.ime" value_name="Ime File"/>
+    <reg_value_read count="1" key="HKLM\Software\Microsoft\Windows NT\CurrentVersion\Windows" value_data="" value_name="AppInit_DLLs"/>
+    <reg_value_read count="1" key="HKLM\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers" value_data="1" value_name="TransparentEnabled"/>
+    <reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSAppCompat"/>
+    <reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSUserEnabled"/>
+   </registry_activities>
+   <file_activities>
+    <section_object_created file_name="C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\comctl32.dll" section_name=""/>
+    <section_object_created file_name="C:\WINDOWS\WindowsShell.Manifest" section_name=""/>
+    <section_object_created file_name="C:\WINDOWS\system32\IMM32.DLL" section_name=""/>
+    <section_object_created file_name="C:\WINDOWS\system32\MSCTF.dll" section_name=""/>
+    <section_object_created file_name="C:\WINDOWS\system32\Msimtf.dll" section_name=""/>
+    <section_object_created file_name="C:\WINDOWS\system32\comctl32.dll" section_name=""/>
+    <section_object_created file_name="C:\WINDOWS\system32\msctfime.ime" section_name=""/>
+    <section_object_created file_name="C:\WINDOWS\system32\rpcss.dll" section_name=""/>
+    <section_object_created file_name="C:\WINDOWS\system32\shell32.dll" section_name=""/>
+    <device_control_communication control_code="0x00390008" count="8" file="\Device\KsecDD"/>
+   </file_activities>
+  </activities>
+  <ikarus_scanner>
+   <sig id="326775" name="Trojan-Dropper.Win32.Microjoin"/>
+  </ikarus_scanner>
+ </analysis_subject>
+</analysis>

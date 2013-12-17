@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>15</day>
+						<month>7</month>
+						<year>2008</year>
+						<hour>17</hour>
+						<minute>19</minute>
+						<second>34</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>4</minutes>
+						<seconds>39</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>3478CF4E0F88B8E69C431CE348B77CE5</md5>
+							<sha1>BEE7085EF1D3DC6D73CCA2B955D1A7640001E408</sha1>
+							<filesize>55808</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Threat characteristics of ZBot - a banking trojan that disables firewall, steals sensitive financial data (credit card numbers, online banking login details), makes screen snapshots, downloads additional components, and provides a hacker with the remote access to the compromised system.</description>
+						<severity>10</severity>
+					</flag>
+					<flag>
+						<description>Downloads/requests other files from Internet.</description>
+						<severity>1</severity>
+					</flag>
+					<flag>
+						<description>Creates a startup registry entry.</description>
+						<severity>2</severity>
+					</flag>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_collection>
+					<known_threat>
+						<name>Trojan-Spy.Zbot</name>
+						<description>Trojan-Spy.Zbot is a rootkit trojan which steals online banking information and downloads other malware as well. It opens backdoors on infected computer to allow malicious attacker unauthorized access.</description>
+					</known_threat>
+				</known_threat_collection>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Keylogger</name>
+						<description>A keylogger program that can capture all user keystrokes (including confidential details such username, password, credit card number, etc.)</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Trojan</name>
+						<description>A malicious trojan horse or bot that may represent security risk for the compromised system and/or its network environment</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Backdoor</name>
+						<description>A malicious backdoor trojan that runs in the background and allows remote access to the compromised system</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>%Profiles%\NetworkService\Application Data\wsnpoem\audio.dll</filename>
+							</filenames_collection>
+							<md5>600A77B2BC23D39F2C543F1DC4930152</md5>
+							<sha1>3F669327862E3C2187C085A5286A4D1348C977ED</sha1>
+							<filesize>108</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%Profiles%\NetworkService\Cookies\index.dat</filename>
+							</filenames_collection>
+							<md5>D7A950FEFD60DBAA01DF2D85FEFB3862</md5>
+							<sha1>15740B197555BA8E162C37A60BA655151E3BEBAE</sha1>
+							<filesize>16384</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\14L1QEJW\desktop.ini</filename>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\CX63WDAB\desktop.ini</filename>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\FYJ18N8P\desktop.ini</filename>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\S1KL4NO7\desktop.ini</filename>
+							</filenames_collection>
+							<md5>4A3DEB274BB5F0212C2419D3D8D08612</md5>
+							<sha1>FA52F823B821155CF0EC527D52CE9B1390EC615E</sha1>
+							<filesize>67</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\index.dat</filename>
+							</filenames_collection>
+							<md5>23A0BD0A0762DBB8C71650D8FE83DD35</md5>
+							<sha1>37E21BDEFB37A48FE17CD3F8906C44F9902EC0BB</sha1>
+							<filesize>32768</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\ntos.exe</filename>
+							</filenames_collection>
+							<md5>BFCC155F725189E4FCF70FA0ED835AB8</md5>
+							<sha1>DDD73056171252B6C6E0BC9865B5DD7CDD0FD08C</sha1>
+							<filesize>132608</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>3478CF4E0F88B8E69C431CE348B77CE5</md5>
+							<sha1>BEE7085EF1D3DC6D73CCA2B955D1A7640001E408</sha1>
+							<filesize>55808</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\wsnpoem\audio.dll</filename>
+							</filenames_collection>
+							<md5>CE69F3E149F11967173A3158DA905641</md5>
+							<sha1>7C0B2FCBADCC50177C906E35B394D3605BC94115</sha1>
+							<filesize>218</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\wsnpoem\video.dll</filename>
+							</filenames_collection>
+							<md5>D41D8CD98F00B204E9800998ECF8427E</md5>
+							<sha1>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</sha1>
+							<filesize>0</filesize>
+							<alias_kav></alias_kav>
+							<alias_nav></alias_nav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+						</added_file>
+					</added_files_collection>
+					<notes_collection>
+						<note>%Profiles% is a variable that refers to the file system directory containing user profile folders. A typical path is C:\Documents and Settings.</note>
+						<note>%System% is a variable that refers to the System folder. By default, this is C:\Windows\System (Windows 95/98/Me), C:\Winnt\System32 (Windows NT/2000), or C:\Windows\System32 (Windows XP).</note>
+					</notes_collection>
+				</added_files>
+				<added_directories>
+					<dirnames_collection>
+						<dirname>%Profiles%\NetworkService\Application Data\wsnpoem</dirname>
+						<dirname>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\14L1QEJW</dirname>
+						<dirname>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\CX63WDAB</dirname>
+						<dirname>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\FYJ18N8P</dirname>
+						<dirname>%Profiles%\NetworkService\Local Settings\Temporary Internet Files\Content.IE5\S1KL4NO7</dirname>
+						<dirname>%System%\wsnpoem</dirname>
+					</dirnames_collection>
+				</added_directories>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>155648</main_module_size>
+							<attached_zip_dump>dump_a.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<injected_mempages>
+					<injected_mempages_collection>
+						<injected_mempage>
+							<process_name>services.exe</process_name>
+							<process_filename>%System%\services.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>dump_b.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>lsass.exe</process_name>
+							<process_filename>%System%\lsass.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>dump_c.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>svchost.exe</process_name>
+							<process_filename>%System%\svchost.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>dump_d.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>svchost.exe</process_name>
+							<process_filename>%System%\svchost.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>dump_e.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>svchost.exe</process_name>
+							<process_filename>%System%\svchost.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>dump_f.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>svchost.exe</process_name>
+							<process_filename>%System%\svchost.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>dump_g.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>VMwareService.exe</process_name>
+							<process_filename>%ProgramFiles%\vmware\vmware tools\vmwareservice.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>dump_h.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>alg.exe</process_name>
+							<process_filename>%System%\alg.exe</process_filename>
+							<allocated_size>4096</allocated_size>
+							<attached_zip_dump>dump_i.zip</attached_zip_dump>
+						</injected_mempage>
+					</injected_mempages_collection>
+					<notes_collection>
+						<note>%ProgramFiles% is a variable that refers to the Program Files folder. A typical path is C:\Program Files.</note>
+					</notes_collection>
+				</injected_mempages>
+				<added_regkeys>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{19127AD2-394B-70F5-C650-B97867BAA1F7}</regkey>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{334613DB-50C1-B3BE-95ED-E9915A134FF1}</regkey>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{43BF8CD1-C5D5-2230-7BB2-98F22C2B7DC6}</regkey>
+					<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Protected Storage System Provider</regkey>
+				</added_regkeys>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Network</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>UID</value>
+								<contents>&quot;%ComputerName%_00028DBF&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{334613DB-50C1-B3BE-95ED-E9915A134FF1}</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>{F710FA10-2031-3106-8872-93A2B5C5C620}</value>
+								<contents>F7 09 F2 0D</contents>
+							</regvalue>
+							<regvalue>
+								<value>{E716FA10-2031-AA96-8E72-93A205C5C62C}</value>
+								<contents>47 09 F2 0D</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{43BF8CD1-C5D5-2230-7BB2-98F22C2B7DC6}</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>{F710FA10-2031-3106-8872-93A2B5C5C620}</value>
+								<contents>F7 09 F2 0D</contents>
+							</regvalue>
+							<regvalue>
+								<value>{E716FA10-2031-AA96-8E72-93A205C5C62C}</value>
+								<contents>47 09 F2 0D</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<modified_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Userinit</value>
+								<contents>&quot;%System%\userinit.exe,%System%\ntos.exe,&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+						<notes_collection>
+							<note>so that ntos.exe runs every time Windows starts</note>
+						</notes_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Cookies</value>
+								<contents>&quot;%Profiles%\LocalService\Cookies&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Cache</value>
+								<contents>&quot;%Profiles%\LocalService\Local Settings\Temporary Internet Files&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>History</value>
+								<contents>&quot;%Profiles%\LocalService\Local Settings\History&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</modified_regvalues>
+				<mutexes>
+					<mutex>__SYSTEM__91C38905__</mutex>
+				</mutexes>
+				<internetopenurl_api>
+					<url>http://e-mail2win.com/php/gong.iut</url>
+				</internetopenurl_api>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>
