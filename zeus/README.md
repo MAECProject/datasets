@@ -9,6 +9,6 @@ Samples are named by the MD5 hash of the original malware, so reports named with
 
 * `anubis/originals/0bab6936c4ac24257194472e1362d31e.xml` is an Anubis report
 * `anubis/0bab6936c4ac24257194472e1362d31e_maec.xml` is the MAEC report devired from that Anubis report
-* `threatexpert/originals/0bab6936c4ac24257194472e1362d31e.xml` is a ThreatExpert report
-* `anubis/0bab6936c4ac24257194472e1362d31e_maec.xml` is the MAEC report devired from that ThreatExpert report
+* `threatexpert/originals/0bab6936c4ac24257194472e1362d31e_threatexpert.xml` is a ThreatExpert report
+* `anubis/0bab6936c4ac24257194472e1362d31e_threatexpert_maec.xml` is the MAEC report devired from that ThreatExpert report
 * Both the ThreatExpert and Anubis reports were created from some Zeus malware sample with the MD5 hash `0bab6936c4ac24257194472e1362d31e`
