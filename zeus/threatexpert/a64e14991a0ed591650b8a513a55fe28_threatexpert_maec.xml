@@ -37,10 +37,10 @@
  http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.0.1/Win_Registry_Key_Object.xsd
  http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
  http://cybox.mitre.org/objects#WinServiceObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Service/2.0.1/Win_Service_Object.xsd
- http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.0.1/Address_Object.xsd" id="maec-threatexpert_to_maec-pkg-1" schema_version="2.0.1">
+ http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.0.1/Address_Object.xsd" id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-pkg-1" schema_version="2.0.1">
     <maecPackage:Malware_Subjects>
-        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec-sub-1">
-            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec-obj-1">
+        <maecPackage:Malware_Subject id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-1">
                 <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
                     <FileObj:Size_In_Bytes>25088</FileObj:Size_In_Bytes>
                     <FileObj:Hashes>
@@ -56,10 +56,10 @@
                 </cybox:Properties>
             </maecPackage:Malware_Instance_Object_Attributes>
             <maecPackage:Analyses>
-                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec-ana-1">
-                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec-bnd-1"/>
+                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-ana-1">
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-bnd-1"/>
                     <maecPackage:Tools>
-                        <maecPackage:Tool id="maec-threatexpert_to_maec-tol-1">
+                        <maecPackage:Tool id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-tol-1">
                             <cyboxCommon:Name>ThreatExpert</cyboxCommon:Name>
                             <cyboxCommon:Vendor>ThreatExpert</cyboxCommon:Vendor>
                         </maecPackage:Tool>
@@ -67,7 +67,7 @@
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-bnd-1" schema_version="4.0.1">
                     <maecBundle:AV_Classifications>
                         <maecBundle:AV_Classification>
                             <cyboxCommon:Vendor>Kaspersky</cyboxCommon:Vendor>
@@ -91,18 +91,18 @@
                         </maecBundle:AV_Classification>
                     </maecBundle:AV_Classifications>
                     <maecBundle:Behaviors>
-                        <maecBundle:Behavior id="maec-threatexpert_to_maec-bhv-1">
+                        <maecBundle:Behavior id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-bhv-1">
                             <maecBundle:Description>Contains characteristics of an identified security risk.</maecBundle:Description>
                         </maecBundle:Behavior>
                     </maecBundle:Behaviors>
                     <maecBundle:Collections>
                         <maecBundle:Action_Collections>
-                            <maecBundle:Action_Collection name="Process Actions" id="maec-threatexpert_to_maec-actc-1">
+                            <maecBundle:Action_Collection name="Process Actions" id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-actc-1">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-3">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-3">
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-3">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-3">
                                                 <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
                                                     <ProcessObj:Name>avast!CacheAgent.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
@@ -115,12 +115,12 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="Registry Actions" id="maec-threatexpert_to_maec-actc-2">
+                            <maecBundle:Action_Collection name="Registry Actions" id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-actc-2">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-5">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-5">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-5">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-5">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -129,10 +129,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-6">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-6">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-6">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-6">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -141,10 +141,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-7">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-7">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-7">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-7">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000\Control</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -153,10 +153,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-8">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-8">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-8">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-8">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -165,10 +165,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-9">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-9">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-9">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-9">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe\Security</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -177,10 +177,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-10">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-10">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-10">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-10">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -189,10 +189,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-11">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-11">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-11">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-11">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -201,10 +201,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-12">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-12">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-12">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-12">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -213,10 +213,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-13">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-13">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-13">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-13">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000\Control</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -225,10 +225,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-14">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-14">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-14">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-14">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -237,10 +237,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-15">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-15">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-15">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-15">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe\Security</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -249,10 +249,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-16">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-16">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-16">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-16">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -261,10 +261,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-17">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-17">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-17">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-17">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000\Control</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -279,10 +279,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-18">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-18">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-17">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-17">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000\Control</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -297,10 +297,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-19">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-19">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-18">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -315,10 +315,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-20">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-20">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-18">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -333,10 +333,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-21">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-21">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-18">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -351,10 +351,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-22">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-22">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-18">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -369,10 +369,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-23">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-23">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-18">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -387,10 +387,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-24">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-24">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-18">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -405,10 +405,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-25">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-25">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-19">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-19">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -423,10 +423,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-26">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-26">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-20">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-20">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -441,10 +441,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-27">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-27">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-20">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-20">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -459,10 +459,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-28">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-28">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-20">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-20">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -477,10 +477,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-29">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-29">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-21">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-21">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe\Security</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -495,10 +495,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-30">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-30">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-22">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -513,10 +513,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-31">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-31">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-22">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -531,10 +531,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-32">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-32">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-22">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -549,10 +549,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-33">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-33">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-22">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -567,10 +567,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-34">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-34">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-22">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -585,10 +585,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-35">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-35">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-23">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-23">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000\Control</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -603,10 +603,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-36">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-36">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-23">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-23">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000\Control</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -621,10 +621,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-37">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-37">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-24">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -639,10 +639,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-38">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-38">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-24">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -657,10 +657,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-39">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-39">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-24">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -675,10 +675,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-40">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-40">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-24">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -693,10 +693,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-41">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-41">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-24">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -711,10 +711,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-42">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-42">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-24">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -729,10 +729,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-43">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-43">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-25">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-25">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AVAST!CACHEAGENT.EXE</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -747,10 +747,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-44">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-44">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-26">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-26">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -765,10 +765,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-45">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-45">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-26">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-26">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -783,10 +783,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-46">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-46">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-26">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-26">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -801,10 +801,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-47">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-47">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-27">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-27">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe\Security</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -819,10 +819,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-48">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-48">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-28">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -837,10 +837,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-49">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-49">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-28">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -855,10 +855,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-50">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-50">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-28">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -873,10 +873,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-51">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-51">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-28">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -891,10 +891,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-52">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-52">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-28">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -909,10 +909,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-53">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-53">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-29">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-29">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Control\ServiceCurrent</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -921,10 +921,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-54">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-54">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-30">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-30">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Control\ServiceCurrent</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -935,12 +935,12 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maec-actc-3">
+                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-actc-3">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-1">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-1">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-2">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-2">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Path fully_qualified="false">%System%\avast!CacheAgent.exe</FileObj:File_Path>
                                                     <FileObj:Size_In_Bytes>25088</FileObj:Size_In_Bytes>
@@ -959,20 +959,20 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-2">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-2">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec-obj-1"/>
+                                            <cybox:Associated_Object idref="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-1"/>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="Service Actions" id="maec-threatexpert_to_maec-actc-4">
+                            <maecBundle:Action_Collection name="Service Actions" id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-actc-4">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-4">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-4">
                                         <cybox:Name xsi:type="maecVocabs:ServiceActionNameVocab-1.0">create service</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-4">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-4">
                                                 <cybox:Properties xsi:type="WinServiceObj:WindowsServiceObjectType">
                                                     <ProcessObj:Name>avast!CacheAgent.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
@@ -986,12 +986,12 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="Network Actions" id="maec-threatexpert_to_maec-actc-5">
+                            <maecBundle:Action_Collection name="Network Actions" id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-actc-5">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-55">
+                                    <maecBundle:Action id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-act-55">
                                         <cybox:Name xsi:type="maecVocabs:SocketActionNameVocab-1.0">get host by address</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-31">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maecA64E14991A0ED591650B8A513A55FE28-obj-31">
                                                 <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>93.158.114.111</AddressObj:Address_Value>
                                                 </cybox:Properties>

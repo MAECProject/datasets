@@ -28,10 +28,10 @@
  http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
  http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
  http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
- http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.0.1/Process_Object.xsd" id="maec-anubis_to_maec-pkg-1" schema_version="2.0.1">
+ http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.0.1/Process_Object.xsd" id="maec-anubis_to_maec_959fe68d7efcb00b7f2a6dae2b3e7592-pkg-1" schema_version="2.0.1">
     <maecPackage:Malware_Subjects>
-        <maecPackage:Malware_Subject id="maec-anubis_to_maec-sub-1">
-            <maecPackage:Malware_Instance_Object_Attributes id="maec-anubis_to_maec-obj-1">
+        <maecPackage:Malware_Subject id="maec-anubis_to_maec_959fe68d7efcb00b7f2a6dae2b3e7592-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-anubis_to_maec_959fe68d7efcb00b7f2a6dae2b3e7592-obj-1">
                 <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
                     <FileObj:Size_In_Bytes>45056</FileObj:Size_In_Bytes>
                     <FileObj:Hashes>
@@ -47,10 +47,10 @@
                 </cybox:Properties>
             </maecPackage:Malware_Instance_Object_Attributes>
             <maecPackage:Analyses>
-                <maecPackage:Analysis method="dynamic" type="triage" id="maec-anubis_to_maec-ana-1">
-                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-anubis_to_maec-bnd-1"/>
+                <maecPackage:Analysis method="dynamic" type="triage" id="maec-anubis_to_maec_959fe68d7efcb00b7f2a6dae2b3e7592-ana-1">
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-anubis_to_maec_959fe68d7efcb00b7f2a6dae2b3e7592-bnd-1"/>
                     <maecPackage:Tools>
-                        <maecPackage:Tool id="maec-anubis_to_maec-tol-1">
+                        <maecPackage:Tool id="maec-anubis_to_maec_959fe68d7efcb00b7f2a6dae2b3e7592-tol-1">
                             <cyboxCommon:Name>TTAnalyze</cyboxCommon:Name>
                             <cyboxCommon:Vendor>ISECLab</cyboxCommon:Vendor>
                         </maecPackage:Tool>
@@ -62,9 +62,9 @@
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" id="maec-anubis_to_maec-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" id="maec-anubis_to_maec_959fe68d7efcb00b7f2a6dae2b3e7592-bnd-1" schema_version="4.0.1">
                     <maecBundle:Process_Tree>
-                        <maecBundle:Root_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-anubis_to_maec-pro-1">
+                        <maecBundle:Root_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-anubis_to_maec_959fe68d7efcb00b7f2a6dae2b3e7592-pro-1">
                             <ProcessObj:Name>sample.exe</ProcessObj:Name>
                             <ProcessObj:Image_Info>
                                 <ProcessObj:Path>C:\sample.exe</ProcessObj:Path>

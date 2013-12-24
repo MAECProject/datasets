@@ -41,10 +41,10 @@
  http://cybox.mitre.org/objects#WinServiceObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Service/2.0.1/Win_Service_Object.xsd
  http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.0.1/Win_Registry_Key_Object.xsd
  http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
- http://cybox.mitre.org/objects#PipeObject-2 http://cybox.mitre.org/XMLSchema/objects/Pipe/2.0.1/Pipe_Object.xsd" id="maec-anubis_to_maec-pkg-1" schema_version="2.0.1">
+ http://cybox.mitre.org/objects#PipeObject-2 http://cybox.mitre.org/XMLSchema/objects/Pipe/2.0.1/Pipe_Object.xsd" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-pkg-1" schema_version="2.0.1">
     <maecPackage:Malware_Subjects>
-        <maecPackage:Malware_Subject id="maec-anubis_to_maec-sub-1">
-            <maecPackage:Malware_Instance_Object_Attributes id="maec-anubis_to_maec-obj-1">
+        <maecPackage:Malware_Subject id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-1">
                 <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
                     <FileObj:Size_In_Bytes>25088</FileObj:Size_In_Bytes>
                     <FileObj:Hashes>
@@ -60,10 +60,10 @@
                 </cybox:Properties>
             </maecPackage:Malware_Instance_Object_Attributes>
             <maecPackage:Analyses>
-                <maecPackage:Analysis method="dynamic" type="triage" id="maec-anubis_to_maec-ana-1">
-                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-anubis_to_maec-bnd-1"/>
+                <maecPackage:Analysis method="dynamic" type="triage" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-ana-1">
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-bnd-1"/>
                     <maecPackage:Tools>
-                        <maecPackage:Tool id="maec-anubis_to_maec-tol-1">
+                        <maecPackage:Tool id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-tol-1">
                             <cyboxCommon:Name>TTAnalyze</cyboxCommon:Name>
                             <cyboxCommon:Vendor>ISECLab</cyboxCommon:Vendor>
                         </maecPackage:Tool>
@@ -75,7 +75,7 @@
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" id="maec-anubis_to_maec-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-bnd-1" schema_version="4.0.1">
                     <maecBundle:AV_Classifications>
                         <maecBundle:AV_Classification>
                             <cyboxCommon:Vendor>Ikarus</cyboxCommon:Vendor>
@@ -83,57 +83,57 @@
                         </maecBundle:AV_Classification>
                     </maecBundle:AV_Classifications>
                     <maecBundle:Process_Tree>
-                        <maecBundle:Root_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-anubis_to_maec-pro-1">
+                        <maecBundle:Root_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-pro-1">
                             <ProcessObj:Name>0eff94d5ad49b92400285a25313cc776</ProcessObj:Name>
                             <ProcessObj:Image_Info>
                                 <ProcessObj:Path>C:\0eff94d5ad49b92400285a25313cc776</ProcessObj:Path>
                             </ProcessObj:Image_Info>
                             <maecBundle:Initiated_Actions>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-1"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-2"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-3"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-4"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-5"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-6"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-7"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-8"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-9"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-10"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-11"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-12"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-13"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-14"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-15"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-16"/>
-                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-17"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-1"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-2"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-3"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-4"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-5"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-6"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-7"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-8"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-9"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-10"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-11"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-12"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-13"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-14"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-15"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-16"/>
+                                <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-17"/>
                             </maecBundle:Initiated_Actions>
-                            <maecBundle:Spawned_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-anubis_to_maec-pro-2">
+                            <maecBundle:Spawned_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-pro-2">
                                 <ProcessObj:Name>services.exe</ProcessObj:Name>
                                 <ProcessObj:Image_Info>
                                     <ProcessObj:Path>C:\WINDOWS\system32\services.exe</ProcessObj:Path>
                                 </ProcessObj:Image_Info>
                                 <maecBundle:Initiated_Actions>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-18"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-19"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-20"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-21"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-22"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-23"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-24"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-25"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-26"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-27"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-28"/>
-                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-29"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-18"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-19"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-20"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-21"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-22"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-23"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-24"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-25"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-26"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-27"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-28"/>
+                                    <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-29"/>
                                 </maecBundle:Initiated_Actions>
-                                <maecBundle:Spawned_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-anubis_to_maec-pro-3">
+                                <maecBundle:Spawned_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-pro-3">
                                     <ProcessObj:Name>avast!CacheAgent.exe</ProcessObj:Name>
                                     <ProcessObj:Image_Info>
                                         <ProcessObj:Path>C:\WINDOWS\System32\avast!CacheAgent.exe</ProcessObj:Path>
                                     </ProcessObj:Image_Info>
                                     <maecBundle:Initiated_Actions>
-                                        <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-30"/>
-                                        <maecBundle:Action_Reference action_id="maec-anubis_to_maec-act-31"/>
+                                        <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-30"/>
+                                        <maecBundle:Action_Reference action_id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-31"/>
                                     </maecBundle:Initiated_Actions>
                                 </maecBundle:Spawned_Process>
                             </maecBundle:Spawned_Process>
@@ -141,12 +141,12 @@
                     </maecBundle:Process_Tree>
                     <maecBundle:Collections>
                         <maecBundle:Action_Collections>
-                            <maecBundle:Action_Collection name="ipc" id="maec-anubis_to_maec-actc-1">
+                            <maecBundle:Action_Collection name="ipc" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-actc-1">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-15">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-15">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-17">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-17">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>ZonesCacheCounterMutex</MutexObj:Name>
                                                 </cybox:Properties>
@@ -154,10 +154,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-16">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-16">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-18">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-18">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>ZonesCounterMutex</MutexObj:Name>
                                                 </cybox:Properties>
@@ -165,10 +165,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-17">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-17">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-19">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-19">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>ZonesLockedCacheCounterMutex</MutexObj:Name>
                                                 </cybox:Properties>
@@ -178,12 +178,12 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="service" id="maec-anubis_to_maec-actc-2">
+                            <maecBundle:Action_Collection name="service" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-actc-2">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-14">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-14">
                                         <cybox:Name xsi:type="maecVocabs:ServiceActionNameVocab-1.0">create service</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-16">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-16">
                                                 <cybox:Properties xsi:type="WinServiceObj:WindowsServiceObjectType">
                                                     <ProcessObj:Name>avast!CacheAgent.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
@@ -196,12 +196,12 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="process" id="maec-anubis_to_maec-actc-3">
+                            <maecBundle:Action_Collection name="process" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-actc-3">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-25">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-25">
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-28">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-28">
                                                 <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
                                                     <ProcessObj:Image_Info>
                                                         <ProcessObj:File_Name>C:\WINDOWS\System32\avast!CacheAgent.exe</ProcessObj:File_Name>
@@ -211,10 +211,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-26">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-26">
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-29">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-29">
                                                 <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
                                                     <ProcessObj:Image_Info>
                                                         <ProcessObj:Command_Line>C:\WINDOWS\System32\avast!CacheAgent.exe -k netsvcs</ProcessObj:Command_Line>
@@ -224,10 +224,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-27">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-27">
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-30">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-30">
                                                 <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
                                                     <ProcessObj:Image_Info>
                                                         <ProcessObj:File_Name>C:\WINDOWS\System32\avast!CacheAgent.exe</ProcessObj:File_Name>
@@ -237,10 +237,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-28">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-28">
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">read from process memory</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-31">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-31">
                                                 <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
                                                     <ProcessObj:Image_Info>
                                                         <ProcessObj:File_Name>C:\WINDOWS\System32\avast!CacheAgent.exe</ProcessObj:File_Name>
@@ -250,10 +250,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-29">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-29">
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-32">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-32">
                                                 <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
                                                     <ProcessObj:Image_Info>
                                                         <ProcessObj:File_Name>C:\WINDOWS\System32\avast!CacheAgent.exe</ProcessObj:File_Name>
@@ -265,12 +265,12 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="registry" id="maec-anubis_to_maec-actc-4">
+                            <maecBundle:Action_Collection name="registry" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-actc-4">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-5">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-5">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-7">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-7">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Control\Session Manager</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -285,10 +285,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-6">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-6">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-8">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-8">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\Setup</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -303,10 +303,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-7">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-7">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-9">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-9">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BEHAVIORS</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -321,10 +321,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-8">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-8">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-10">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-10">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_DISABLE_MK_PROTOCOL</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -339,10 +339,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-9">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-9">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-11">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-11">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -357,10 +357,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-10">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-10">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-12">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-12">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>System\CurrentControlSet\Control\ComputerName\ActiveComputerName</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -375,10 +375,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-11">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-11">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-13">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-13">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>System\CurrentControlSet\Control\Terminal Server</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -393,10 +393,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-12">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-12">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-14">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-14">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>System\CurrentControlSet\Services\Tcpip\Parameters</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -411,10 +411,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-13">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-13">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-15">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-15">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>System\Setup</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -429,10 +429,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-19">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-19">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-22">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-22">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CONTROLSET001\CONTROL\SERVICECURRENT</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -446,10 +446,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-20">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-20">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-23">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-23">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CONTROLSET001\SERVICES\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -464,10 +464,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-21">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-21">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-24">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-24">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CONTROLSET001\SERVICES\avast!CacheAgent.exe\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -482,10 +482,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-22">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-22">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-25">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-25">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\WPA\MediaCenter</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -500,10 +500,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-23">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-23">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-26">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-26">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>System\CurrentControlSet\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -518,10 +518,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-24">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-24">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-27">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-27">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>System\CurrentControlSet\Services\avast!CacheAgent.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -536,10 +536,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-30">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-30">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-34">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-34">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>System\CurrentControlSet\Control\Terminal Server</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -554,10 +554,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-31">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-31">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">read registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-35">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-35">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>System\CurrentControlSet\Control\Terminal Server</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -574,12 +574,12 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="file_system" id="maec-anubis_to_maec-actc-5">
+                            <maecBundle:Action_Collection name="file_system" id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-actc-5">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-1">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-1">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-3">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-3">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\avast!CacheAgent.exe</FileObj:File_Path>
                                                 </cybox:Properties>
@@ -587,10 +587,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-2">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-2">
                                         <cybox:Name xsi:type="maecVocabs:IPCActionNameVocab-1.0">read from named pipe</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-4">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-4">
                                                 <cybox:Properties xsi:type="PipeObj:PipeObjectType" named="true">
                                                     <PipeObj:Name>lsarpc</PipeObj:Name>
                                                 </cybox:Properties>
@@ -598,10 +598,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-3">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-3">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">modify file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-5">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-5">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\avast!CacheAgent.exe</FileObj:File_Path>
                                                 </cybox:Properties>
@@ -609,10 +609,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-4">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-4">
                                         <cybox:Name xsi:type="maecVocabs:IPCActionNameVocab-1.0">write to named pipe</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-6">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-6">
                                                 <cybox:Properties xsi:type="PipeObj:PipeObjectType" named="true">
                                                     <PipeObj:Name>lsarpc</PipeObj:Name>
                                                 </cybox:Properties>
@@ -620,10 +620,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-anubis_to_maec-act-18">
+                                    <maecBundle:Action id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-act-18">
                                         <cybox:Name xsi:type="maecVocabs:IPCActionNameVocab-1.0">create named pipe</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-anubis_to_maec-obj-21">
+                                            <cybox:Associated_Object id="maec-anubis_to_maec_a64e14991a0ed591650b8a513a55fe28-obj-21">
                                                 <cybox:Properties xsi:type="PipeObj:PipeObjectType" named="true">
                                                     <PipeObj:Name>net</PipeObj:Name>
                                                 </cybox:Properties>

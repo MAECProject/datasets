@@ -20,10 +20,10 @@
  http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
  http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
  http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
- http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd" id="maec-threatexpert_to_maec-pkg-1" schema_version="2.0.1">
+ http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd" id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-pkg-1" schema_version="2.0.1">
     <maecPackage:Malware_Subjects>
-        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec-sub-1">
-            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec-obj-1">
+        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-obj-1">
                 <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
                     <FileObj:Size_In_Bytes>37376</FileObj:Size_In_Bytes>
                     <FileObj:Hashes>
@@ -39,10 +39,10 @@
                 </cybox:Properties>
             </maecPackage:Malware_Instance_Object_Attributes>
             <maecPackage:Analyses>
-                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec-ana-1">
-                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec-bnd-1"/>
+                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-ana-1">
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-bnd-1"/>
                     <maecPackage:Tools>
-                        <maecPackage:Tool id="maec-threatexpert_to_maec-tol-1">
+                        <maecPackage:Tool id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-tol-1">
                             <cyboxCommon:Name>ThreatExpert</cyboxCommon:Name>
                             <cyboxCommon:Vendor>ThreatExpert</cyboxCommon:Vendor>
                         </maecPackage:Tool>
@@ -50,7 +50,7 @@
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-bnd-1" schema_version="4.0.1">
                     <maecBundle:AV_Classifications>
                         <maecBundle:AV_Classification>
                             <cyboxCommon:Vendor>Ikarus</cyboxCommon:Vendor>
@@ -59,12 +59,12 @@
                     </maecBundle:AV_Classifications>
                     <maecBundle:Collections>
                         <maecBundle:Action_Collections>
-                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maec-actc-1">
+                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-actc-1">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-1">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-act-1">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec-obj-2">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-obj-2">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Path fully_qualified="false">%System%\1.bat</FileObj:File_Path>
                                                     <FileObj:Size_In_Bytes>67</FileObj:Size_In_Bytes>
@@ -83,10 +83,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec-act-2">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-act-2">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec-obj-1"/>
+                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec03E558AF94C93A6149A2F254758EEF9E-obj-1"/>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
