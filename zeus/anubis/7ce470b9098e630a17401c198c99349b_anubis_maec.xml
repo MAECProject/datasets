@@ -16067,8 +16067,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-42">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>svchost.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\svchost.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\svchost.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16090,8 +16089,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-44">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>svchost.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\svchost.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\svchost.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16102,8 +16100,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-250">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>system.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\system.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\system.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16114,8 +16111,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-251">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>jmm[1].jpg</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\jmm[1].jpg</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\jmm[1].jpg</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16203,8 +16199,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-259">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>system.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\system.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\system.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16215,8 +16210,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-260">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>jmm[1].jpg</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\jmm[1].jpg</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\jmm[1].jpg</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16227,8 +16221,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-261">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Ip</FileObj:File_Name>
-                                                    <FileObj:Full_Path>Ip</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">Ip</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16239,8 +16232,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-262">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>MountPointManager</FileObj:File_Name>
-                                                    <FileObj:Full_Path>MountPointManager</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">MountPointManager</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16273,8 +16265,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-265">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Endpoint</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\Afd\Endpoint</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\Afd\Endpoint</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16285,8 +16276,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-266">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Ip</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\Ip</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\Ip</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16297,8 +16287,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-267">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>NetBT_Tcpip_{1AD45B38-4060-4F73-BB1E-A0439A2D97EB}</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\NetBT_Tcpip_{1AD45B38-4060-4F73-BB1E-A0439A2D97EB}</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\NetBT_Tcpip_{1AD45B38-4060-4F73-BB1E-A0439A2D97EB}</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16309,8 +16298,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-268">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>RasAcd</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\RasAcd</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\RasAcd</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16321,8 +16309,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-269">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Tcp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\Tcp</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\Tcp</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16333,8 +16320,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-503">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Quzage</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Quzage</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Quzage</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16345,8 +16331,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-504">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>osxu.egy</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Quzage\osxu.egy</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Quzage\osxu.egy</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16357,8 +16342,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-505">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Ydqe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Ydqe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Ydqe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16369,8 +16353,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-506">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>ipcuz.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Ydqe\ipcuz.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Ydqe\ipcuz.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16403,8 +16386,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-509">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>ipcuz.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Ydqe\ipcuz.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Ydqe\ipcuz.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16415,8 +16397,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-510">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>MountPointManager</FileObj:File_Name>
-                                                    <FileObj:Full_Path>MountPointManager</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">MountPointManager</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16449,8 +16430,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-596">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>MountPointManager</FileObj:File_Name>
-                                                    <FileObj:Full_Path>MountPointManager</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">MountPointManager</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16505,8 +16485,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-656">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>osxu.egy</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Quzage\osxu.egy</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Quzage\osxu.egy</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16561,8 +16540,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-753">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Endpoint</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\Afd\Endpoint</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\Afd\Endpoint</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16574,14 +16552,12 @@
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-754">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Name>osxu.egy</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Quzage\osxu.egy</FileObj:Full_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-755">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Name>osxu.tmp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Quzage\osxu.tmp</FileObj:Full_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>

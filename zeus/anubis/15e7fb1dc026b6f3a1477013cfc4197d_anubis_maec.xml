@@ -6183,8 +6183,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-3">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>oembios.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\oembios.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\oembios.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -6206,8 +6205,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-5">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>oembios.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\oembios.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\oembios.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -6229,8 +6227,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-17">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>sysproc64</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\sysproc64</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\sysproc64</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -6241,8 +6238,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-18">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>sysproc32.sys</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\sysproc64\sysproc32.sys</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\sysproc64\sysproc32.sys</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -6253,8 +6249,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-19">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>sysproc86.sys</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\sysproc64\sysproc86.sys</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\sysproc64\sysproc86.sys</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -6364,8 +6359,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-34">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>WMIDataDevice</FileObj:File_Name>
-                                                    <FileObj:Full_Path>WMIDataDevice</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">WMIDataDevice</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -6464,8 +6458,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-135">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>sysproc32.sys</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\sysproc64\sysproc32.sys</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\sysproc64\sysproc32.sys</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -6487,8 +6480,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-137">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>WMIDataDevice</FileObj:File_Name>
-                                                    <FileObj:Full_Path>WMIDataDevice</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">WMIDataDevice</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -6565,8 +6557,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-226">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>lsass</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\lsass</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\lsass</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -6621,8 +6612,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-240">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>WMIDataDevice</FileObj:File_Name>
-                                                    <FileObj:Full_Path>WMIDataDevice</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">WMIDataDevice</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>

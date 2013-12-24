@@ -4721,8 +4721,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-8">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>NetBT_Tcpip_{1AD45B38-4060-4F73-BB1E-A0439A2D97EB}</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\NetBT_Tcpip_{1AD45B38-4060-4F73-BB1E-A0439A2D97EB}</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\NetBT_Tcpip_{1AD45B38-4060-4F73-BB1E-A0439A2D97EB}</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -4733,8 +4732,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-9">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>RasAcd</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\RasAcd</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\RasAcd</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>

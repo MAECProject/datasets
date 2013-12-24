@@ -5466,8 +5466,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-3">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>sdra64.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\sdra64.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\sdra64.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -5500,8 +5499,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-6">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>sdra64.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\sdra64.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\sdra64.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -5523,8 +5521,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-20">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>lowsec</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\lowsec</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\lowsec</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -5535,8 +5532,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-21">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>local.ds</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\lowsec\local.ds</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\lowsec\local.ds</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -5547,8 +5543,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-22">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>user.ds</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\lowsec\user.ds</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\lowsec\user.ds</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -5746,8 +5741,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-144">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>user.ds</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\lowsec\user.ds</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\lowsec\user.ds</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -5835,8 +5829,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-231">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>lsass</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\lsass</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\lsass</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>

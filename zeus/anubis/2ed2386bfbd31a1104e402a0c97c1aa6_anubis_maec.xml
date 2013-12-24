@@ -2945,8 +2945,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-4">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>__tmp_rar_sfx_access_check_434703</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\__tmp_rar_sfx_access_check_434703</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\__tmp_rar_sfx_access_check_434703</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2957,8 +2956,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-5">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>taskmgrsx.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -3057,8 +3055,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-14">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>taskmgrsx.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -3069,8 +3066,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-15">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>MountPointManager</FileObj:File_Name>
-                                                    <FileObj:Full_Path>MountPointManager</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">MountPointManager</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>

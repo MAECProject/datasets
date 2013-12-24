@@ -2068,8 +2068,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-3">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>ntos.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\ntos.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\ntos.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2091,8 +2090,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-5">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>ntos.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\ntos.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\ntos.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2114,8 +2112,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-16">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>wsnpoem</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\wsnpoem</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\wsnpoem</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2126,8 +2123,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-17">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>audio.dll</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\wsnpoem\audio.dll</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\wsnpoem\audio.dll</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2138,8 +2134,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-18">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>video.dll</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\wsnpoem\video.dll</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\wsnpoem\video.dll</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2260,8 +2255,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-34">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>WMIDataDevice</FileObj:File_Name>
-                                                    <FileObj:Full_Path>WMIDataDevice</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">WMIDataDevice</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2327,8 +2321,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-91">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>audio.dll</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\wsnpoem\audio.dll</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\wsnpoem\audio.dll</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2350,8 +2343,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-93">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>WMIDataDevice</FileObj:File_Name>
-                                                    <FileObj:Full_Path>WMIDataDevice</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">WMIDataDevice</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2428,8 +2420,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-134">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>lsass</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\lsass</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\lsass</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -2484,8 +2475,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-148">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>WMIDataDevice</FileObj:File_Name>
-                                                    <FileObj:Full_Path>WMIDataDevice</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">WMIDataDevice</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>

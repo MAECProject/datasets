@@ -16156,8 +16156,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-3">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name/>
-                                                    <FileObj:Full_Path>C:\Recycle.Bin\</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Recycle.Bin\</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16179,8 +16178,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-9">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Recycle.Bin.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Recycle.Bin\Recycle.Bin.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Recycle.Bin\Recycle.Bin.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16213,8 +16211,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-12">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Recycle.Bin.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Recycle.Bin\Recycle.Bin.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Recycle.Bin\Recycle.Bin.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16225,8 +16222,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-46">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>config.bin</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Recycle.Bin\config.bin</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Recycle.Bin\config.bin</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16248,8 +16244,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-48">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>config.bin</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Recycle.Bin\config.bin</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Recycle.Bin\config.bin</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16359,8 +16354,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-97">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>lsass</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\lsass</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\lsass</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16437,8 +16431,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-158">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>UserDumps</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\PCHealth\ErrorRep\UserDumps</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\PCHealth\ErrorRep\UserDumps</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16449,8 +16442,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-159">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>winlogon.exe.20110302-232952-00.hdmp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\PCHealth\ErrorRep\UserDumps\winlogon.exe.20110302-232952-00.hdmp</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\PCHealth\ErrorRep\UserDumps\winlogon.exe.20110302-232952-00.hdmp</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16461,8 +16453,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-160">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>winlogon.exe.20110302-232952-00.mdmp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\PCHealth\ErrorRep\UserDumps\winlogon.exe.20110302-232952-00.mdmp</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\PCHealth\ErrorRep\UserDumps\winlogon.exe.20110302-232952-00.mdmp</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16517,8 +16508,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-165">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>winlogon.exe.20110302-232952-00.mdmp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\PCHealth\ErrorRep\UserDumps\winlogon.exe.20110302-232952-00.mdmp</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\PCHealth\ErrorRep\UserDumps\winlogon.exe.20110302-232952-00.mdmp</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16606,8 +16596,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-305">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name/>
-                                                    <FileObj:Full_Path>C:\spoolerlogs\</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\spoolerlogs\</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16618,8 +16607,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-306">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>spooler.xml</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\spoolerlogs\spooler.xml</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\spoolerlogs\spooler.xml</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16652,8 +16640,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-309">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>spooler.xml</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\spoolerlogs\spooler.xml</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\spoolerlogs\spooler.xml</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16741,8 +16728,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-449">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>f3e0_appcompat.txt</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\f3e0_appcompat.txt</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\f3e0_appcompat.txt</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16786,8 +16772,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-453">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>f3e0_appcompat.txt</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\f3e0_appcompat.txt</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\f3e0_appcompat.txt</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16809,8 +16794,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-510">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>eaff_appcompat.txt</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\eaff_appcompat.txt</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\eaff_appcompat.txt</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16843,8 +16827,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-513">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>eaff_appcompat.txt</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\eaff_appcompat.txt</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\eaff_appcompat.txt</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16866,8 +16849,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-578">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>741BA.dmp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\741BA.dmp</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\741BA.dmp</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16911,8 +16893,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-582">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>741BA.dmp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\741BA.dmp</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\741BA.dmp</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16934,8 +16915,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-764">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>74488.dmp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\74488.dmp</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\74488.dmp</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -16990,8 +16970,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-769">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>74488.dmp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\74488.dmp</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\74488.dmp</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>

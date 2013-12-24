@@ -3210,8 +3210,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-42">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>ldr.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ldr.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ldr.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -3277,8 +3276,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-48">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>ldr.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ldr.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\ldr.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -3289,8 +3287,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-49">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>MountPointManager</FileObj:File_Name>
-                                                    <FileObj:Full_Path>MountPointManager</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">MountPointManager</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -3323,8 +3320,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-176">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>oembios.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\oembios.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\oembios.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -3346,8 +3342,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-178">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>oembios.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\WINDOWS\system32\oembios.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\WINDOWS\system32\oembios.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>

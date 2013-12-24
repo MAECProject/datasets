@@ -17358,8 +17358,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-3">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>tmp19ca46ec.bat</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\tmp19ca46ec.bat</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\tmp19ca46ec.bat</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17370,8 +17369,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-4">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Cuekmi</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Cuekmi</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Cuekmi</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17382,8 +17380,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-5">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>cexo.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Cuekmi\cexo.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Cuekmi\cexo.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17394,8 +17391,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-6">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Ebente</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Ebente</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Ebente</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17406,8 +17402,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-7">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>ipeg.ykl</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Ebente\ipeg.ykl</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Ebente\ipeg.ykl</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17440,8 +17435,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-10">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>tmp19ca46ec.bat</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\tmp19ca46ec.bat</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\tmp19ca46ec.bat</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17452,8 +17446,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-11">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>cexo.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Cuekmi\cexo.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Cuekmi\cexo.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17464,8 +17457,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-12">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>MountPointManager</FileObj:File_Name>
-                                                    <FileObj:Full_Path>MountPointManager</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">MountPointManager</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17509,8 +17501,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-118">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>MountPointManager</FileObj:File_Name>
-                                                    <FileObj:Full_Path>MountPointManager</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">MountPointManager</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17653,8 +17644,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-196">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>tmp2b52ce2d.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\tmp2b52ce2d.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\tmp2b52ce2d.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17665,8 +17655,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-197">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>ipeg.ykl</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Ebente\ipeg.ykl</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Ebente\ipeg.ykl</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17677,8 +17666,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-198">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>administrator@google[1].txt</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Cookies\administrator@google[1].txt</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Cookies\administrator@google[1].txt</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17689,8 +17677,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-199">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>administrator@google[2].txt</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Cookies\administrator@google[2].txt</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Cookies\administrator@google[2].txt</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17701,8 +17688,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-200">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>message[1].htm</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\message[1].htm</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\message[1].htm</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17713,8 +17699,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-201">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>webhp[1].htm</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\webhp[1].htm</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\webhp[1].htm</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17725,8 +17710,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-202">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>winupdate_uk[1].csv</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\winupdate_uk[1].csv</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\winupdate_uk[1].csv</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17737,8 +17721,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-203">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>winupdate_uk[1].exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\winupdate_uk[1].exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\winupdate_uk[1].exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17837,8 +17820,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-212">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>tmp2b52ce2d.exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\tmp2b52ce2d.exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\tmp2b52ce2d.exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17849,8 +17831,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-213">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>ipeg.ykl</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Ebente\ipeg.ykl</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Application Data\Ebente\ipeg.ykl</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17861,8 +17842,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-214">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>administrator@google[1].txt</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Cookies\administrator@google[1].txt</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Cookies\administrator@google[1].txt</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17873,8 +17853,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-215">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>administrator@google[2].txt</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Cookies\administrator@google[2].txt</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Cookies\administrator@google[2].txt</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17885,8 +17864,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-216">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>message[1].htm</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\message[1].htm</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\message[1].htm</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17897,8 +17875,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-217">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>webhp[1].htm</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\webhp[1].htm</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\webhp[1].htm</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17909,8 +17886,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-218">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>winupdate_uk[1].csv</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\winupdate_uk[1].csv</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\winupdate_uk[1].csv</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17921,8 +17897,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-219">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>winupdate_uk[1].exe</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\winupdate_uk[1].exe</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">C:\Documents and Settings\Administrator\Local Settings\Temporary Internet Files\Content.IE5\WDUF49AN\winupdate_uk[1].exe</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17944,8 +17919,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-221">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>Endpoint</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\Afd\Endpoint</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\Afd\Endpoint</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17956,8 +17930,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-222">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>RasAcd</FileObj:File_Name>
-                                                    <FileObj:Full_Path>\Device\RasAcd</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">\Device\RasAcd</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -17969,14 +17942,12 @@
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-223">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Name>ipeg.ykl</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Ebente\ipeg.ykl</FileObj:Full_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-224">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Name>ipeg.tmp</FileObj:File_Name>
-                                                    <FileObj:Full_Path>C:\Documents and Settings\Administrator\Application Data\Ebente\ipeg.tmp</FileObj:Full_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -18031,8 +18002,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec-obj-561">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
-                                                    <FileObj:File_Name>MountPointManager</FileObj:File_Name>
-                                                    <FileObj:Full_Path>MountPointManager</FileObj:Full_Path>
+                                                    <FileObj:File_Path fully_qualified="true">MountPointManager</FileObj:File_Path>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
                                             </cybox:Associated_Object>
