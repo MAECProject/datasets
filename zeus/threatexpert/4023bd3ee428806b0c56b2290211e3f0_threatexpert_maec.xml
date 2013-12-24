@@ -24,10 +24,10 @@
  http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
  http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
  http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.0.1/Win_Registry_Key_Object.xsd
- http://cybox.mitre.org/objects#URIObject-2 http://cybox.mitre.org/XMLSchema/objects/URI/2.0.1/URI_Object.xsd" id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-pkg-1" schema_version="2.0.1">
+ http://cybox.mitre.org/objects#URIObject-2 http://cybox.mitre.org/XMLSchema/objects/URI/2.0.1/URI_Object.xsd" id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-pkg-1" schema_version="2.0.1">
     <maecPackage:Malware_Subjects>
-        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-sub-1">
-            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-1">
+        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-1">
                 <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
                     <FileObj:Size_In_Bytes>29696</FileObj:Size_In_Bytes>
                     <FileObj:Hashes>
@@ -43,10 +43,10 @@
                 </cybox:Properties>
             </maecPackage:Malware_Instance_Object_Attributes>
             <maecPackage:Analyses>
-                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-ana-1">
-                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-bnd-1"/>
+                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-ana-1">
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-bnd-1"/>
                     <maecPackage:Tools>
-                        <maecPackage:Tool id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-tol-1">
+                        <maecPackage:Tool id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-tol-1">
                             <cyboxCommon:Name>ThreatExpert</cyboxCommon:Name>
                             <cyboxCommon:Vendor>ThreatExpert</cyboxCommon:Vendor>
                         </maecPackage:Tool>
@@ -54,7 +54,7 @@
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-bnd-1" schema_version="4.0.1">
                     <maecBundle:AV_Classifications>
                         <maecBundle:AV_Classification>
                             <cyboxCommon:Vendor>Kaspersky</cyboxCommon:Vendor>
@@ -78,30 +78,30 @@
                         </maecBundle:AV_Classification>
                     </maecBundle:AV_Classifications>
                     <maecBundle:Behaviors>
-                        <maecBundle:Behavior id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-bhv-1">
+                        <maecBundle:Behavior id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-bhv-1">
                             <maecBundle:Description>Contains characteristics of an identified security risk.</maecBundle:Description>
                         </maecBundle:Behavior>
                     </maecBundle:Behaviors>
                     <maecBundle:Collections>
                         <maecBundle:Action_Collections>
-                            <maecBundle:Action_Collection name="Process Actions" id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-actc-1">
+                            <maecBundle:Action_Collection name="Process Actions" id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-actc-1">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-2">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-2">
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-1">
+                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-1">
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="Registry Actions" id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-actc-2">
+                            <maecBundle:Action_Collection name="Registry Actions" id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-actc-2">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-3">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-3">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-3">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-3">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Clients\StartMenuInternet\firefox.exe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -110,10 +110,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-4">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-4">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-4">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-4">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Clients\StartMenuInternet\firefox.exe\shell</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -122,10 +122,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-5">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-5">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-5">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-5">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Clients\StartMenuInternet\firefox.exe\shell\open</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -134,10 +134,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-6">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-6">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-6">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-6">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Clients\StartMenuInternet\firefox.exe\shell\open\command</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -146,10 +146,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-7">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-7">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-7">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-7">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\FTP Commander</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -158,10 +158,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-8">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-8">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-8">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-8">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\FTP Commander Deluxe</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -170,10 +170,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-9">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-9">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-9">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-9">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\FTP Commander Pro</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -182,10 +182,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-10">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-10">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-10">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-10">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\FTP Navigator</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -194,10 +194,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-11">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-11">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-11">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-11">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\FileZilla Client</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -206,10 +206,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-12">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-12">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-12">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-12">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\FlashFXP</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -218,10 +218,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-13">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-13">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-13">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-13">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\FlashFXP\3</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -230,10 +230,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-14">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-14">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-14">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-14">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Ghisler</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -242,10 +242,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-15">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-15">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-15">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-15">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Ghisler\Windows Commander</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -254,10 +254,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-16">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-16">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-16">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-16">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\FlashFXP</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -266,10 +266,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-17">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-17">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-17">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-17">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\FlashFXP\3</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -278,10 +278,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-18">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-18">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-18">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\FTPRush</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -290,10 +290,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-19">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-19">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-19">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-19">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\Ghisler</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -302,10 +302,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-20">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-20">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-20">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-20">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\Ghisler\Windows Commander</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -314,10 +314,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-21">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-21">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-21">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-21">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\UltraFXP</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -326,10 +326,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-22">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-22">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-22">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\VanDyke</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -338,10 +338,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-23">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-23">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-23">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-23">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\VanDyke\SecureFX</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -350,10 +350,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-24">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-24">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-24">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Classes\Software\FlashFXP</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -362,10 +362,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-25">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-25">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-25">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-25">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Classes\Software\FlashFXP\3</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -374,10 +374,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-26">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-26">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-26">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-26">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Classes\Software\FTPRush</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -386,10 +386,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-27">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-27">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-27">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-27">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Classes\Software\Ghisler</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -398,10 +398,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-28">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-28">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-28">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Classes\Software\Ghisler\Windows Commander</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -410,10 +410,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-29">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-29">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-29">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-29">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Classes\Software\UltraFXP</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -422,10 +422,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-30">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-30">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-30">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-30">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Classes\Software\VanDyke</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -434,10 +434,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-31">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-31">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-31">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-31">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Classes\Software\VanDyke\SecureFX</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -446,10 +446,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-32">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-32">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-32">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-32">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\FlashFXP</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -458,10 +458,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-33">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-33">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-33">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-33">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\FlashFXP\3</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -470,10 +470,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-34">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-34">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-34">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-34">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\FTPRush</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -482,10 +482,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-35">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-35">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-35">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-35">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Ghisler</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -494,10 +494,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-36">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-36">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-36">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-36">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Ghisler\Windows Commander</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -506,10 +506,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-37">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-37">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-37">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-37">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\UltraFXP</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -518,10 +518,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-38">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-38">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-38">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-38">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\VanDyke</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -530,10 +530,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-39">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-39">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-39">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-39">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\VanDyke\SecureFX</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -544,22 +544,22 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-actc-3">
+                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-actc-3">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-1">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-1">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-1"/>
+                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-1"/>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="Network Actions" id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-actc-4">
+                            <maecBundle:Action_Collection name="Network Actions" id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-actc-4">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-act-40">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-act-40">
                                         <cybox:Name xsi:type="maecVocabs:SocketActionNameVocab-1.0">get host by name</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec4023BD3EE428806B0C56B2290211E3F0-obj-40">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4023BD3EE428806B0C56B2290211E3F0-obj-40">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
                                                     <URIObj:Value datatype="anyURI">loaddasig.com</URIObj:Value>
                                                 </cybox:Properties>

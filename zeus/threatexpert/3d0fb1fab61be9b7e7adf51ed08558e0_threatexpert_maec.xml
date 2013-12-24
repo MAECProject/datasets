@@ -22,10 +22,10 @@
  http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
  http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
  http://cybox.mitre.org/objects#PortObject-2 http://cybox.mitre.org/XMLSchema/objects/Port/2.0.1/Port_Object.xsd
- http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.0.1/Address_Object.xsd" id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-pkg-1" schema_version="2.0.1">
+ http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.0.1/Address_Object.xsd" id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-pkg-1" schema_version="2.0.1">
     <maecPackage:Malware_Subjects>
-        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-sub-1">
-            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-1">
+        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-1">
                 <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
                     <FileObj:Size_In_Bytes>360448</FileObj:Size_In_Bytes>
                     <FileObj:Hashes>
@@ -41,10 +41,10 @@
                 </cybox:Properties>
             </maecPackage:Malware_Instance_Object_Attributes>
             <maecPackage:Analyses>
-                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-ana-1">
-                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-bnd-1"/>
+                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-ana-1">
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-bnd-1"/>
                     <maecPackage:Tools>
-                        <maecPackage:Tool id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-tol-1">
+                        <maecPackage:Tool id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-tol-1">
                             <cyboxCommon:Name>ThreatExpert</cyboxCommon:Name>
                             <cyboxCommon:Vendor>ThreatExpert</cyboxCommon:Vendor>
                         </maecPackage:Tool>
@@ -52,37 +52,37 @@
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-bnd-1" schema_version="4.0.1">
                     <maecBundle:Collections>
                         <maecBundle:Action_Collections>
-                            <maecBundle:Action_Collection name="Process Actions" id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-actc-1">
+                            <maecBundle:Action_Collection name="Process Actions" id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-actc-1">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-act-2">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-act-2">
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-1">
+                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-1">
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-actc-2">
+                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-actc-2">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-act-1">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-act-1">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-1"/>
+                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-1"/>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="Network Actions" id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-actc-3">
+                            <maecBundle:Action_Collection name="Network Actions" id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-actc-3">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-act-3">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-act-3">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">open port</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-3">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-3">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
                                                     <PortObj:Port_Value datatype="positiveInteger">1054</PortObj:Port_Value>
                                                     <PortObj:Layer4_Protocol datatype="string">TCP</PortObj:Layer4_Protocol>
@@ -91,16 +91,16 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-act-4">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-act-4">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to ip</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-4">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-4">
                                                 <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>176.9.42.247</AddressObj:Address_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-5">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-5">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
                                                     <PortObj:Port_Value datatype="positiveInteger">8332</PortObj:Port_Value>
                                                 </cybox:Properties>

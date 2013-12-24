@@ -38,10 +38,10 @@
  http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
  http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.0.1/Address_Object.xsd
  http://cybox.mitre.org/objects#PortObject-2 http://cybox.mitre.org/XMLSchema/objects/Port/2.0.1/Port_Object.xsd
- http://cybox.mitre.org/objects#URIObject-2 http://cybox.mitre.org/XMLSchema/objects/URI/2.0.1/URI_Object.xsd" id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-pkg-1" schema_version="2.0.1">
+ http://cybox.mitre.org/objects#URIObject-2 http://cybox.mitre.org/XMLSchema/objects/URI/2.0.1/URI_Object.xsd" id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-pkg-1" schema_version="2.0.1">
     <maecPackage:Malware_Subjects>
-        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-sub-1">
-            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-1">
+        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-1">
                 <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
                     <FileObj:Size_In_Bytes>178688</FileObj:Size_In_Bytes>
                     <FileObj:Hashes>
@@ -57,10 +57,10 @@
                 </cybox:Properties>
             </maecPackage:Malware_Instance_Object_Attributes>
             <maecPackage:Analyses>
-                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-ana-1">
-                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-bnd-1"/>
+                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-ana-1">
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-bnd-1"/>
                     <maecPackage:Tools>
-                        <maecPackage:Tool id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-tol-1">
+                        <maecPackage:Tool id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-tol-1">
                             <cyboxCommon:Name>ThreatExpert</cyboxCommon:Name>
                             <cyboxCommon:Vendor>ThreatExpert</cyboxCommon:Vendor>
                         </maecPackage:Tool>
@@ -68,7 +68,7 @@
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-bnd-1" schema_version="4.0.1">
                     <maecBundle:AV_Classifications>
                         <maecBundle:AV_Classification>
                             <cyboxCommon:Vendor>Sophos</cyboxCommon:Vendor>
@@ -76,27 +76,27 @@
                         </maecBundle:AV_Classification>
                     </maecBundle:AV_Classifications>
                     <maecBundle:Behaviors>
-                        <maecBundle:Behavior id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-bhv-1">
+                        <maecBundle:Behavior id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-bhv-1">
                             <maecBundle:Description>Threat characteristics of ZBot - a banking trojan that disables firewall, steals sensitive financial data (credit card numbers, online banking login details), makes screen snapshots, downloads additional components, and provides a hacker with the remote access to the compromised system.</maecBundle:Description>
                         </maecBundle:Behavior>
-                        <maecBundle:Behavior id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-bhv-2">
+                        <maecBundle:Behavior id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-bhv-2">
                             <maecBundle:Description>Downloads/requests other files from Internet.</maecBundle:Description>
                         </maecBundle:Behavior>
-                        <maecBundle:Behavior id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-bhv-3">
+                        <maecBundle:Behavior id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-bhv-3">
                             <maecBundle:Description>Creates a startup registry entry.</maecBundle:Description>
                         </maecBundle:Behavior>
-                        <maecBundle:Behavior id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-bhv-4">
+                        <maecBundle:Behavior id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-bhv-4">
                             <maecBundle:Description>Contains characteristics of an identified security risk.</maecBundle:Description>
                         </maecBundle:Behavior>
                     </maecBundle:Behaviors>
                     <maecBundle:Collections>
                         <maecBundle:Action_Collections>
-                            <maecBundle:Action_Collection name="Memory Actions" id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-actc-1">
+                            <maecBundle:Action_Collection name="Memory Actions" id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-actc-1">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-5">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-5">
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-5">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-5">
                                                 <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
                                                     <ProcessObj:Name>cmd.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
@@ -105,7 +105,7 @@
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-6">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-6">
                                                 <cybox:Properties xsi:type="MemoryObj:MemoryObjectType">
                                                     <MemoryObj:Region_Size>196608</MemoryObj:Region_Size>
                                                 </cybox:Properties>
@@ -115,12 +115,12 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="Registry Actions" id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-actc-2">
+                            <maecBundle:Action_Collection name="Registry Actions" id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-actc-2">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-6">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-6">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-7">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-7">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Ypba</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -129,10 +129,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-7">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-7">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-8">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-8">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Windows\CurrentVersion\Run</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -147,10 +147,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-8">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-8">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-9">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-9">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Ypba</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -165,10 +165,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-9">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-9">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-9">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-9">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Ypba</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -183,10 +183,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-10">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-10">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-9">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-9">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Ypba</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -203,12 +203,12 @@
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-actc-3">
+                            <maecBundle:Action_Collection name="File Actions" id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-actc-3">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-1">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-1">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-2">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-2">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Path fully_qualified="false">%AppData%\Ales\ufreo.tic</FileObj:File_Path>
                                                     <FileObj:Size_In_Bytes>326</FileObj:Size_In_Bytes>
@@ -227,10 +227,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-2">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-2">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-3">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-3">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Path fully_qualified="false">%AppData%\Oqdeyg\yrme.exe</FileObj:File_Path>
                                                     <FileObj:Size_In_Bytes>157696</FileObj:Size_In_Bytes>
@@ -249,10 +249,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-3">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-3">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-4">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-4">
                                                 <cybox:Properties xsi:type="FileObj:FileObjectType">
                                                     <FileObj:File_Path fully_qualified="false">%Temp%\tmpd88eaeb9.bat</FileObj:File_Path>
                                                     <FileObj:Size_In_Bytes>168</FileObj:Size_In_Bytes>
@@ -271,26 +271,26 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-4">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-4">
                                         <cybox:Name xsi:type="maecVocabs:FileActionNameVocab-1.0">create file</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-1"/>
+                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-1"/>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
                                 </maecBundle:Action_List>
                             </maecBundle:Action_Collection>
-                            <maecBundle:Action_Collection name="Network Actions" id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-actc-4">
+                            <maecBundle:Action_Collection name="Network Actions" id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-actc-4">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-11">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-11">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to ip</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-10">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-10">
                                                 <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>173.236.32.2</AddressObj:Address_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-11">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-11">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
                                                     <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
                                                 </cybox:Properties>
@@ -298,16 +298,16 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-12">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-12">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to ip</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-12">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-12">
                                                 <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>74.125.65.105</AddressObj:Address_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-13">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-13">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
                                                     <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
                                                 </cybox:Properties>
@@ -315,10 +315,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-13">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-13">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-14">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-14">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
                                                     <URIObj:Value datatype="anyURI">http://kldmten.net/include/dm.jpg</URIObj:Value>
                                                 </cybox:Properties>
@@ -326,10 +326,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-14">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-14">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-15">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-15">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
                                                     <URIObj:Value datatype="anyURI">http://kldmten.net/include/footer.php</URIObj:Value>
                                                 </cybox:Properties>
@@ -337,10 +337,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-15">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-15">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-16">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-16">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
                                                     <URIObj:Value datatype="anyURI">http://kldmten.net/www/rap.exe</URIObj:Value>
                                                 </cybox:Properties>
@@ -348,10 +348,10 @@
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-act-16">
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-16">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec25D94BB5F3C66601B7FABAE508C2951C-obj-17">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-17">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
                                                     <URIObj:Value datatype="anyURI">http://www.google.com/webhp</URIObj:Value>
                                                 </cybox:Properties>
