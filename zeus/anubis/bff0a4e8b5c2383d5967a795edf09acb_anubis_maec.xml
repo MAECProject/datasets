@@ -13,6 +13,7 @@
  xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2" 
  xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2" 
  xmlns:WinServiceObj="http://cybox.mitre.org/objects#WinServiceObject-2" 
+ xmlns:WinProcessObj="http://cybox.mitre.org/objects#WinProcessObject-2" 
  xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2" 
  xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
  xmlns:PipeObj="http://cybox.mitre.org/objects#PipeObject-2" 
@@ -26,7 +27,6 @@
  xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2" 
  xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2" 
  xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2" 
- xmlns:WinProcessObj="http://cybox.mitre.org/objects#WinProcessObject-2" 
  xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2" 
  xmlns:MemoryObj="http://cybox.mitre.org/objects#MemoryObject-2" 
  xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
@@ -37,6 +37,7 @@
  http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.0.1/Process_Object.xsd
  http://cybox.mitre.org/objects#NetworkConnectionObject-2 http://cybox.mitre.org/XMLSchema/objects/Network_Connection/2.0.1/Network_Connection_Object.xsd
  http://cybox.mitre.org/objects#WinServiceObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Service/2.0.1/Win_Service_Object.xsd
+ http://cybox.mitre.org/objects#WinProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Process/2.0.1/Win_Process_Object.xsd
  http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.0.1/Win_Registry_Key_Object.xsd
  http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
  http://cybox.mitre.org/objects#PipeObject-2 http://cybox.mitre.org/XMLSchema/objects/Pipe/2.0.1/Pipe_Object.xsd" id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-pkg-1" schema_version="2.0.1">
@@ -937,9 +938,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-32">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>bEvtService.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\System32\bEvtService.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\System32\bEvtService.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -950,7 +952,7 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-33">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
                                                     <ProcessObj:Image_Info>
                                                         <ProcessObj:Command_Line>C:\WINDOWS\System32\bEvtService.exe -k netsvcs</ProcessObj:Command_Line>
                                                     </ProcessObj:Image_Info>
@@ -963,9 +965,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-34">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>bEvtService.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\System32\bEvtService.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\System32\bEvtService.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -976,9 +979,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">read from process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-35">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>bEvtService.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\System32\bEvtService.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\System32\bEvtService.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -989,9 +993,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-36">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>bEvtService.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\System32\bEvtService.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\System32\bEvtService.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>

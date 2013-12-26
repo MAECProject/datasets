@@ -12,6 +12,7 @@
  xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2" 
  xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2" 
  xmlns:WinMutexObj="http://cybox.mitre.org/objects#WinMutexObject-2" 
+ xmlns:WinProcessObj="http://cybox.mitre.org/objects#WinProcessObject-2" 
  xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2" 
  xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
  xmlns:PipeObj="http://cybox.mitre.org/objects#PipeObject-2" 
@@ -28,6 +29,7 @@
  xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2" 
  xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2" 
  xmlns:MutexObj="http://cybox.mitre.org/objects#MutexObject-2" 
+ xmlns:MemoryObj="http://cybox.mitre.org/objects#MemoryObject-2" 
  xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
  http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.0.1/maec_package_schema.xsd
  http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
@@ -35,6 +37,7 @@
  http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
  http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.0.1/Process_Object.xsd
  http://cybox.mitre.org/objects#WinMutexObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Mutex/2.0.1/Win_Mutex_Object.xsd
+ http://cybox.mitre.org/objects#WinProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Process/2.0.1/Win_Process_Object.xsd
  http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.0.1/Win_Registry_Key_Object.xsd
  http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
  http://cybox.mitre.org/objects#PipeObject-2 http://cybox.mitre.org/XMLSchema/objects/Pipe/2.0.1/Pipe_Object.xsd" id="maec-anubis_to_maec_2ed2386bfbd31a1104e402a0c97c1aa6-pkg-1" schema_version="2.0.1">
@@ -394,9 +397,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_2ed2386bfbd31a1104e402a0c97c1aa6-obj-155">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>taskmgrsx.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -407,10 +411,11 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_2ed2386bfbd31a1104e402a0c97c1aa6-obj-156">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>taskmgrsx.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:File_Name>
                                                         <ProcessObj:Command_Line>"C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe" </ProcessObj:Command_Line>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -421,9 +426,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_2ed2386bfbd31a1104e402a0c97c1aa6-obj-157">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>taskmgrsx.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -434,9 +440,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">read from process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_2ed2386bfbd31a1104e402a0c97c1aa6-obj-158">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>taskmgrsx.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -447,9 +454,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_2ed2386bfbd31a1104e402a0c97c1aa6-obj-159">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>taskmgrsx.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Start Menu\Programs\Startup\taskmgrsx.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>

@@ -11,6 +11,7 @@
  xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2" 
  xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2" 
  xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2" 
+ xmlns:WinProcessObj="http://cybox.mitre.org/objects#WinProcessObject-2" 
  xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2" 
  xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
  xmlns:PipeObj="http://cybox.mitre.org/objects#PipeObject-2" 
@@ -26,12 +27,14 @@
  xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2" 
  xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2" 
  xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2" 
+ xmlns:MemoryObj="http://cybox.mitre.org/objects#MemoryObject-2" 
  xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
  http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.0.1/maec_package_schema.xsd
  http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
  http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
  http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
  http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.0.1/Process_Object.xsd
+ http://cybox.mitre.org/objects#WinProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Process/2.0.1/Win_Process_Object.xsd
  http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.0.1/Win_Registry_Key_Object.xsd
  http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
  http://cybox.mitre.org/objects#PipeObject-2 http://cybox.mitre.org/XMLSchema/objects/Pipe/2.0.1/Pipe_Object.xsd" id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-pkg-1" schema_version="2.0.1">
@@ -370,9 +373,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-101">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>winlogon.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\winlogon.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\winlogon.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -383,9 +387,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">read from process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-102">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>winlogon.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\winlogon.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\winlogon.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -396,9 +401,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-103">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>winlogon.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\winlogon.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\winlogon.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -409,9 +415,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-112">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>svchost.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\svchost.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\svchost.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -422,9 +429,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">read from process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-113">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>svchost.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\svchost.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\svchost.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -435,9 +443,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-114">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>svchost.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\svchost.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\svchost.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -448,9 +457,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-193">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>smss.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\smss.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\smss.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -461,9 +471,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-194">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>services.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\services.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\services.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -474,9 +485,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-195">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>lsass.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\lsass.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\lsass.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -487,9 +499,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-196">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>svchost.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\svchost.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\svchost.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -500,9 +513,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-197">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>svchost.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\svchost.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\svchost.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -513,9 +527,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-198">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name/>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name/>
+                                                        <ProcessObj:Path/>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -526,9 +541,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-199">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>lsass.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\lsass.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\lsass.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -539,9 +555,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-200">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>services.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\services.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\services.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -552,9 +569,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-201">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>smss.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\smss.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\smss.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -565,9 +583,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_5399538f7bd932efb5430d9b06c73b62-obj-202">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>svchost.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\svchost.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\svchost.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>

@@ -13,6 +13,7 @@
  xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2" 
  xmlns:WinMutexObj="http://cybox.mitre.org/objects#WinMutexObject-2" 
  xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2" 
+ xmlns:WinProcessObj="http://cybox.mitre.org/objects#WinProcessObject-2" 
  xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2" 
  xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
  xmlns:PipeObj="http://cybox.mitre.org/objects#PipeObject-2" 
@@ -28,6 +29,7 @@
  xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2" 
  xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2" 
  xmlns:MutexObj="http://cybox.mitre.org/objects#MutexObject-2" 
+ xmlns:MemoryObj="http://cybox.mitre.org/objects#MemoryObject-2" 
  xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
  http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.0.1/maec_package_schema.xsd
  http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
@@ -36,6 +38,7 @@
  http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.0.1/Process_Object.xsd
  http://cybox.mitre.org/objects#WinMutexObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Mutex/2.0.1/Win_Mutex_Object.xsd
  http://cybox.mitre.org/objects#NetworkConnectionObject-2 http://cybox.mitre.org/XMLSchema/objects/Network_Connection/2.0.1/Network_Connection_Object.xsd
+ http://cybox.mitre.org/objects#WinProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Process/2.0.1/Win_Process_Object.xsd
  http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.0.1/Win_Registry_Key_Object.xsd
  http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
  http://cybox.mitre.org/objects#PipeObject-2 http://cybox.mitre.org/XMLSchema/objects/Pipe/2.0.1/Pipe_Object.xsd" id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-pkg-1" schema_version="2.0.1">
@@ -1220,9 +1223,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-104">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>avgu.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1233,7 +1237,7 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-105">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
                                                     <ProcessObj:Image_Info>
                                                         <ProcessObj:Command_Line>"C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe"</ProcessObj:Command_Line>
                                                     </ProcessObj:Image_Info>
@@ -1246,9 +1250,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-106">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>cmd.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\cmd.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\cmd.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1259,7 +1264,7 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-107">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
                                                     <ProcessObj:Image_Info>
                                                         <ProcessObj:Command_Line>"C:\WINDOWS\system32\cmd.exe" /c "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\tmp43acdf81.bat"</ProcessObj:Command_Line>
                                                     </ProcessObj:Image_Info>
@@ -1272,9 +1277,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-108">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>avgu.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1285,9 +1291,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-109">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>cmd.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\cmd.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\cmd.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1298,9 +1305,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">read from process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-110">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>avgu.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1311,9 +1319,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">read from process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-111">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>cmd.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\cmd.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\cmd.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1324,9 +1333,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">read from process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-112">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>ac4bd1359b.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\ac4bd1359b.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\ac4bd1359b.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1337,9 +1347,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-113">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>avgu.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1350,9 +1361,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-114">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>cmd.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\cmd.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\cmd.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1363,9 +1375,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-167">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>wscntfy.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\wscntfy.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\wscntfy.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1376,9 +1389,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-168">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>explorer.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\explorer.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\explorer.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1389,9 +1403,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-169">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>ctfmon.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\ctfmon.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\ctfmon.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1402,9 +1417,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-170">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>cmd.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\cmd.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\cmd.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1415,9 +1431,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-171">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>nwor.exeor.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\nwor.exeor.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\nwor.exeor.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1428,9 +1445,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-172">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>rjher.exeer.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\rjher.exeer.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\rjher.exeer.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1441,9 +1459,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessThreadActionNameVocab-1.0">create remote thread in process</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-173">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>ac4bd1359b.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\ac4bd1359b.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\ac4bd1359b.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -1454,9 +1473,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">read from process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-174">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>avgu.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Documents and Settings\Administrator\Application Data\Geikky\avgu.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1467,9 +1487,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-175">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>explorer.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\explorer.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\explorer.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1480,9 +1501,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-176">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>cmd.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\cmd.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\cmd.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1493,9 +1515,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-177">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>ctfmon.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\ctfmon.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\ctfmon.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1506,9 +1529,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-178">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>wscntfy.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\WINDOWS\system32\wscntfy.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\WINDOWS\system32\wscntfy.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1519,9 +1543,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-179">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>ac4bd1359b.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\ac4bd1359b.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\ac4bd1359b.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1532,9 +1557,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-180">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>nwor.exeor.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\nwor.exeor.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\nwor.exeor.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1545,9 +1571,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-181">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>rjher.exeer.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\rjher.exeer.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\rjher.exeer.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
@@ -1558,9 +1585,10 @@
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">write to process memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_ac4bd1359b493a8ec118370398c39914-obj-298">
-                                                <cybox:Properties xsi:type="ProcessObj:ProcessObjectType">
+                                                <cybox:Properties xsi:type="WinProcessObj:WindowsProcessObjectType">
+                                                    <ProcessObj:Name>msmsgs.exe</ProcessObj:Name>
                                                     <ProcessObj:Image_Info>
-                                                        <ProcessObj:File_Name>C:\Program Files\Messenger\msmsgs.exe</ProcessObj:File_Name>
+                                                        <ProcessObj:Path>C:\Program Files\Messenger\msmsgs.exe</ProcessObj:Path>
                                                     </ProcessObj:Image_Info>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
