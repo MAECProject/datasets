@@ -320,7 +320,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-17">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-17">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-18">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_BEVTSERVICE\0000\Control</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -338,7 +338,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-18">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-19">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -356,7 +356,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-19">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-20">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -374,7 +374,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-20">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-21">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -392,7 +392,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-21">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-22">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -410,7 +410,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-22">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-23">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -428,7 +428,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-23">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-18">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-24">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -446,7 +446,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-24">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-19">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-25">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_BEVTSERVICE</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -464,7 +464,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-25">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-20">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-26">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\bEvtService\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -482,7 +482,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-26">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-20">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-27">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\bEvtService\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -500,7 +500,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-27">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-20">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-28">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\bEvtService\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -518,7 +518,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-28">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-21">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-29">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\bEvtService\Security</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -536,7 +536,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-29">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-30">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -554,7 +554,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-30">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-31">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -572,7 +572,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-31">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-32">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -590,7 +590,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-32">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-33">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -608,7 +608,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-33">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-22">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-34">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -626,7 +626,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-34">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-23">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-35">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_BEVTSERVICE\0000\Control</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -644,7 +644,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-35">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-23">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-36">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_BEVTSERVICE\0000\Control</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -662,7 +662,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-36">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-37">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -680,7 +680,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-37">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-38">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -698,7 +698,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-38">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-39">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -716,7 +716,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-39">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-40">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -734,7 +734,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-40">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-41">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -752,7 +752,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-41">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-24">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-42">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_BEVTSERVICE\0000</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -770,7 +770,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-42">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-25">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-43">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_BEVTSERVICE</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -788,7 +788,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-43">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-26">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-44">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\bEvtService\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -806,7 +806,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-44">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-26">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-45">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\bEvtService\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -824,7 +824,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-45">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-26">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-46">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\bEvtService\Enum</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -842,7 +842,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-46">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-27">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-47">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\bEvtService\Security</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -860,7 +860,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-47">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-48">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -878,7 +878,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-48">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-49">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -896,7 +896,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-49">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-50">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -914,7 +914,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-50">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-51">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -932,7 +932,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-51">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-52">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Services\bEvtService</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -950,7 +950,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-52">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-29">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-53">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Control\ServiceCurrent</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -962,7 +962,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-53">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-30">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-54">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Control\ServiceCurrent</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -997,7 +997,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-54">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-31">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-55">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>wljs903111mutaga</MutexObj:Name>
                                                 </cybox:Properties>
@@ -1008,7 +1008,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-55">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-32">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-56">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>WinEth0Pause</MutexObj:Name>
                                                 </cybox:Properties>
@@ -1019,7 +1019,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-56">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-33">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-57">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>mï¿½ï¿½ï¿½111vertiga</MutexObj:Name>
                                                 </cybox:Properties>
@@ -1030,7 +1030,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-57">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-34">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-58">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>mc56ï¿½56ï¿½11gurtaga</MutexObj:Name>
                                                 </cybox:Properties>
@@ -1041,7 +1041,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-58">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-35">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-59">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>crypt32LogoffPortEvent</MutexObj:Name>
                                                 </cybox:Properties>
@@ -1052,7 +1052,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-59">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-36">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-60">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>memoryhallocblock</MutexObj:Name>
                                                 </cybox:Properties>
@@ -1063,7 +1063,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-60">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-37">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-61">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>zone_zdc_mutex</MutexObj:Name>
                                                 </cybox:Properties>
@@ -1074,7 +1074,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-61">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-38">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-62">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>MACLinkForever</MutexObj:Name>
                                                 </cybox:Properties>
@@ -1089,7 +1089,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-62">
                                         <cybox:Name xsi:type="maecVocabs:SocketActionNameVocab-1.0">get host by address</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-39">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-63">
                                                 <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>206.137.17.89</AddressObj:Address_Value>
                                                 </cybox:Properties>
@@ -1100,7 +1100,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-63">
                                         <cybox:Name xsi:type="maecVocabs:SocketActionNameVocab-1.0">get host by address</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-40">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-64">
                                                 <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>85.17.90.205</AddressObj:Address_Value>
                                                 </cybox:Properties>
@@ -1111,7 +1111,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-64">
                                         <cybox:Name xsi:type="maecVocabs:SocketActionNameVocab-1.0">get host by name</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-41">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-65">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
                                                     <URIObj:Value datatype="anyURI">mxs.mail.ru</URIObj:Value>
                                                 </cybox:Properties>
@@ -1122,14 +1122,14 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-act-65">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-42">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-66">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
                                                     <URIObj:Value datatype="anyURI">mxs.mail.ru</URIObj:Value>
                                                 </cybox:Properties>
                                             </cybox:Associated_Object>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-43">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_BFF0A4E8B5C2383D5967A795EDF09ACB-obj-67">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">3366</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>3366</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>

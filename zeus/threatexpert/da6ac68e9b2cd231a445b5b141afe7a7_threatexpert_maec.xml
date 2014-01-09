@@ -109,7 +109,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_DA6AC68E9B2CD231A445B5B141AFE7A7-obj-3">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">1053</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>1053</PortObj:Port_Value>
                                                     <PortObj:Layer4_Protocol datatype="string">TCP</PortObj:Layer4_Protocol>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>

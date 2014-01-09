@@ -245,7 +245,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-9">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">1060</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>1060</PortObj:Port_Value>
                                                     <PortObj:Layer4_Protocol datatype="string">TCP</PortObj:Layer4_Protocol>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -257,7 +257,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-10">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">1062</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>1062</PortObj:Port_Value>
                                                     <PortObj:Layer4_Protocol datatype="string">TCP</PortObj:Layer4_Protocol>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -275,7 +275,7 @@
                                             </cybox:Associated_Object>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-12">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>80</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -292,7 +292,7 @@
                                             </cybox:Associated_Object>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-14">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>80</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -309,7 +309,7 @@
                                             </cybox:Associated_Object>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-16">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>80</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -326,7 +326,7 @@
                                             </cybox:Associated_Object>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-18">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>80</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -343,7 +343,7 @@
                                             </cybox:Associated_Object>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-20">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>80</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -360,7 +360,7 @@
                                             </cybox:Associated_Object>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-22">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">1234</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>1234</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -371,7 +371,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-23">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://174.37.200.82/config.php</URIObj:Value>
+                                                    <URIObj:Value>http://174.37.200.82/config.php</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -382,7 +382,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-24">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://rapidshare.com/files/459703639/bin.exe</URIObj:Value>
+                                                    <URIObj:Value>http://rapidshare.com/files/459703639/bin.exe</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -393,7 +393,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-25">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://x.myspacecdn.com/modules/splash/static/img/cornersSheet.png</URIObj:Value>
+                                                    <URIObj:Value>http://x.myspacecdn.com/modules/splash/static/img/cornersSheet.png</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -404,7 +404,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-26">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://x.myspacecdn.com/images/BrowserUpgrade/bg_infobox.jpg</URIObj:Value>
+                                                    <URIObj:Value>http://x.myspacecdn.com/images/BrowserUpgrade/bg_infobox.jpg</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -415,7 +415,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-27">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://x.myspacecdn.com/images/BrowserUpgrade/icon_information.gif</URIObj:Value>
+                                                    <URIObj:Value>http://x.myspacecdn.com/images/BrowserUpgrade/icon_information.gif</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -426,7 +426,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-28">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://x.myspacecdn.com/images/BrowserUpgrade/bg_browserSection.jpg</URIObj:Value>
+                                                    <URIObj:Value>http://x.myspacecdn.com/images/BrowserUpgrade/bg_browserSection.jpg</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -437,7 +437,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-29">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://x.myspacecdn.com/images/BrowserUpgrade/browserLogos_med.jpg</URIObj:Value>
+                                                    <URIObj:Value>http://x.myspacecdn.com/images/BrowserUpgrade/browserLogos_med.jpg</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -448,7 +448,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-30">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://browseusers.myspace.com/Browse/Browse.aspx</URIObj:Value>
+                                                    <URIObj:Value>http://browseusers.myspace.com/Browse/Browse.aspx</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -459,7 +459,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-31">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://www.myspace.com/browse/people</URIObj:Value>
+                                                    <URIObj:Value>http://www.myspace.com/browse/people</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -470,7 +470,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_27EDDB3F5F269A3717A739FC048507F0-obj-32">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://www.myspace.com/help/browserunsupported</URIObj:Value>
+                                                    <URIObj:Value>http://www.myspace.com/help/browserunsupported</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>

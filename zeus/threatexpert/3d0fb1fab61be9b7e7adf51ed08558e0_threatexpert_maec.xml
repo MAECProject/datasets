@@ -84,7 +84,7 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-3">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">1054</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>1054</PortObj:Port_Value>
                                                     <PortObj:Layer4_Protocol datatype="string">TCP</PortObj:Layer4_Protocol>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
@@ -102,7 +102,7 @@
                                             </cybox:Associated_Object>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_3D0FB1FAB61BE9B7E7ADF51ED08558E0-obj-5">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">8332</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>8332</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>

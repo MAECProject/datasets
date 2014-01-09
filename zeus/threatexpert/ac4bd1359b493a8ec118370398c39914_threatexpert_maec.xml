@@ -225,7 +225,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-act-13">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-13">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-14">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -237,7 +237,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-act-14">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-14">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-15">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -249,7 +249,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-act-15">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-15">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-16">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -261,7 +261,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-act-16">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-15">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-17">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -273,7 +273,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-act-17">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-16">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-18">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -285,7 +285,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-act-18">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-16">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_AC4BD1359B493A8EC118370398C39914-obj-19">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>

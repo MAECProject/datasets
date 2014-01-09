@@ -367,7 +367,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-20">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-27">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-28">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\{43BF8CD1-C5D5-2230-7BB2-98F22C2B7DC6}</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -385,7 +385,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-21">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-28">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-29">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -403,7 +403,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-22">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-29">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-30">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Paths</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -421,7 +421,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-23">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-30">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-31">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Paths\path1</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -439,7 +439,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-24">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-31">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-32">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Paths\path2</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -457,7 +457,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-25">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-32">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-33">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Paths\path3</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -475,7 +475,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-26">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-33">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-34">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Cache\Paths\path4</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -493,7 +493,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-27">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-34">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-35">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
@@ -511,7 +511,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-28">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-35">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-36">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -529,7 +529,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-29">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-35">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-37">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -649,7 +649,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-30">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-36">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-38">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>__SYSTEM__91C38905__</MutexObj:Name>
                                                 </cybox:Properties>
@@ -660,7 +660,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-31">
                                         <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-37">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-39">
                                                 <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
                                                     <MutexObj:Name>6C9A3C3001C928030000025C2</MutexObj:Name>
                                                 </cybox:Properties>
@@ -675,15 +675,15 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-32">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-38">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-40">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">91.203.92.92</URIObj:Value>
+                                                    <URIObj:Value>91.203.92.92</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-39">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-41">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>80</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -692,7 +692,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-act-33">
                                         <cybox:Name xsi:type="maecVocabs:HTTPActionNameVocab-1.0">send http get request</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-40">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_076E5B2BAE0B4B3A3D81C85610B95CD4-obj-42">
                                                 <cybox:Properties xsi:type="HTTPSessionObj:HTTPSessionObjectType">
                                                     <HTTPSessionObj:HTTP_Request_Response>
                                                         <HTTPSessionObj:HTTP_Client_Request>
@@ -707,7 +707,7 @@
                                                                             <URIObj:Value>91.203.92.92</URIObj:Value>
                                                                         </HTTPSessionObj:Domain_Name>
                                                                         <HTTPSessionObj:Port xsi:type="PortObj:PortObjectType">
-                                                                            <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
+                                                                            <PortObj:Port_Value>80</PortObj:Port_Value>
                                                                         </HTTPSessionObj:Port>
                                                                     </HTTPSessionObj:Host>
                                                                 </HTTPSessionObj:Parsed_Header>

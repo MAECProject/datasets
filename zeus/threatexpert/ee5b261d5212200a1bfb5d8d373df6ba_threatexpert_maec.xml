@@ -157,7 +157,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_EE5B261D5212200A1BFB5D8D373DF6BA-act-11">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_EE5B261D5212200A1BFB5D8D373DF6BA-obj-10">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_EE5B261D5212200A1BFB5D8D373DF6BA-obj-11">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>
@@ -169,7 +169,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_EE5B261D5212200A1BFB5D8D373DF6BA-act-12">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_EE5B261D5212200A1BFB5D8D373DF6BA-obj-10">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_EE5B261D5212200A1BFB5D8D373DF6BA-obj-12">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_USERS</WinRegistryKeyObj:Hive>

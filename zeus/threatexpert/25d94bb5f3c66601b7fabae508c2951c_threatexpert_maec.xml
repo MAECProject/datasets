@@ -168,7 +168,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-9">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-9">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-10">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Ypba</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -186,7 +186,7 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-10">
                                         <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-9">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-11">
                                                 <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
                                                     <WinRegistryKeyObj:Key>Software\Microsoft\Ypba</WinRegistryKeyObj:Key>
                                                     <WinRegistryKeyObj:Hive>HKEY_CURRENT_USER</WinRegistryKeyObj:Hive>
@@ -284,15 +284,15 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-11">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to ip</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-10">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-12">
                                                 <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>173.236.32.2</AddressObj:Address_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-11">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-13">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>80</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -301,15 +301,15 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-12">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to ip</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-12">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-14">
                                                 <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>74.125.65.105</AddressObj:Address_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-13">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-15">
                                                 <cybox:Properties xsi:type="PortObj:PortObjectType">
-                                                    <PortObj:Port_Value datatype="positiveInteger">80</PortObj:Port_Value>
+                                                    <PortObj:Port_Value>80</PortObj:Port_Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -318,9 +318,9 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-13">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-14">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-16">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://kldmten.net/include/dm.jpg</URIObj:Value>
+                                                    <URIObj:Value>http://kldmten.net/include/dm.jpg</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -329,9 +329,9 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-14">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-15">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-17">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://kldmten.net/include/footer.php</URIObj:Value>
+                                                    <URIObj:Value>http://kldmten.net/include/footer.php</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -340,9 +340,9 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-15">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-16">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-18">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://kldmten.net/www/rap.exe</URIObj:Value>
+                                                    <URIObj:Value>http://kldmten.net/www/rap.exe</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
@@ -351,9 +351,9 @@
                                     <maecBundle:Action id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-act-16">
                                         <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
                                         <cybox:Associated_Objects>
-                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-17">
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_25D94BB5F3C66601B7FABAE508C2951C-obj-19">
                                                 <cybox:Properties xsi:type="URIObj:URIObjectType">
-                                                    <URIObj:Value datatype="anyURI">http://www.google.com/webhp</URIObj:Value>
+                                                    <URIObj:Value>http://www.google.com/webhp</URIObj:Value>
                                                 </cybox:Properties>
                                                 <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
                                             </cybox:Associated_Object>
