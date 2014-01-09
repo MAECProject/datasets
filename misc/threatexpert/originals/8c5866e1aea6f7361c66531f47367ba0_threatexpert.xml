@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>9</day>
+						<month>2</month>
+						<year>2011</year>
+						<hour>3</hour>
+						<minute>1</minute>
+						<second>1</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>11</minutes>
+						<seconds>23</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>8C5866E1AEA6F7361C66531F47367BA0</md5>
+							<sha1>84E0CD4488CACAAC6DDBE5DB4C93A0A69D6F67EE</sha1>
+							<filesize>48662</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Mal/VBDrop-G</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Downloads/requests other files from Internet.</description>
+						<severity>1</severity>
+					</flag>
+					<flag>
+						<description>Creates a startup registry entry.</description>
+						<severity>2</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>%Windir%\QPService.exe</filename>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>8C5866E1AEA6F7361C66531F47367BA0</md5>
+							<sha1>84E0CD4488CACAAC6DDBE5DB4C93A0A69D6F67EE</sha1>
+							<filesize>48662</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Mal/VBDrop-G</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+					<notes_collection>
+						<note>%Windir% is a variable that refers to the Windows installation folder. By default, this is C:\Windows or C:\Winnt.</note>
+					</notes_collection>
+				</added_files>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>QPService.exe</process_name>
+							<process_filename>%Windir%\qpservice.exe</process_filename>
+							<main_module_size>98304</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<added_regkeys>
+					<regkey>HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer</regkey>
+					<regkey>HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Control Panel</regkey>
+				</added_regkeys>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>InstallShield Update Service</value>
+								<contents>&quot;QPService.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+						<notes_collection>
+							<note>so that QPService.exe runs every time Windows starts</note>
+						</notes_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Control Panel</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>HomePage</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<deleted_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>load</value>
+								<contents>&quot;&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</deleted_regvalues>
+				<modified_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Start Page</value>
+								<contents></contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</modified_regvalues>
+				<connect_ip_api>
+					<connect_ip>
+						<ip>173.192.205.192</ip>
+						<port_number>80</port_number>
+					</connect_ip>
+				</connect_ip_api>
+				<internetopenurl_api>
+					<url>http://schn.in/client_hujILILili/info.php?frevny=68996155&amp;bf=KC-FC7&amp;qrynl=8155555&amp;ire=fpu66&amp;hcqngvzr=7</url>
+				</internetopenurl_api>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

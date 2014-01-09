@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>23</day>
+						<month>9</month>
+						<year>2012</year>
+						<hour>21</hour>
+						<minute>32</minute>
+						<second>58</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>8</minutes>
+						<seconds>28</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>55794B97A7FAABD2910873C85274F409</md5>
+							<sha1>58E80C90BF54850B5F3CCBD8EDF0877537E0EA8E</sha1>
+							<filesize>93184</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+			</submission_summary>
+			<technical_details>
+				<screen_gif>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</screen_gif>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>55794B97A7FAABD2910873C85274F409</md5>
+							<sha1>58E80C90BF54850B5F3CCBD8EDF0877537E0EA8E</sha1>
+							<filesize>93184</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+				</added_files>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>102400</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<gethostbyname_api>
+					<host>192.5.5.241</host>
+				</gethostbyname_api>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

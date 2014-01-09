@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+  <report_version>
+	  <major>3</major>
+		<minor>1</minor>
+	</report_version>
+	<configuration>
+	  <time_needed>240 s</time_needed>
+		<report_created>09/24/09, 21:50:04 UTC</report_created>
+		<termination_reason>Timeout</termination_reason>
+		<ttanalyze_version>
+		  <prog_version>1.72.0</prog_version>
+			<svn_revision>$Revision: 2214 $</svn_revision>
+			<build_date>Sep  4 2009 19:50:22</build_date>
+		</ttanalyze_version>
+	</configuration>
+	<summary>
+	  <auto_start>false</auto_start>
+		<internet_settings>false</internet_settings>
+		<bho>false</bho>
+		<win_dir_copy>false</win_dir_copy>
+		<av_kill>false</av_kill>
+		<com_object>false</com_object>
+		<dlf>false</dlf>
+		<ircbot>false</ircbot>
+		<spambot>false</spambot>
+		<addressscan>false</addressscan>
+		<portscan>false</portscan>
+		<file_modification_destruction>false</file_modification_destruction>
+		<process_spawn>false</process_spawn>
+		<all_reg_activities>true</all_reg_activities>
+		<severity_level>0</severity_level>
+	</summary>
+	<analysis_subject>
+	  <general>
+		  <id>2</id>
+			<parent_id>1</parent_id>
+			<analysis_reason>Primary Analysis Subject</analysis_reason>
+			<submission_fn>a2e722bad96734a23eff0c447d280831-742957ec4ac245538985d6e8f9559991</submission_fn>
+			<virtual_fn>a2e722bad96734a23eff0c447d280831-742957ec4ac245538985d6e8f9559991</virtual_fn>
+			<virtual_path>C:\a2e722bad96734a23eff0c447d280831-742957ec4ac245538985d6e8f9559991</virtual_path>
+			<arguments>"C:\a2e722bad96734a23eff0c447d280831-742957ec4ac245538985d6e8f9559991" </arguments>
+			<status>alive</status>
+			<exit_code>0</exit_code>
+			<md5>f7a0f8d044c333ad3b7d65a6485af931</md5>
+			<sha1>a381aed69ed753618e0b3930c78243701af44d7d</sha1>
+			<file_size>29184</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+		</dll_dependencies>
+		<activities>
+		  <registry_activities>
+			  <reg_value_read count="2" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSAppCompat"/>
+			</registry_activities>
+			<file_activities>
+			  <fs_control_communication control_code="0x00090028" count="1" file="C:\"/>
+			</file_activities>
+		</activities>
+	</analysis_subject>
+</analysis>

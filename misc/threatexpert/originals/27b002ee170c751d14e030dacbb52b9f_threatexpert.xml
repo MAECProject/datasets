@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>24</day>
+						<month>4</month>
+						<year>2011</year>
+						<hour>3</hour>
+						<minute>18</minute>
+						<second>28</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>8</minutes>
+						<seconds>27</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>27B002EE170C751D14E030DACBB52B9F</md5>
+							<sha1>59061250D2E3F7674C926BC8A82A367EDC47BF36</sha1>
+							<filesize>2496912</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav>Trojan.Win32.FraudPack.ayhp</alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools>RogueAntiSpyware.AntivirusElite</alias_pctools>
+							<alias_sophos>Troj/FakeAV-BJX</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus>Trojan.Win32.FakeAV</alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Downloads/requests other files from Internet.</description>
+						<severity>1</severity>
+					</flag>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Trojan</name>
+						<description>A malicious trojan horse or bot that may represent security risk for the compromised system and/or its network environment</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>%CommonPrograms%\Anti-Virus Elite\Anti-Virus Elite .lnk</filename>
+							</filenames_collection>
+							<md5>D404BEB6BB1A782A371492B08174D68D</md5>
+							<sha1>03BACECE4B850082E04AE78AE95B0EE5AB8CAF54</sha1>
+							<filesize>722</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%CommonPrograms%\Anti-Virus Elite\Uninstall Anti-Virus Elite .lnk</filename>
+							</filenames_collection>
+							<md5>4E25486E89277BB4C7869EC208891DAC</md5>
+							<sha1>B4A6787A88D6415020A892E958D2ED571963CC3B</sha1>
+							<filesize>682</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%DesktopDir%\Anti-Virus Elite.lnk</filename>
+							</filenames_collection>
+							<md5>13DC6FA87C5880CD50B14899842EC52D</md5>
+							<sha1>0B8387C12549D004BB077DC7CF8433CE4FBE94BC</sha1>
+							<filesize>778</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%ProgramFiles%\Anti-Virus Elite\adgutils.dll</filename>
+							</filenames_collection>
+							<md5>8B8464D090D814566269D9BB3FA8DDE3</md5>
+							<sha1>1476CCB4E616B58BFC316D513478B58CFC05D781</sha1>
+							<filesize>131072</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%ProgramFiles%\Anti-Virus Elite\Anti-Virus Elite.exe</filename>
+							</filenames_collection>
+							<md5>6BA5AF8B333F4F2AE2D42B9A5BDDE516</md5>
+							<sha1>F7FEB253DE1EC1B8DDC897649D8F161F762BB434</sha1>
+							<filesize>1708032</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav>Trojan.Win32.FraudPack.ayhp</alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools>RogueAntiSpyware.AntivirusElite</alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft>Rogue:Win32/FakeSmoke</alias_microsoft>
+							<alias_ikarus>Trojan.Win32.FakeAV</alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%ProgramFiles%\Anti-Virus Elite\noadware4_040310.na</filename>
+							</filenames_collection>
+							<md5>D41D8CD98F00B204E9800998ECF8427E</md5>
+							<sha1>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</sha1>
+							<filesize>0</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%ProgramFiles%\Anti-Virus Elite\unins000.dat</filename>
+							</filenames_collection>
+							<md5>39618021931E51C3DA09B0A11D8164E8</md5>
+							<sha1>BF2D9A2B9A6C1181F5B40FB2580B02F46AE3D370</sha1>
+							<filesize>4126</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%ProgramFiles%\Anti-Virus Elite\unins000.exe</filename>
+							</filenames_collection>
+							<md5>8AC7763DF6581A7F85290A129A44E0D0</md5>
+							<sha1>A1DD25F94936797063CA658B00E417C9E2144312</sha1>
+							<filesize>710426</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%ProgramFiles%\Anti-Virus Elite\UninstlDll.dll</filename>
+							</filenames_collection>
+							<md5>1522A7429FF7FD3015BD1F8D8C2E7103</md5>
+							<sha1>334E8F3E9A0D04CFAA9848300DBDAC9B2F0BA0EB</sha1>
+							<filesize>385024</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>27B002EE170C751D14E030DACBB52B9F</md5>
+							<sha1>59061250D2E3F7674C926BC8A82A367EDC47BF36</sha1>
+							<filesize>2496912</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav>Trojan.Win32.FraudPack.ayhp</alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools>RogueAntiSpyware.AntivirusElite</alias_pctools>
+							<alias_sophos>Troj/FakeAV-BJX</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus>Trojan.Win32.FakeAV</alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+					<notes_collection>
+						<note>%CommonPrograms% is a variable that refers to the file system directory that contains the directories for the common program groups that appear on the Start menu for all users. A typical path is C:\Documents and Settings\All Users\Start Menu\Programs (Windows NT/2000/XP).</note>
+						<note>%DesktopDir% is a variable that refers to the file system directory used to physically store file objects on the desktop. A typical path is C:\Documents and Settings\[UserName]\Desktop.</note>
+						<note>%ProgramFiles% is a variable that refers to the Program Files folder. A typical path is C:\Program Files.</note>
+					</notes_collection>
+				</added_files>
+				<added_directories>
+					<dirnames_collection>
+						<dirname>%CommonPrograms%\Anti-Virus Elite</dirname>
+						<dirname>%ProgramFiles%\Anti-Virus Elite</dirname>
+						<dirname>%ProgramFiles%\Anti-Virus Elite\logs</dirname>
+					</dirnames_collection>
+				</added_directories>
+				<added_regkeys>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Anti-Virus Elite 5.0_is1</regkey>
+					<regkey>HKEY_CURRENT_USER\Software\Anti-Virus Elite</regkey>
+				</added_regkeys>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Anti-Virus Elite 5.0_is1</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Inno Setup: Setup Version</value>
+								<contents>&quot;5.3.8 (a)&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Inno Setup: App Path</value>
+								<contents>&quot;%ProgramFiles%\Anti-Virus Elite&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>InstallLocation</value>
+								<contents>&quot;%ProgramFiles%\Anti-Virus Elite\&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Inno Setup: Icon Group</value>
+								<contents>&quot;Anti-Virus Elite&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Inno Setup: User</value>
+								<contents>&quot;%UserName%&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Inno Setup: Selected Tasks</value>
+								<contents>&quot;desktopicon&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Inno Setup: Deselected Tasks</value>
+								<contents>&quot;&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Inno Setup: Language</value>
+								<contents>&quot;default&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>DisplayName</value>
+								<contents>&quot;Anti-Virus Elite v5.0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>UninstallString</value>
+								<contents>&quot;&quot;%ProgramFiles%\Anti-Virus Elite\unins000.exe&quot;&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>QuietUninstallString</value>
+								<contents>&quot;&quot;%ProgramFiles%\Anti-Virus Elite\unins000.exe&quot; /SILENT&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>NoModify</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>NoRepair</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>InstallDate</value>
+								<contents>&quot;20110424&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Anti-Virus Elite</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>pv</value>
+								<contents>&quot;5.0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>df</value>
+								<contents>&quot;noadware4_040310.na&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>un</value>
+								<contents>&quot;&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>rc</value>
+								<contents>&quot;&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>ver</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>ras</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>sas</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>mtst</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>asl</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>scantype</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>scnlg</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>abrs</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>acu</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>clsshlds</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>dntstrtshld</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>nowarn</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Schedule Scan</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Weekly Scan</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Periodic</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>WeekDay</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Period</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Time</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>shup</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>ghmpg</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>hmpg</value>
+								<contents>&quot;about:blank&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>gfv</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>iehj</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>hsts</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>rltime</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>acbl</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>path</value>
+								<contents>&quot;%ProgramFiles%\anti-virus elite&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>xpath</value>
+								<contents>&quot;%ProgramFiles%\anti-virus elite\xblk.na&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>lfp</value>
+								<contents>&quot;%ProgramFiles%\anti-virus elite\logs&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>rfp</value>
+								<contents>&quot;%ProgramFiles%\anti-virus elite\noadware4_040310.na&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>firstrun</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>cokieshld</value>
+								<contents>&quot;0&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>strupshld</value>
+								<contents>&quot;1&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>srchpge</value>
+								<contents>&quot;http://www.microsoft.com/isapi/redir.dll?prd=ie&amp;ar=iesearch&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<modified_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Local Page</value>
+								<contents></contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</modified_regvalues>
+				<countries>
+					<country>Netherlands</country>
+				</countries>
+				<connect_ip_api>
+					<connect_ip>
+						<ip>69.20.64.54</ip>
+						<port_number>80</port_number>
+					</connect_ip>
+				</connect_ip_api>
+				<internetopenurl_api>
+					<url>http://www.noadware.net/def/def_zip.html</url>
+				</internetopenurl_api>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

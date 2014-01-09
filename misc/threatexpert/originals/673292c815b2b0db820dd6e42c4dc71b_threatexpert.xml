@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>11</day>
+						<month>4</month>
+						<year>2012</year>
+						<hour>13</hour>
+						<minute>13</minute>
+						<second>38</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>9</minutes>
+						<seconds>41</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>673292C815B2B0DB820DD6E42C4DC71B</md5>
+							<sha1>BCE302520626D73E35F5D2214C2FD87BE8E0B3DC</sha1>
+							<filesize>458752</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+			</submission_summary>
+			<technical_details>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>7</day>
+						<month>3</month>
+						<year>2011</year>
+						<hour>2</hour>
+						<minute>11</minute>
+						<second>46</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>11</minutes>
+						<seconds>8</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>420620A302B13D261CBF6A7ABEECA6E3</md5>
+							<sha1>4D60D4D84FC56515B90FBBFB1817DB1F79A2578F</sha1>
+							<filesize>247062</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav>P2P-Worm.Win32.Palevo.aaad</alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Mal/Resdro-A</alias_sophos>
+							<alias_microsoft>TrojanDropper:Win32/Agent.FO</alias_microsoft>
+							<alias_ikarus>Virus.Win32.Flot</alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Worm</name>
+						<description>A network-aware worm that attempts to replicate across the existing network(s)</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>420620A302B13D261CBF6A7ABEECA6E3</md5>
+							<sha1>4D60D4D84FC56515B90FBBFB1817DB1F79A2578F</sha1>
+							<filesize>247062</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav>P2P-Worm.Win32.Palevo.aaad</alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Mal/Resdro-A</alias_sophos>
+							<alias_microsoft>TrojanDropper:Win32/Agent.FO</alias_microsoft>
+							<alias_ikarus>Virus.Win32.Flot</alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+				</added_files>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

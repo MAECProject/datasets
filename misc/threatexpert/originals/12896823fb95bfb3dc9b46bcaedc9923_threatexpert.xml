@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>29</day>
+						<month>11</month>
+						<year>2012</year>
+						<hour>20</hour>
+						<minute>50</minute>
+						<second>4</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>6</minutes>
+						<seconds>30</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>12896823FB95BFB3DC9B46BCAEDC9923</md5>
+							<sha1>9D2BF84874ABC5B6E9A2744B7865C193C08D362F</sha1>
+							<filesize>1033728</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+			</submission_summary>
+			<technical_details>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>1044480</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<gethostbyname_api>
+					<host>192.5.5.241</host>
+				</gethostbyname_api>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

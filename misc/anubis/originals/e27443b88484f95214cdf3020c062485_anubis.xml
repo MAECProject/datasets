@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<analysis>
+  <report_version>
+	  <major>3</major>
+		<minor>2</minor>
+	</report_version>
+	<configuration>
+	  <time_needed>281 s</time_needed>
+		<report_created>07/31/11, 11:39:45 UTC</report_created>
+		<termination_reason>Timeout</termination_reason>
+		<ttanalyze_version>
+		  <prog_version>1.75.3394</prog_version>
+			<svn_revision>$Revision: 3603 $</svn_revision>
+			<build_date>Mar 10 2011 15:22:54</build_date>
+		</ttanalyze_version>
+	</configuration>
+	<summary>
+	  <auto_start>false</auto_start>
+		<internet_settings>false</internet_settings>
+		<bho>false</bho>
+		<win_dir_copy>false</win_dir_copy>
+		<av_kill>false</av_kill>
+		<com_object>false</com_object>
+		<dlf>false</dlf>
+		<ircbot>false</ircbot>
+		<spambot>false</spambot>
+		<addressscan>false</addressscan>
+		<portscan>false</portscan>
+		<file_modification_destruction>false</file_modification_destruction>
+		<process_spawn>false</process_spawn>
+		<all_reg_activities>true</all_reg_activities>
+		<write_to_foreign_mem_area>false</write_to_foreign_mem_area>
+		<install_service>false</install_service>
+		<load_driver>false</load_driver>
+		<install_ie_toolbar>false</install_ie_toolbar>
+		<disable_win_update>false</disable_win_update>
+		<change_win_firewall_settings>false</change_win_firewall_settings>
+		<harvesting_emails>false</harvesting_emails>
+		<mod_sys_files>false</mod_sys_files>
+		<modify_files_only_in_user_dir>false</modify_files_only_in_user_dir>
+		<packed_binary>true</packed_binary>
+		<av_hit>true</av_hit>
+		<crash>false</crash>
+		<autorun>false</autorun>
+		<severity_level>0</severity_level>
+	</summary>
+	<analysis_subject>
+	  <general>
+		  <id>2</id>
+			<parent_id>1</parent_id>
+			<analysis_reason>Primary Analysis Subject</analysis_reason>
+			<submission_fn>e27443b88484f95214cdf3020c062485.amada</submission_fn>
+			<virtual_fn>e27443b884.exe</virtual_fn>
+			<virtual_path>C:\e27443b884.exe</virtual_path>
+			<arguments>"C:\e27443b884.exe"</arguments>
+			<status>alive</status>
+			<exit_code>0</exit_code>
+			<md5>e27443b88484f95214cdf3020c062485</md5>
+			<sha1>55f6dcb160cb5a086fb68c2548500b3c6ae573e4</sha1>
+			<file_size>2545214</file_size>
+		</general>
+		<dll_dependencies>
+		  <loaded_dll base_address="0x7C900000" base_name="ntdll.dll" full_name="C:\WINDOWS\system32\ntdll.dll" is_load_time_dependency="1" load_time="1" size="0x000AF000"/>
+			<loaded_dll base_address="0x7C800000" base_name="kernel32.dll" full_name="C:\WINDOWS\system32\kernel32.dll" is_load_time_dependency="1" load_time="1" size="0x000F6000"/>
+			<loaded_dll base_address="0x7E410000" base_name="USER32.dll" full_name="C:\WINDOWS\system32\USER32.dll" is_load_time_dependency="1" load_time="1" size="0x00091000"/>
+			<loaded_dll base_address="0x77F10000" base_name="GDI32.dll" full_name="C:\WINDOWS\system32\GDI32.dll" is_load_time_dependency="1" load_time="1" size="0x00049000"/>
+			<loaded_dll base_address="0x7C9C0000" base_name="SHELL32.dll" full_name="C:\WINDOWS\system32\SHELL32.dll" is_load_time_dependency="1" load_time="1" size="0x00817000"/>
+			<loaded_dll base_address="0x77DD0000" base_name="ADVAPI32.dll" full_name="C:\WINDOWS\system32\ADVAPI32.dll" is_load_time_dependency="1" load_time="1" size="0x0009B000"/>
+			<loaded_dll base_address="0x77E70000" base_name="RPCRT4.dll" full_name="C:\WINDOWS\system32\RPCRT4.dll" is_load_time_dependency="1" load_time="1" size="0x00092000"/>
+			<loaded_dll base_address="0x77FE0000" base_name="Secur32.dll" full_name="C:\WINDOWS\system32\Secur32.dll" is_load_time_dependency="1" load_time="1" size="0x00011000"/>
+			<loaded_dll base_address="0x77C10000" base_name="msvcrt.dll" full_name="C:\WINDOWS\system32\msvcrt.dll" is_load_time_dependency="1" load_time="1" size="0x00058000"/>
+			<loaded_dll base_address="0x77F60000" base_name="SHLWAPI.dll" full_name="C:\WINDOWS\system32\SHLWAPI.dll" is_load_time_dependency="1" load_time="1" size="0x00076000"/>
+			<loaded_dll base_address="0x773D0000" base_name="COMCTL32.dll" full_name="C:\WINDOWS\WinSxS\X86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\COMCTL32.dll" is_load_time_dependency="1" load_time="1" size="0x00103000"/>
+			<loaded_dll base_address="0x774E0000" base_name="ole32.dll" full_name="C:\WINDOWS\system32\ole32.dll" is_load_time_dependency="1" load_time="1" size="0x0013D000"/>
+			<loaded_dll base_address="0x77C00000" base_name="VERSION.dll" full_name="C:\WINDOWS\system32\VERSION.dll" is_load_time_dependency="1" load_time="1" size="0x00008000"/>
+			<loaded_dll base_address="0x10000000" base_name="LangDLL.dll" full_name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\LangDLL.dll" is_load_time_dependency="0" load_time="2" size="0x00006000"/>
+			<loaded_dll base_address="0x5AD70000" base_name="UxTheme.dll" full_name="C:\WINDOWS\system32\UxTheme.dll" is_load_time_dependency="0" load_time="2" size="0x00038000"/>
+			<loaded_dll base_address="0x74720000" base_name="MSCTF.dll" full_name="C:\WINDOWS\system32\MSCTF.dll" is_load_time_dependency="0" load_time="2" size="0x0004C000"/>
+			<loaded_dll base_address="0x74E30000" base_name="RichEd20.dll" full_name="C:\WINDOWS\system32\RichEd20.dll" is_load_time_dependency="0" load_time="2" size="0x0006D000"/>
+			<loaded_dll base_address="0x763B0000" base_name="comdlg32.dll" full_name="C:\WINDOWS\system32\comdlg32.dll" is_load_time_dependency="0" load_time="2" size="0x00049000"/>
+			<loaded_dll base_address="0x76780000" base_name="SHFOLDER.dll" full_name="C:\WINDOWS\system32\SHFOLDER.dll" is_load_time_dependency="0" load_time="2" size="0x00009000"/>
+			<loaded_dll base_address="0x77920000" base_name="SETUPAPI.dll" full_name="C:\WINDOWS\system32\SETUPAPI.dll" is_load_time_dependency="0" load_time="2" size="0x000F3000"/>
+		</dll_dependencies>
+		<activities>
+		  <registry_activities>
+			  <reg_value_modified count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{a1094da8-30a0-11dd-817b-806d6172696f}\" value_data="Drive" value_name="BaseClass"/>
+				<reg_value_modified count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{a1094daa-30a0-11dd-817b-806d6172696f}\" value_data="Drive" value_name="BaseClass"/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\CLASSES\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\INPROCSERVER32" value_data="%SystemRoot%\system32\SHELL32.dll" value_name=""/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\CLASSES\DIRECTORY" value_data="" value_name="AlwaysShowExt"/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\CLASSES\DRIVE\SHELLEX\FOLDEREXTENSIONS\{FBEB8A05-BEEE-4442-804E-409D6C4515E9}" value_data="32" value_name="DriveMask"/>
+				<reg_value_read count="1" key="HKLM\SOFTWARE\Microsoft\CTF\SystemShared\" value_data="0" value_name="CUAS"/>
+				<reg_value_read count="1" key="HKLM\SYSTEM\CurrentControlSet\Control\Session Manager" value_data="2592000" value_name="CriticalSectionTimeout"/>
+				<reg_value_read count="2" key="HKLM\SYSTEM\Setup" value_data="\" value_name="OsLoaderPath"/>
+				<reg_value_read count="2" key="HKLM\SYSTEM\Setup" value_data="\Device\HarddiskVolume1" value_name="SystemPartition"/>
+				<reg_value_read count="1" key="HKLM\SYSTEM\Setup" value_data="0" value_name="SystemSetupInProgress"/>
+				<reg_value_read count="1" key="HKLM\Software\Microsoft\Windows\CurrentVersion" value_data="%SystemRoot%\inf" value_name="DevicePath"/>
+				<reg_value_read count="2" key="HKLM\Software\Microsoft\Windows\CurrentVersion" value_data="C:\Program Files" value_name="ProgramFilesDir"/>
+				<reg_value_read count="2" key="HKLM\Software\Microsoft\Windows\CurrentVersion\Setup" value_data="%SystemRoot%\Driver Cache" value_name="DriverCachePath"/>
+				<reg_value_read count="2" key="HKLM\Software\Microsoft\Windows\CurrentVersion\Setup" value_data="0" value_name="LogLevel"/>
+				<reg_value_read count="2" key="HKLM\Software\Microsoft\Windows\CurrentVersion\Setup" value_data="c:\windows\ServicePackFiles\ServicePackCache" value_name="ServicePackCachePath"/>
+				<reg_value_read count="2" key="HKLM\Software\Microsoft\Windows\CurrentVersion\Setup" value_data="D:\" value_name="ServicePackSourcePath"/>
+				<reg_value_read count="2" key="HKLM\Software\Microsoft\Windows\CurrentVersion\Setup" value_data="D:\" value_name="SourcePath"/>
+				<reg_value_read count="1" key="HKLM\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers" value_data="1" value_name="TransparentEnabled"/>
+				<reg_value_read count="2" key="HKLM\System\CurrentControlSet\Control\ComputerName\ActiveComputerName" value_data="PC" value_name="ComputerName"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Control\Terminal Server" value_data="0" value_name="TSUserEnabled"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\Tcpip\Parameters" value_data="" value_name="Domain"/>
+				<reg_value_read count="1" key="HKLM\System\CurrentControlSet\Services\Tcpip\Parameters" value_data="pc" value_name="Hostname"/>
+				<reg_value_read count="1" key="HKLM\System\Setup" value_data="0" value_name="SystemSetupInProgress"/>
+				<reg_value_read count="1" key="HKLM\System\WPA\PnP" value_data="1274198464" value_name="seed"/>
+				<reg_value_read count="4" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Keyboard Layout\Toggle" value_data="1" value_name="Language Hotkey"/>
+				<reg_value_read count="4" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Keyboard Layout\Toggle" value_data="2" value_name="Layout Hotkey"/>
+				<reg_value_read count="2" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\" value_data="0x2400000038080000000000000000000000000000010000000d0000000000" value_name="ShellState"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="0" value_name="DontPrettyPath"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="0" value_name="Filter"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="1" value_name="Hidden"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="0" value_name="HideFileExt"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="0" value_name="HideIcons"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="0" value_name="MapNetDrvBtn"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="1" value_name="NoNetCrawling"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="0" value_name="SeparateProcess"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="1" value_name="ShowCompColor"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="1" value_name="ShowInfoTip"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="1" value_name="ShowSuperHidden"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" value_data="0" value_name="WebView"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{a1094da8-30a0-11dd-817b-806d6172696f}\" value_data="0x000000005c005c003f005c0049004400450023004300640052006f006d00" value_name="Data"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{a1094da8-30a0-11dd-817b-806d6172696f}\" value_data="1" value_name="Generation"/>
+				<reg_value_read count="1" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{a1094daa-30a0-11dd-817b-806d6172696f}\" value_data="0x000000005c005c003f005c00530054004f00520041004700450023005600" value_name="Data"/>
+				<reg_value_read count="2" key="HKU\S-1-5-21-842925246-1425521274-308236825-500\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{a1094daa-30a0-11dd-817b-806d6172696f}\" value_data="1" value_name="Generation"/>
+			</registry_activities>
+			<file_activities>
+			  <directory_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\Toolbar.exe"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\Toolbar.xpi"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\captura.bmp"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\InstallOptions.dll"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\LangDLL.dll"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\UAC.dll"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\ioSpecial.ini"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\modern-wizard.bmp"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\pantallacodigo"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\pantallatoolbar"/>
+				<file_created name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsj1.tmp"/>
+				<file_deleted name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp"/>
+				<file_deleted name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsj1.tmp"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\Toolbar.exe"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\Toolbar.xpi"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\captura.bmp"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\InstallOptions.dll"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\LangDLL.dll"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\UAC.dll"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\ioSpecial.ini"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\modern-wizard.bmp"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\pantallacodigo"/>
+				<file_modified name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\pantallatoolbar"/>
+				<file_modified name="MountPointManager"/>
+				<file_modified name="PIPE\lsarpc"/>
+				<file_read name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\ioSpecial.ini"/>
+				<file_read name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\pantallacodigo"/>
+				<file_read name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\pantallatoolbar"/>
+				<file_read name="C:\e27443b884.exe"/>
+				<file_read name="PIPE\lsarpc"/>
+				<section_object_created file_name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\InstallOptions.dll" section_name=""/>
+				<section_object_created file_name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\LangDLL.dll" section_name=""/>
+				<section_object_created file_name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\UAC.dll" section_name=""/>
+				<section_object_created file_name="C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\nsi2.tmp\modern-wizard.bmp" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\WinSxS\X86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\COMCTL32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\WindowsShell.Manifest" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\MSCTF.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\RichEd20.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\SETUPAPI.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\SHELL32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\SHFOLDER.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\UxTheme.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\imm32.dll" section_name=""/>
+				<section_object_created file_name="C:\WINDOWS\system32\rpcss.dll" section_name=""/>
+				<fs_control_communication control_code="0x00090028" count="1" file="C:\Program Files\Common Files\"/>
+				<device_control_communication control_code="0x00390008" count="8" file="\Device\KsecDD"/>
+				<fs_control_communication control_code="0x0011C017" count="6" file="PIPE\lsarpc"/>
+				<device_control_communication control_code="0x004D0008" count="1" file="IDE#CdRomQEMU_QEMU_CD-ROM________________________0.9.____#4d51303030302033202020202020202020202020#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}"/>
+				<device_control_communication control_code="0x006D0008" count="2" file="MountPointManager"/>
+				<device_control_communication control_code="0x004D0008" count="1" file="STORAGE#Volume#1&amp;30a96598&amp;0&amp;SignatureB15FB15FOffset7E00Length13F291800#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}"/>
+				<device_control_communication control_code="0x006D0034" count="4" file="MountPointManager"/>
+			</file_activities>
+		</activities>
+		<sigbuster>NullSoft_PiMP_SFX vna SN: 1724</sigbuster>
+		<ikarus_scanner>
+		  <sig id="62130338" name="Hoax.Win32.ArchSMS"/>
+		</ikarus_scanner>
+		<popups>
+		  <popup number_of_popups="1" window_name="Instalaci.n de Office-Password-Remover">&amp;Siguiente &gt;
+Cancelar
+Bienvenido al Asistente de Instalaci.n de Office-Password-Remover
+Este programa instalar. Office-Password-Remover en su ordenador.
+Se recomienda que cierre todas las dem.s aplicaciones antes de iniciar la instalaci.n. Esto har. posible actualizar archivos relacionados con el sistema sin tener que reiniciar su ordenador.
+Presione Siguiente para continuar.
+ <screenshot src="2.png" src_small="2_thumb.jpg"/>
+			</popup>
+			<popup number_of_popups="4" window_name="Instalaci.n de Office-Password-Remover">&amp;Yes
+&amp;No
+.Est. seguro de que desea salir de la instalaci.n de Office-Password-Remover?
+ <screenshot src="3.png" src_small="3_thumb.jpg"/>
+			</popup>
+		</popups>
+	</analysis_subject>
+	<popups>
+	  <popup number_of_popups="1" process_name="0" window_name="verifying installer: 53%">0<screenshot src="1.png" src_small="1_thumb.jpg"/>
+		</popup>
+	</popups>
+	<global_file_info>
+	  <global_file info="ASCII text, with CRLF line terminators" md5="e2d5070bc28db1ac745613689ff86067" mimetype="text/plain charset=us-ascii" name="ioSpecial.ini" sha1="282e080b4cf847174c5c11e4f9157b8c338ecb19"/>
+		<global_file info="UTF-8 Unicode English text, with CRLF line terminators" md5="ab460caab814eb9b142a9fcf511b8b8f" mimetype="text/plain charset=utf-8" name="pantallacodigo" sha1="1209519b1f4df0e8ed8afd8e8d93729beec22713"/>
+		<global_file info="PC bitmap, Windows 3.x format, 164 x 314 x 8" md5="9e4cd80a60db6947642677bf31a10906" mimetype="image/x-ms-bmp" name="modern-wizard.bmp" sha1="feedc432df18b13ffba2b7478347d885861701fa"/>
+		<global_file info="PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit" md5="7eaad8c651cdeb4a71355b10dbe8d17b" mimetype="application/x-dosexec" name="LangDLL.dll" sha1="1ef6cf4f98c7f20238e548dc6cdb270b741cfe8b"/>
+		<global_file info="PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit" md5="09caf01bc8d88eeb733abc161acff659" mimetype="application/x-dosexec" name="UAC.dll" sha1="b8c2126d641f88628c632dd2259686da3776a6da"/>
+		<global_file info="PE32 executable for MS Windows (DLL) (GUI) Intel 80386 32-bit" md5="fa5beae80dba254fb6c21b58265f5310" mimetype="application/x-dosexec" name="InstallOptions.dll" sha1="f2f776611dbbb157b151aa744a7e0be1d4b8c079"/>
+		<global_file info="PC bitmap, Windows 3.x format, 416 x 82 x 24" md5="d79c06d9c8a4d9bff91464d61ed5c1de" mimetype="image/x-ms-bmp" name="captura.bmp" sha1="a6e842a713af1312596212ab460c0b4adeb00f8b"/>
+		<global_file info="PE32 executable for MS Windows (GUI) Intel 80386 32-bit" md5="1e8453e30b208946c7a180ce83e3a3ee" mimetype="application/x-dosexec" name="Toolbar.exe" sha1="9f98ba013836fd361b6ecfc1ba77e8ad8c3faa63"/>
+		<global_file info="data (Zip archive data, at least v1.0 to extract)" md5="0b3f2c96f2c5cf7a6ee59628a2d2b10a" mimetype="application/octet-stream compressed-encoding=application/zip" name="Toolbar.xpi" sha1="e305e20cb264c500bff350b4b342677d025a08e5"/>
+		<global_file info="ASCII English text, with CRLF line terminators" md5="23a29144a66dde682736b0125e5ef8dd" mimetype="text/plain charset=us-ascii" name="pantallatoolbar" sha1="c0f6a4569479eca43a230d1370c5b4edebb933f3"/>
+	</global_file_info>
+</analysis>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>12</day>
+						<month>6</month>
+						<year>2012</year>
+						<hour>3</hour>
+						<minute>55</minute>
+						<second>48</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>10</minutes>
+						<seconds>35</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>734AADD62D0662256A65510271D40048</md5>
+							<sha1>67E9C32C97B47E058AEEE928C4CDC28773883B90</sha1>
+							<filesize>112096</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Produces outbound traffic.</description>
+						<severity>1</severity>
+					</flag>
+					<flag>
+						<description>Downloads/requests other files from Internet.</description>
+						<severity>1</severity>
+					</flag>
+					<flag>
+						<description>Creates a startup registry entry.</description>
+						<severity>2</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>%AppData%\KB00121600.exe</filename>
+							</filenames_collection>
+							<md5>734AADD62D0662256A65510271D40048</md5>
+							<sha1>67E9C32C97B47E058AEEE928C4CDC28773883B90</sha1>
+							<filesize>112096</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%Temp%\exp1.tmp</filename>
+							</filenames_collection>
+							<md5>D41D8CD98F00B204E9800998ECF8427E</md5>
+							<sha1>DA39A3EE5E6B4B0D3255BFEF95601890AFD80709</sha1>
+							<filesize>0</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+					<notes_collection>
+						<note>%AppData% is a variable that refers to the file system directory that serves as a common repository for application-specific data. A typical path is C:\Documents and Settings\[UserName]\Application Data.</note>
+					</notes_collection>
+				</added_files>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>135168</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+						<added_process>
+							<process_name>KB00121600.exe</process_name>
+							<process_filename>%AppData%\KB00121600.exe</process_filename>
+							<main_module_size>135168</main_module_size>
+							<attached_zip_dump>process_dump_b.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<injected_mempages>
+					<injected_mempages_collection>
+						<injected_mempage>
+							<process_name>explorer.exe</process_name>
+							<process_filename>%Windir%\explorer.exe</process_filename>
+							<allocated_size>135168</allocated_size>
+							<attached_zip_dump>heap_dump_c.zip</attached_zip_dump>
+						</injected_mempage>
+						<injected_mempage>
+							<process_name>IEXPLORE.EXE</process_name>
+							<process_filename>%ProgramFiles%\internet explorer\iexplore.exe</process_filename>
+							<allocated_size>135168</allocated_size>
+							<attached_zip_dump>heap_dump_d.zip</attached_zip_dump>
+						</injected_mempage>
+					</injected_mempages_collection>
+				</injected_mempages>
+				<added_regkeys>
+					<regkey>HKEY_CURRENT_USER\Software\Microsoft\WSH</regkey>
+					<regkey>HKEY_CURRENT_USER\Software\Microsoft\WSH\FB119394</regkey>
+					<regkey>HKEY_CURRENT_USER\Software\Microsoft\WSH\FBDC89D4</regkey>
+				</added_regkeys>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>KB00121600.exe</value>
+								<contents>&quot;&quot;%AppData%\KB00121600.exe&quot;&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+						<notes_collection>
+							<note>so that KB00121600.exe runs every time Windows starts</note>
+						</notes_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<mutexes>
+					<mutex>Local\XMM00000508</mutex>
+					<mutex>Local\XMI00000508</mutex>
+					<mutex>Local\XMRFB119394</mutex>
+					<mutex>Local\XMM0000009C</mutex>
+					<mutex>Local\XMI0000009C</mutex>
+					<mutex>Local\XMM000000D0</mutex>
+					<mutex>Local\XMI000000D0</mutex>
+					<mutex>Local\XMM00000388</mutex>
+					<mutex>Local\XMI00000388</mutex>
+				</mutexes>
+				<internetconnect_api>
+					<internetconnect>
+						<server>85.214.204.32</server>
+						<port_number>8080</port_number>
+						<user_name>85.214.204.32</user_name>
+						<user_password>85.214.204.32</user_password>
+					</internetconnect>
+				</internetconnect_api>
+				<outbound_traffic>
+					<outbound_traffic_element>
+						<port_number>8080</port_number>
+						<textlines_collection>
+							<textline>00000000 | 504F 5354 202F 7A62 2F76 5F30 315F 612F | POST /zb/v_01_a/</textline>
+							<textline>00000010 | 696E 2F20 4854 5450 2F31 2E31 0D0A 4163 | in/ HTTP/1.1..Ac</textline>
+							<textline>00000020 | 6365 7074 3A20 2A2F 2A0D 0A55 7365 722D | cept: */*..User-</textline>
+							<textline>00000030 | 4167 656E 743A 204D 6F7A 696C 6C61 2F35 | Agent: Mozilla/5</textline>
+							<textline>00000040 | 2E30 2028 5769 6E64 6F77 733B 2055 3B20 | .0 (Windows; U;</textline>
+							<textline>00000050 | 4D53 4945 2037 2E30 3B20 5769 6E64 6F77 | MSIE 7.0; Window</textline>
+							<textline>00000060 | 7320 4E54 2036 2E30 3B20 656E 2D55 5329 | s NT 6.0; en-US)</textline>
+							<textline>00000070 | 0D0A 486F 7374 3A20 6C6F 6361 6C68 6F73 | ..Host: localhos</textline>
+							<textline>00000080 | 743A 3830 3830 0D0A 436F 6E74 656E 742D | t:8080..Content-</textline>
+							<textline>00000090 | 4C65 6E67 7468 3A20 3232 390D 0A43 6F6E | Length: 229..Con</textline>
+							<textline>000000A0 | 6E65 6374 696F 6E3A 204B 6565 702D 416C | nection: Keep-Al</textline>
+							<textline>000000B0 | 6976 650D 0A43 6163 6865 2D43 6F6E 7472 | ive..Cache-Contr</textline>
+							<textline>000000C0 | 6F6C 3A20 6E6F 2D63 6163 6865 0D0A 0D0A | ol: no-cache....</textline>
+							<textline>000000D0 | DEAD BEEF E500 0000 0100 0000 35DC 6F97 | ............5.o.</textline>
+							<textline>000000E0 | ADA1 CC63 CE98 B2F8 68B9 3DC5 3178 6EB4 | ...c....h.=.1xn.</textline>
+							<textline>000000F0 | FB33 888B D7F0 0777 AD64 D7A4 1A7D 7C61 | .3.....w.d...}|a</textline>
+							<textline>00000100 | 0DF5 0071 6335 0E80 C683 8B02 B9D6 AA47 | ...qc5.........G</textline>
+							<textline>00000110 | 5409 58FD 8183 5870 9A43 9A20 B136 75B4 | T.X...Xp.C. .6u.</textline>
+							<textline>00000120 | ADB3 DED3 D983 5C0E 37A8 E9B0 4667 4ECA | ......\.7...FgN.</textline>
+							<textline>00000130 | 54DB A6A6 D876 59D5 F3B2 C706 4338 1614 | T....vY.....C8..</textline>
+							<textline>00000140 | DA20 03A8 C2B6 4EA6 4F55 96FF 1C9F DABA | . ....N.OU......</textline>
+							<textline>00000150 | C81E EBFC 9B45 B353 E060 2519 BD7F F2CF | .....E.S.`%.....</textline>
+							<textline>00000160 | 1F7D A012 DD00 303C F29A E1F6 EA62 66E7 | .}....0&lt;.....bf.</textline>
+							<textline>00000170 | FE79 322D 1E8C FCD0 7BAD B05D 2FCF 099B | .y2-....{..]/...</textline>
+							<textline>00000180 | B6F9 E6AD 4E4B B8BE 1CD6 3DEF 3FC9 6ECF | ....NK....=.?.n.</textline>
+							<textline>00000190 | FFC8 7C65 2610 BF63 7E56 EAC8 DE54 24E5 | ..|e&amp;..c~V...T$.</textline>
+							<textline>000001A0 | CB9E B0E0 2CF3 D212 3AF7 38E2 BC77 C5AC | ....,...:.8..w..</textline>
+							<textline>000001B0 | 9318 4AF3 1B                            | ..J..</textline>
+						</textlines_collection>
+					</outbound_traffic_element>
+				</outbound_traffic>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

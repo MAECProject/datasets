@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>4</day>
+						<month>11</month>
+						<year>2013</year>
+						<hour>4</hour>
+						<minute>18</minute>
+						<second>9</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>5</minutes>
+						<seconds>49</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>185C8D11C0611CAE7C81F4458BF1ADEA</md5>
+							<sha1>6128CC714AB2C12A3FE6E18991E1172A2BBDC1A1</sha1>
+							<filesize>418064</filesize>
+							<alias_nav>Backdoor.Bifrose!gen</alias_nav>
+							<alias_kav>Backdoor.Win32.Rbot.hyj</alias_kav>
+							<alias_nai>W32/Sdbot.worm!kq</alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Mal/BigMole-B</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus>Virus.Win32.DelfInject</alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Backdoor</name>
+						<description>A malicious backdoor trojan that runs in the background and allows remote access to the compromised system</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<mutexes>
+					<mutex>_x_X_UPDATE_X_x_</mutex>
+					<mutex>_x_X_PASSWORDLIST_X_x_</mutex>
+					<mutex>_x_X_BLOCKMOUSE_X_x_</mutex>
+				</mutexes>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

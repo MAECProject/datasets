@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>24</day>
+						<month>2</month>
+						<year>2011</year>
+						<hour>2</hour>
+						<minute>46</minute>
+						<second>3</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>16</minutes>
+						<seconds>12</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>047BCD79FA681442B37BDF9B56C2257F</md5>
+							<sha1>42253346A10DBF7EF2A5601B196B36D9B5909734</sha1>
+							<filesize>39424</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer>UPX</packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+			</submission_summary>
+			<technical_details>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>047BCD79FA681442B37BDF9B56C2257F</md5>
+							<sha1>42253346A10DBF7EF2A5601B196B36D9B5909734</sha1>
+							<filesize>39424</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer>UPX</packer>
+						</added_file>
+					</added_files_collection>
+				</added_files>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

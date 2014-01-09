@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>29</day>
+						<month>5</month>
+						<year>2009</year>
+						<hour>3</hour>
+						<minute>46</minute>
+						<second>38</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>8</minutes>
+						<seconds>32</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>EAC6C159414E62AC14BEE02B812ED4D4</md5>
+							<sha1>AEDBD0E626807CC5EBA047850DFFB0AB4F16F0CD</sha1>
+							<filesize>36896</filesize>
+							<alias_nav>Trojan.KillAV</alias_nav>
+							<alias_kav>Trojan-Dropper.Win32.Agent.alzo</alias_kav>
+							<alias_nai>Generic Dropper</alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools>Trojan.KillAV!sd6</alias_pctools>
+							<alias_sophos>Mal/Packer, Mal/EncPk-BW</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus>Trojan.Win32.AntiAV</alias_ikarus>
+							<alias_ahnlab>Packed/Upack</alias_ahnlab>
+							<packer>PE_Patch</packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Downloads/requests other files from Internet.</description>
+						<severity>1</severity>
+					</flag>
+					<flag>
+						<description>Creates a startup registry entry.</description>
+						<severity>2</severity>
+					</flag>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_collection>
+					<known_threat>
+						<name>Trojan-Downloader.Agent!sd6</name>
+						<description>Trojan-Downloader.Agent!sd6 attempts to download malicious files to the local computer and execute them.</description>
+					</known_threat>
+					<known_threat>
+						<name>Hacktool.Rootkit!sd6</name>
+						<description>Hacktool.Rootkit!sd6 is a malicious application that could be used by attackers to break into a system.</description>
+					</known_threat>
+					<known_threat>
+						<name>Trojan.KillAV!sd6</name>
+						<description>Trojan.KillAV!sd6 is a malicious program that does not infect other files but may represents security risk for your computer and/or network environment.</description>
+					</known_threat>
+					<known_threat>
+						<name>Adware.Component.Unrelated</name>
+						<description>These common components have files and keys that are in different threats but the threats are not related to one another in that the author of the signature is not the same. It is recommended that all these entries be removed.</description>
+					</known_threat>
+				</known_threat_collection>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Downloader</name>
+						<description>A program that downloads files to the local computer that may represent security risk</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Keylogger</name>
+						<description>A keylogger program that can capture all user keystrokes (including confidential details such username, password, credit card number, etc.)</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Rootkit</name>
+						<description>A code with the rootkit-specific techniques designed to hide the software presence in the system</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Hacktool</name>
+						<description>A hacktool that could be used by attackers to break into a system</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Trojan</name>
+						<description>A malicious trojan horse or bot that may represent security risk for the compromised system and/or its network environment</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>%Temp%\update~.exe</filename>
+							</filenames_collection>
+							<md5>2030745DC991DE135927B048C265F75F</md5>
+							<sha1>BB799600D22B0925F0997AF598CD71BFFEA47AAB</sha1>
+							<filesize>9728</filesize>
+							<alias_nav>Infostealer.Gampass</alias_nav>
+							<alias_kav>Trojan-Downloader.Win32.Agent.bqsm</alias_kav>
+							<alias_nai>Generic Downloader.h</alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools>Trojan-Downloader.Agent!sd6</alias_pctools>
+							<alias_sophos>Troj/Dowhos-Gen</alias_sophos>
+							<alias_microsoft>TrojanDownloader:Win32/Dogrobot.D</alias_microsoft>
+							<alias_ikarus>Trojan.Win32.Qhost</alias_ikarus>
+							<alias_ahnlab>Win-Trojan/Agent.9728.NP</alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\drivers\pcidump.sys</filename>
+							</filenames_collection>
+							<md5>F8B8A22F61D1923650F0CEBFC24051D6</md5>
+							<sha1>531971827C3B8E7B0463170352E677D69F19E649</sha1>
+							<filesize>11904</filesize>
+							<alias_nav>Hacktool.Rootkit</alias_nav>
+							<alias_kav>Rootkit.Win32.Agent.fia</alias_kav>
+							<alias_nai>Generic.dx</alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools>Hacktool.Rootkit!sd6</alias_pctools>
+							<alias_sophos>Troj/RKProc-Fam</alias_sophos>
+							<alias_microsoft>VirTool:WinNT/Rootkitdrv.DH</alias_microsoft>
+							<alias_ikarus>Rootkit.Win32.Agent</alias_ikarus>
+							<alias_ahnlab>Win-Trojan/Agent.11904.C</alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>%System%\scvhost.exe</filename>
+							</filenames_collection>
+							<md5>EAC6C159414E62AC14BEE02B812ED4D4</md5>
+							<sha1>AEDBD0E626807CC5EBA047850DFFB0AB4F16F0CD</sha1>
+							<filesize>36896</filesize>
+							<alias_nav>Trojan.KillAV</alias_nav>
+							<alias_kav>Trojan-Dropper.Win32.Agent.alzo</alias_kav>
+							<alias_nai>Generic Dropper</alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools>Trojan.KillAV!sd6</alias_pctools>
+							<alias_sophos>Mal/Packer, Mal/EncPk-BW</alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus>Trojan.Win32.AntiAV</alias_ikarus>
+							<alias_ahnlab>Packed/Upack</alias_ahnlab>
+							<packer>PE_Patch</packer>
+						</added_file>
+					</added_files_collection>
+					<notes_collection>
+						<note>%Temp% is a variable that refers to the temporary folder in the short path form. By default, this is C:\Documents and Settings\[UserName]\Local Settings\Temp\ (Windows NT/2000/XP).</note>
+						<note>%System% is a variable that refers to the System folder. By default, this is C:\Windows\System (Windows 95/98/Me), C:\Winnt\System32 (Windows NT/2000), or C:\Windows\System32 (Windows XP).</note>
+					</notes_collection>
+				</added_files>
+				<deleted_files>
+					<filenames_collection>
+						<filename>%System%\drivers\asyncmac.sys</filename>
+					</filenames_collection>
+				</deleted_files>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[generic host process]</process_name>
+							<process_filename>[generic host process filename]</process_filename>
+							<main_module_size>45056</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+						<added_process>
+							<process_name>update~.exe</process_name>
+							<process_filename>%Temp%\update~.exe</process_filename>
+							<main_module_size>16384</main_module_size>
+							<attached_zip_dump>process_dump_b.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+					<notes_collection>
+						<note>[generic host process filename] is a full path filename of [generic host process].</note>
+					</notes_collection>
+				</added_processes>
+				<added_regkeys>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\360Safebox.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\360tray.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\AgentSvr.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\antiarp.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\avp.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\bdagent.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ccapp.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\CCenter.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ccEvtMgr.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ccSetMgr.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ccSvcHst.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\defwatch.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\egui.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ekrn.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\engineserver.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FrameworkService.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KavStart.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KISSvc.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kmailmon.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KPFW32.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KPfwSvc.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KVSrvXP.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\livesrv.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcagent.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcinsupd.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcmscsvc.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcnasvc.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\McProxy.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcshell.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcshield.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcsysmon.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\McTray.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcupdmgr.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mfeann.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mfevtps.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MpfSrv.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MPSVC.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MPSVC3.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\naPrdMgr.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\QQDoctor.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Rav.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RavMon.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RavMonD.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RavStub.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RavTask.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RsAgent.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rsnetsvr.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RsTray.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rtvscan.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\safeboxTray.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ScanFrm.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SHSTAT.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\udaterui.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\vptray.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\vsserv.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\vstskmgr.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\xcommsvr.exe</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_AEC</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_AEC\0000</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_AEC\0000\Control</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_ASYNCMAC</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_ASYNCMAC\0000</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_ASYNCMAC\0000\Control</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_PCIDUMP</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_PCIDUMP\0000</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_PCIDUMP\0000\Control</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\aec</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\aec\Security</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\aec\Enum</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AEC</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AEC\0000</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AEC\0000\Control</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_ASYNCMAC</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_ASYNCMAC\0000</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_ASYNCMAC\0000\Control</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_PCIDUMP</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_PCIDUMP\0000</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_PCIDUMP\0000\Control</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aec</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aec\Security</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\aec\Enum</regkey>
+				</added_regkeys>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>a360</value>
+								<contents>&quot;%System%\scvhost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+						<notes_collection>
+							<note>so that scvhost.exe runs every time Windows starts</note>
+						</notes_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\360Safebox.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>360Safebox.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\360tray.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>360tray.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\AgentSvr.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>AgentSvr.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\antiarp.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>antiarp.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\avp.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>avp.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\bdagent.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>bdagent.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ccapp.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>ccapp.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\CCenter.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>CCenter.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ccEvtMgr.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>ccEvtMgr.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ccSetMgr.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>ccSetMgr.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ccSvcHst.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>ccSvcHst.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\defwatch.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>defwatch.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\egui.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>egui.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ekrn.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>ekrn.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\engineserver.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>engineserver.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\FrameworkService.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>FrameworkService.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KavStart.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>KavStart.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KISSvc.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>KISSvc.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\kmailmon.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>kmailmon.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KPFW32.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>KPFW32.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KPfwSvc.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>KPfwSvc.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\KVSrvXP.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>KVSrvXP.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\livesrv.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>livesrv.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcagent.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mcagent.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcinsupd.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mcinsupd.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcmscsvc.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mcmscsvc.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcnasvc.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mcnasvc.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\McProxy.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>McProxy.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcshell.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mcshell.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcshield.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mcshield.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcsysmon.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mcsysmon.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\McTray.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>McTray.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mcupdmgr.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mcupdmgr.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mfeann.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mfeann.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\mfevtps.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>mfevtps.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MpfSrv.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>MpfSrv.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MPSVC.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>MPSVC.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\MPSVC3.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>MPSVC3.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\naPrdMgr.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>naPrdMgr.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\QQDoctor.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>QQDoctor.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Rav.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Rav.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RavMon.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>RavMon.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RavMonD.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>RavMonD.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RavStub.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>RavStub.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RavTask.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>RavTask.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RsAgent.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>RsAgent.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rsnetsvr.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>rsnetsvr.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\RsTray.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>RsTray.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\rtvscan.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>rtvscan.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\safeboxTray.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>safeboxTray.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\ScanFrm.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>ScanFrm.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SHSTAT.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>SHSTAT.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\udaterui.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>udaterui.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\vptray.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>vptray.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\vsserv.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>vsserv.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\vstskmgr.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>vstskmgr.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\xcommsvr.exe</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>xcommsvr.exe</value>
+								<contents>&quot;%System%\svchost.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_AEC\0000\Control</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>*NewlyCreated*</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>ActiveService</value>
+								<contents>&quot;aec&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_AEC\0000</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Service</value>
+								<contents>&quot;aec&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Legacy</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>ConfigFlags</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>Class</value>
+								<contents>&quot;LegacyDriver&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>ClassGUID</value>
+								<contents>&quot;{8ECC055D-047F-11D1-A537-0000F8753ED1}&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>DeviceDesc</value>
+								<contents>&quot;RCT&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_AEC</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>NextInstance</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_ASYNCMAC\0000\Control</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>*NewlyCreated*</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>ActiveService</value>
+								<contents>&quot;AsyncMac&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_ASYNCMAC\0000</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Service</value>
+								<contents>&quot;AsyncMac&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Legacy</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>ConfigFlags</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>Class</value>
+								<contents>&quot;LegacyDriver&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>ClassGUID</value>
+								<contents>&quot;{8ECC055D-047F-11D1-A537-0000F8753ED1}&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>DeviceDesc</value>
+								<contents>&quot;RAS Asynchronous Media Driver&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_ASYNCMAC</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>NextInstance</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_PCIDUMP\0000\Control</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>*NewlyCreated*</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>ActiveService</value>
+								<contents>&quot;pcidump&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_PCIDUMP\0000</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Service</value>
+								<contents>&quot;pcidump&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Legacy</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>ConfigFlags</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>Class</value>
+								<contents>&quot;LegacyDriver&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>ClassGUID</value>
+								<contents>&quot;{8ECC055D-047F-11D1-A537-0000F8753ED1}&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>DeviceDesc</value>
+								<contents>&quot;pcidump&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\Root\LEGACY_PCIDUMP</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>NextInstance</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\aec\Enum</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>0</value>
+								<contents>&quot;Root\LEGACY_AEC\0000&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Count</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>NextInstance</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\aec\Security</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Security</value>
+								<contents>01 00 14 80 90 00 00 00 9C 00 00 00 14 00 00 00 30 00 00 00 02 00 1C 00 01 00 00 00 02 80 14 00 FF 01 0F 00 01 01 00 00 00 00 00 01 00 00 00 00 02 00 60 00 04 00 00 00 00 00 14 00 FD 01 02 00 01 01 00 00 00 00 00 05 12 00 00 00 00 00 18 00 FF 01 0F 0</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\aec</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Type</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>Start</value>
+								<contents>0x00000003</contents>
+							</regvalue>
+							<regvalue>
+								<value>ErrorControl</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>ImagePath</value>
+								<contents>&quot;%System%\drivers\aec.SYS&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>DisplayName</value>
+								<contents>&quot;RCT&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AEC\0000\Control</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>*NewlyCreated*</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>ActiveService</value>
+								<contents>&quot;aec&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\Root\LEGACY_AEC\0000</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>Service</value>
+								<contents>&quot;aec&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>Legacy</value>
+								<contents>0x00000001</contents>
+							</regvalue>
+							<regvalue>
+								<value>ConfigFlags</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+							<regvalue>
+								<value>Class</value>
+								<contents>&quot;LegacyDriver&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<deleted_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>VMware Tools</value>
+								<contents>&quot;C:\Program Files\VMware\VMware Tools\VMwareTray.exe&quot;</contents>
+							</regvalue>
+							<regvalue>
+								<value>VMware User Process</value>
+								<contents>&quot;C:\Program Files\VMware\VMware Tools\VMwareUser.exe&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</deleted_regvalues>
+				<countries>
+					<country>China</country>
+				</countries>
+				<mutexes>
+					<mutex>XETTETT......</mutex>
+				</mutexes>
+				<urldownloadtofile_api>
+					<urldownloadtofile_collection>
+						<urldownloadtofile>
+							<url>http://g.uye123.com/host.txt</url>
+							<filename>%System%\drivers\etc\hosts</filename>
+						</urldownloadtofile>
+					</urldownloadtofile_collection>
+				</urldownloadtofile_api>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

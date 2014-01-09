@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>7</day>
+						<month>12</month>
+						<year>2011</year>
+						<hour>8</hour>
+						<minute>1</minute>
+						<second>0</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>11</minutes>
+						<seconds>52</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>2E60F2ADBBB397AA62A95AEA3117FC93</md5>
+							<sha1>C7CB0E4C561297EB7390CDB2D89D8E77BEC5DC67</sha1>
+							<filesize>265728</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>Communication with a remote IRC server.</description>
+						<severity>1</severity>
+					</flag>
+					<flag>
+						<description>Produces outbound traffic.</description>
+						<severity>1</severity>
+					</flag>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Trojan</name>
+						<description>A malicious trojan horse or bot that may represent security risk for the compromised system and/or its network environment</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>%Temp%\IXP000.TMP\ERROR_~1.EXE</filename>
+							</filenames_collection>
+							<md5>E56D6E72BFC43C0C0B0BE88A5B9E5AE9</md5>
+							<sha1>4000D46ACEC60A1BCBF1F1D7DB6F3373C635C992</sha1>
+							<filesize>475648</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>2E60F2ADBBB397AA62A95AEA3117FC93</md5>
+							<sha1>C7CB0E4C561297EB7390CDB2D89D8E77BEC5DC67</sha1>
+							<filesize>265728</filesize>
+							<alias_nav></alias_nav>
+							<alias_kav></alias_kav>
+							<alias_nai></alias_nai>
+							<alias_trend></alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos></alias_sophos>
+							<alias_microsoft></alias_microsoft>
+							<alias_ikarus></alias_ikarus>
+							<alias_ahnlab></alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+					<notes_collection>
+						<note>%Temp% is a variable that refers to the temporary folder in the short path form. By default, this is C:\Documents and Settings\[UserName]\Local Settings\Temp\ (Windows NT/2000/XP).</note>
+					</notes_collection>
+				</added_files>
+				<added_directories>
+					<dirnames_collection>
+						<dirname>%Temp%\IXP000.TMP</dirname>
+					</dirnames_collection>
+				</added_directories>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>278528</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+						<added_process>
+							<process_name>ERROR_~1.EXE</process_name>
+							<process_filename>%Temp%\IXP000.TMP\ERROR_~1.EXE</process_filename>
+							<main_module_size>503808</main_module_size>
+							<attached_zip_dump>process_dump_b.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>EnableBalloonTips</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\system</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>EnableLUA</value>
+								<contents>0x00000000</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>wextract_cleanup0</value>
+								<contents>&quot;rundll32.exe %System%\advpack.dll,DelNodeRunDLL32 &quot;%Temp%\IXP000.TMP\&quot;&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<countries>
+					<country>Brazil</country>
+				</countries>
+				<connect_ip_api>
+					<connect_ip>
+						<ip>199.238.129.34</ip>
+						<port_number>21</port_number>
+					</connect_ip>
+				</connect_ip_api>
+				<irc_traffic>
+					<command>USER ciespl</command>
+				</irc_traffic>
+				<outbound_traffic>
+					<outbound_traffic_element>
+						<port_number>21</port_number>
+						<textlines_collection>
+							<textline>00000000 | 4357 4420 6574 632F 0D0A 5041 5353 2068 | CWD etc/..PASS h</textline>
+							<textline>00000010 | 6174 7577 2B52 5570 7234 6455 3470 750D | atuw+RUpr4dU4pu.</textline>
+							<textline>00000020 | 0A54 5950 4520 490D 0A53 5953 540D 0A43 | .TYPE I..SYST..C</textline>
+							<textline>00000030 | 5744 2065 7463 2F0D 0A50 4153 5320 6861 | WD etc/..PASS ha</textline>
+							<textline>00000040 | 7475 772B 5255 7072 3464 5534 7075 0D0A | tuw+RUpr4dU4pu..</textline>
+							<textline>00000050 | 5459 5045 2049 0D0A 5359 5354 0D0A      | TYPE I..SYST..</textline>
+						</textlines_collection>
+					</outbound_traffic_element>
+				</outbound_traffic>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>

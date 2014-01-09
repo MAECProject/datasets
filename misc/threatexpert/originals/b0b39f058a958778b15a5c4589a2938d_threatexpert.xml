@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<report xsi:noNamespaceSchemaLocation="report.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<title>ThreatExpert Report</title>
+	<subreports>
+		<subreport>
+			<submission_summary>
+				<submission_details>
+					<submission_received>
+						<day>16</day>
+						<month>8</month>
+						<year>2013</year>
+						<hour>7</hour>
+						<minute>54</minute>
+						<second>47</second>
+					</submission_received>
+					<processing_time>
+						<hours>0</hours>
+						<minutes>7</minutes>
+						<seconds>49</seconds>
+					</processing_time>
+					<sample_info_collection>
+						<sample_info>
+							<md5>B0B39F058A958778B15A5C4589A2938D</md5>
+							<sha1>4AC41974F8A14A102387651F14B8DA04D76B347E</sha1>
+							<filesize>59904</filesize>
+							<alias_nav>Backdoor.Trojan</alias_nav>
+							<alias_kav>Backdoor.Win32.Rbot.bni</alias_kav>
+							<alias_nai>W32/RAHack</alias_nai>
+							<alias_trend>Mal_Allaple</alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Mal/Allaple-A</alias_sophos>
+							<alias_microsoft>Worm:Win32/Allaple.L</alias_microsoft>
+							<alias_ikarus>Net-Worm.Win32.Allaple</alias_ikarus>
+							<alias_ahnlab>Win32/IRCBot.worm.variant</alias_ahnlab>
+							<packer></packer>
+						</sample_info>
+					</sample_info_collection>
+				</submission_details>
+				<flag_collection>
+					<flag>
+						<description>A network-aware worm that uses known exploit(s) in order to replicate across vulnerable networks.</description>
+						<severity>10</severity>
+					</flag>
+					<flag>
+						<description>MS04-012: DCOM RPC Overflow exploit - replication across TCP 135/139/445/593 (common for Blaster, Welchia, Spybot, Randex, other IRC Bots).</description>
+						<severity>10</severity>
+					</flag>
+					<flag>
+						<description>Contains characteristics of an identified security risk.</description>
+						<severity>10</severity>
+					</flag>
+				</flag_collection>
+			</submission_summary>
+			<technical_details>
+				<known_threat_category_collection>
+					<known_threat_category>
+						<name>Worm</name>
+						<description>A network-aware worm that attempts to replicate across the existing network(s)</description>
+					</known_threat_category>
+					<known_threat_category>
+						<name>Backdoor</name>
+						<description>A malicious backdoor trojan that runs in the background and allows remote access to the compromised system</description>
+					</known_threat_category>
+				</known_threat_category_collection>
+				<added_files>
+					<added_files_collection>
+						<added_file>
+							<filenames_collection>
+								<filename>[file and pathname of the sample #1]</filename>
+							</filenames_collection>
+							<md5>B0B39F058A958778B15A5C4589A2938D</md5>
+							<sha1>4AC41974F8A14A102387651F14B8DA04D76B347E</sha1>
+							<filesize>59904</filesize>
+							<alias_nav>Backdoor.Trojan</alias_nav>
+							<alias_kav>Backdoor.Win32.Rbot.bni</alias_kav>
+							<alias_nai>W32/RAHack</alias_nai>
+							<alias_trend>Mal_Allaple</alias_trend>
+							<alias_pctools></alias_pctools>
+							<alias_sophos>Mal/Allaple-A</alias_sophos>
+							<alias_microsoft>Worm:Win32/Allaple.L</alias_microsoft>
+							<alias_ikarus>Net-Worm.Win32.Allaple</alias_ikarus>
+							<alias_ahnlab>Win32/IRCBot.worm.variant</alias_ahnlab>
+							<packer></packer>
+						</added_file>
+					</added_files_collection>
+				</added_files>
+				<added_processes>
+					<added_processes_collection>
+						<added_process>
+							<process_name>[filename of the sample #1]</process_name>
+							<process_filename>[file and pathname of the sample #1]</process_filename>
+							<main_module_size>131072</main_module_size>
+							<attached_zip_dump>process_dump_a.zip</attached_zip_dump>
+						</added_process>
+					</added_processes_collection>
+				</added_processes>
+				<added_regkeys>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{346436FA-5138-50DA-D412-0870CE39768B}</regkey>
+					<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{346436FA-5138-50DA-D412-0870CE39768B}\LocalServer32</regkey>
+				</added_regkeys>
+				<added_regvalues>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{346436FA-5138-50DA-D412-0870CE39768B}\LocalServer32</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>(Default)</value>
+								<contents>&quot;[file and pathname of the sample #1]&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+					<regvalues_structure>
+						<regkey>HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{346436FA-5138-50DA-D412-0870CE39768B}</regkey>
+						<regvalues_collection>
+							<regvalue>
+								<value>(Default)</value>
+								<contents>&quot;bsqthlhnkctsbwez&quot;</contents>
+							</regvalue>
+						</regvalues_collection>
+					</regvalues_structure>
+				</added_regvalues>
+				<mutexes>
+					<mutex>jhdgcjhasgdc09890gjasgcjhg2763876uyg3fhg</mutex>
+				</mutexes>
+			</technical_details>
+		</subreport>
+	</subreports>
+</report>
