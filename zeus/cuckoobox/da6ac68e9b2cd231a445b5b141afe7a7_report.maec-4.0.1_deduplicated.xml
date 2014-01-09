@@ -1,0 +1,786 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE doc [<!ENTITY comma '&#44;'>]>
+<maecPackage:MAEC_Package 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:maecPackage="http://maec.mitre.org/XMLSchema/maec-package-2" 
+ xmlns:maecBundle="http://maec.mitre.org/XMLSchema/maec-bundle-4" 
+ xmlns:maecVocabs="http://maec.mitre.org/default_vocabularies-1" 
+ xmlns:mmdef="http://xml/metadataSharing.xsd" 
+ xmlns:cybox="http://cybox.mitre.org/cybox-2" 
+ xmlns:cyboxCommon="http://cybox.mitre.org/common-2" 
+ xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2" 
+ xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
+ xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2" 
+ xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2" 
+ xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2" 
+ xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2" 
+ xmlns:SocketAddressObj="http://cybox.mitre.org/objects#SocketAddressObject-1" 
+ xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2" 
+ xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2" 
+ xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2" 
+ xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2" 
+ xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2" 
+ xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2" 
+ xmlns:WinFileObj="http://cybox.mitre.org/objects#WinFileObject-2" 
+ xmlns:WinComputerAccountObj="http://cybox.mitre.org/objects#WinComputerAccountObject-2" 
+ xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2" 
+ xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
+ http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.0.1/maec_package_schema.xsd
+ http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
+ http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
+ http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
+ http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.0.1/Process_Object.xsd
+ http://cybox.mitre.org/objects#WinHandleObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Handle/2.0.1/Win_Handle_Object.xsd
+ http://cybox.mitre.org/objects#NetworkConnectionObject-2 http://cybox.mitre.org/XMLSchema/objects/Network_Connection/2.0.1/Network_Connection_Object.xsd
+ http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-pkg-1" schema_version="2.0.1">
+    <maecPackage:Malware_Subjects>
+        <maecPackage:Malware_Subject id="maec-da6ac68e9b2cd231a445b5b141afe7a7-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-1">
+                <cybox:Properties xsi:type="FileObj:FileObjectType">
+                    <FileObj:File_Name>HH-583da5fd37bc1a35e3e4534d8a01692a-0</FileObj:File_Name>
+                    <FileObj:File_Path>/home/cboxuser/cuckoo/storage/binaries/9e3a2e9be8fc8f3d2b142585b8b70ffa947c2b92422b9561e2a1c42d1da2a355</FileObj:File_Path>
+                    <FileObj:Size_In_Bytes>14848</FileObj:Size_In_Bytes>
+                    <FileObj:File_Format>PE32 executable (GUI) Intel 80386, for MS Windows</FileObj:File_Format>
+                    <FileObj:Hashes>
+                        <cyboxCommon:Hash>
+                            <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                            <cyboxCommon:Simple_Hash_Value>da6ac68e9b2cd231a445b5b141afe7a7</cyboxCommon:Simple_Hash_Value>
+                        </cyboxCommon:Hash>
+                        <cyboxCommon:Hash>
+                            <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SHA1</cyboxCommon:Type>
+                            <cyboxCommon:Simple_Hash_Value>0c1860f3d13ef7d29f683101b60410755752448a</cyboxCommon:Simple_Hash_Value>
+                        </cyboxCommon:Hash>
+                        <cyboxCommon:Hash>
+                            <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SHA256</cyboxCommon:Type>
+                            <cyboxCommon:Simple_Hash_Value>9e3a2e9be8fc8f3d2b142585b8b70ffa947c2b92422b9561e2a1c42d1da2a355</cyboxCommon:Simple_Hash_Value>
+                        </cyboxCommon:Hash>
+                        <cyboxCommon:Hash>
+                            <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SHA512</cyboxCommon:Type>
+                            <cyboxCommon:Simple_Hash_Value>475995e5c9a8c4d52ad1ced54d0fa65ec56f9d5271d533dd06a7c173f06e1bfb707bf4491020954e3204029cf7b1c2021f08ec023b2926676aaa21b5cbc53d00</cyboxCommon:Simple_Hash_Value>
+                        </cyboxCommon:Hash>
+                        <cyboxCommon:Hash>
+                            <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SSDEEP</cyboxCommon:Type>
+                            <cyboxCommon:Fuzzy_Hash_Value>192:G8kUYNqcP07XKisfz8g8uL+kE2CjG1DIA10LuMAAa:t18F07Kic4g+kE2CjG1DaqMA</cyboxCommon:Fuzzy_Hash_Value>
+                        </cyboxCommon:Hash>
+                    </FileObj:Hashes>
+                </cybox:Properties>
+            </maecPackage:Malware_Instance_Object_Attributes>
+            <maecPackage:Analyses>
+                <maecPackage:Analysis start_datetime="2013-12-24T08:57:55" complete_datetime="2013-12-24T08:58:20" method="dynamic" type="triage" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-ana-1">
+                    <maecPackage:Summary>Cuckoo Sandbox dynamic analysis of the malware instance object.</maecPackage:Summary>
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-bnd-1"/>
+                    <maecPackage:Tools>
+                        <maecPackage:Tool id="maec-da6ac68e9b2cd231a445b5b141afe7a7-tol-1">
+                            <cyboxCommon:Name>Cuckoo Sandbox</cyboxCommon:Name>
+                            <cyboxCommon:Vendor>http://www.cuckoosandbox.org</cyboxCommon:Vendor>
+                            <cyboxCommon:Version>1.0-dev</cyboxCommon:Version>
+                        </maecPackage:Tool>
+                    </maecPackage:Tools>
+                </maecPackage:Analysis>
+                <maecPackage:Analysis start_datetime="2013-12-24T08:57:55" complete_datetime="2013-12-24T08:58:20" method="static" type="triage" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-ana-2">
+                    <maecPackage:Summary>Cuckoo Sandbox static (PE) analysis of the malware instance object.</maecPackage:Summary>
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-bnd-2"/>
+                    <maecPackage:Tools>
+                        <maecPackage:Tool id="maec-da6ac68e9b2cd231a445b5b141afe7a7-tol-2">
+                            <cyboxCommon:Name>Cuckoo Sandbox Static Analysis</cyboxCommon:Name>
+                            <cyboxCommon:Vendor>http://www.cuckoosandbox.org</cyboxCommon:Vendor>
+                            <cyboxCommon:Version>1.0-dev</cyboxCommon:Version>
+                        </maecPackage:Tool>
+                    </maecPackage:Tools>
+                </maecPackage:Analysis>
+                <maecPackage:Analysis start_datetime="2013-12-24T08:57:55" complete_datetime="2013-12-24T08:58:20" method="static" type="triage" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-ana-3">
+                    <maecPackage:Summary>Cuckoo Sandbox strings analysis of the malware instance object.</maecPackage:Summary>
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-bnd-3"/>
+                    <maecPackage:Tools>
+                        <maecPackage:Tool id="maec-da6ac68e9b2cd231a445b5b141afe7a7-tol-3">
+                            <cyboxCommon:Name>Cuckoo Sandbox Strings</cyboxCommon:Name>
+                            <cyboxCommon:Vendor>http://www.cuckoosandbox.org</cyboxCommon:Vendor>
+                            <cyboxCommon:Version>1.0-dev</cyboxCommon:Version>
+                        </maecPackage:Tool>
+                    </maecPackage:Tools>
+                </maecPackage:Analysis>
+            </maecPackage:Analyses>
+            <maecPackage:Findings_Bundles>
+                <maecPackage:Bundle defined_subject="false" content_type="dynamic analysis tool output" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-bnd-1" schema_version="4.0.1">
+                    <maecBundle:Process_Tree>
+                        <maecBundle:Root_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-pro-1">
+                            <ProcessObj:PID>1388</ProcessObj:PID>
+                            <ProcessObj:Name>HH-583da5fd37bc1a35e3e4534d8a01692a-0</ProcessObj:Name>
+                            <maecBundle:Initiated_Actions>
+                                <maecBundle:Action_Reference action_id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-1"/>
+                            </maecBundle:Initiated_Actions>
+                        </maecBundle:Root_Process>
+                    </maecBundle:Process_Tree>
+                    <maecBundle:Collections>
+                        <maecBundle:Action_Collections>
+                            <maecBundle:Action_Collection name="System Actions" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-actc-1">
+                                <maecBundle:Action_List>
+                                    <maecBundle:Action timestamp="2013-12-24T05:28:50.725000" action_status="Fail" ordinal_position="1" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-1">
+                                        <cybox:Name>get dll handle</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-5">
+                                                <cybox:Properties xsi:type="WinHandleObj:WindowsHandleObjectType">
+                                                    <WinHandleObj:ID>0</WinHandleObj:ID>
+                                                    <WinHandleObj:Type>Module</WinHandleObj:Type>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                </maecBundle:Action_List>
+                            </maecBundle:Action_Collection>
+                            <maecBundle:Action_Collection name="Network Actions" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-actc-2">
+                                <maecBundle:Action_List>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-2">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-6"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-3">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-6"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-4">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-6"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-5">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-6"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-6">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-6"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-7">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-6"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-8">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-12"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-9">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-12"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-10">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-12"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-11">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-12"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-12">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-12"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-13">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-12"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-14">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-12"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-da6ac68e9b2cd231a445b5b141afe7a7-act-15">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to socket address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-12"/>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                </maecBundle:Action_List>
+                            </maecBundle:Action_Collection>
+                        </maecBundle:Action_Collections>
+                        <maecBundle:Object_Collections>
+                            <maecBundle:Object_Collection name="Dropped Files" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-objc-1">
+                                <maecBundle:Object_List>
+                                    <maecBundle:Object id="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-2">
+                                        <cybox:Properties xsi:type="FileObj:FileObjectType">
+                                            <FileObj:File_Name>HH-583da5fd37bc1a35e3e4534d8a01692a-0</FileObj:File_Name>
+                                            <FileObj:File_Path>/home/cboxuser/cuckoo/storage/binaries/9e3a2e9be8fc8f3d2b142585b8b70ffa947c2b92422b9561e2a1c42d1da2a355</FileObj:File_Path>
+                                            <FileObj:Size_In_Bytes>14848</FileObj:Size_In_Bytes>
+                                            <FileObj:File_Format>PE32 executable (GUI) Intel 80386, for MS Windows</FileObj:File_Format>
+                                            <FileObj:Hashes>
+                                                <cyboxCommon:Hash>
+                                                    <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">MD5</cyboxCommon:Type>
+                                                    <cyboxCommon:Simple_Hash_Value>da6ac68e9b2cd231a445b5b141afe7a7</cyboxCommon:Simple_Hash_Value>
+                                                </cyboxCommon:Hash>
+                                                <cyboxCommon:Hash>
+                                                    <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SHA1</cyboxCommon:Type>
+                                                    <cyboxCommon:Simple_Hash_Value>0c1860f3d13ef7d29f683101b60410755752448a</cyboxCommon:Simple_Hash_Value>
+                                                </cyboxCommon:Hash>
+                                                <cyboxCommon:Hash>
+                                                    <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SHA256</cyboxCommon:Type>
+                                                    <cyboxCommon:Simple_Hash_Value>9e3a2e9be8fc8f3d2b142585b8b70ffa947c2b92422b9561e2a1c42d1da2a355</cyboxCommon:Simple_Hash_Value>
+                                                </cyboxCommon:Hash>
+                                                <cyboxCommon:Hash>
+                                                    <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SHA512</cyboxCommon:Type>
+                                                    <cyboxCommon:Simple_Hash_Value>475995e5c9a8c4d52ad1ced54d0fa65ec56f9d5271d533dd06a7c173f06e1bfb707bf4491020954e3204029cf7b1c2021f08ec023b2926676aaa21b5cbc53d00</cyboxCommon:Simple_Hash_Value>
+                                                </cyboxCommon:Hash>
+                                                <cyboxCommon:Hash>
+                                                    <cyboxCommon:Type xsi:type="cyboxVocabs:HashNameVocab-1.0">SSDEEP</cyboxCommon:Type>
+                                                    <cyboxCommon:Fuzzy_Hash_Value>192:G8kUYNqcP07XKisfz8g8uL+kE2CjG1DIA10LuMAAa:t18F07Kic4g+kE2CjG1DaqMA</cyboxCommon:Fuzzy_Hash_Value>
+                                                </cyboxCommon:Hash>
+                                            </FileObj:Hashes>
+                                        </cybox:Properties>
+                                    </maecBundle:Object>
+                                </maecBundle:Object_List>
+                            </maecBundle:Object_Collection>
+                            <maecBundle:Object_Collection name="Deduplicated Objects" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-objc-2">
+                                <maecBundle:Object_List>
+                                    <maecBundle:Object id="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-6">
+                                        <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
+                                            <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                            <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
+                                                <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                                    <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
+                                                </SocketAddressObj:IP_Address>
+                                                <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
+                                                    <PortObj:Port_Value>137</PortObj:Port_Value>
+                                                </SocketAddressObj:Port>
+                                            </NetworkConnectionObj:Source_Socket_Address>
+                                            <NetworkConnectionObj:Destination_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
+                                                <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                                    <AddressObj:Address_Value>192.168.56.255</AddressObj:Address_Value>
+                                                </SocketAddressObj:IP_Address>
+                                                <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
+                                                    <PortObj:Port_Value>137</PortObj:Port_Value>
+                                                </SocketAddressObj:Port>
+                                            </NetworkConnectionObj:Destination_Socket_Address>
+                                        </cybox:Properties>
+                                    </maecBundle:Object>
+                                    <maecBundle:Object id="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-12">
+                                        <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
+                                            <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                            <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
+                                                <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                                    <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
+                                                </SocketAddressObj:IP_Address>
+                                                <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
+                                                    <PortObj:Port_Value>138</PortObj:Port_Value>
+                                                </SocketAddressObj:Port>
+                                            </NetworkConnectionObj:Source_Socket_Address>
+                                            <NetworkConnectionObj:Destination_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
+                                                <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                                    <AddressObj:Address_Value>192.168.56.255</AddressObj:Address_Value>
+                                                </SocketAddressObj:IP_Address>
+                                                <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
+                                                    <PortObj:Port_Value>138</PortObj:Port_Value>
+                                                </SocketAddressObj:Port>
+                                            </NetworkConnectionObj:Destination_Socket_Address>
+                                        </cybox:Properties>
+                                    </maecBundle:Object>
+                                </maecBundle:Object_List>
+                            </maecBundle:Object_Collection>
+                        </maecBundle:Object_Collections>
+                    </maecBundle:Collections>
+                </maecPackage:Bundle>
+                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-bnd-2" schema_version="4.0.1">
+                    <maecBundle:Objects>
+                        <maecBundle:Object id="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-3">
+                            <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
+                                <WinExecutableFileObj:Imports>
+                                    <WinExecutableFileObj:Import>
+                                        <WinExecutableFileObj:File_Name>KERNEL32.dll</WinExecutableFileObj:File_Name>
+                                        <WinExecutableFileObj:Imported_Functions>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>TlsFree</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402000</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>IsDBCSLeadByte</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402004</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetFileAttributesW</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402008</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>DeleteFileA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40200c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetCommandLineA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402010</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetCurrentThreadId</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402014</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetThreadLocale</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402018</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>SwitchToThread</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40201c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>VirtualAlloc</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402020</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>lstrcatA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402024</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>TlsSetValue</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402028</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>FindFirstVolumeMountPointA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40202c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetUserDefaultLCID</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402030</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetSystemDefaultLCID</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402034</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>TlsGetValue</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402038</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetModuleFileNameA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40203c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetModuleHandleW</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402040</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>AddAtomA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402044</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>SetEndOfFile</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402048</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetOEMCP</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40204c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>lstrcpyA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402050</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                        </WinExecutableFileObj:Imported_Functions>
+                                    </WinExecutableFileObj:Import>
+                                    <WinExecutableFileObj:Import>
+                                        <WinExecutableFileObj:File_Name>USER32.dll</WinExecutableFileObj:File_Name>
+                                        <WinExecutableFileObj:Imported_Functions>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>ValidateRect</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402058</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetDC</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40205c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetWindowTextA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402060</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetWindow</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402064</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>IsIconic</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402068</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetSystemMetrics</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40206c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetWindowLongA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402070</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>CloseWindow</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402074</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetFocus</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402078</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>ShowWindow</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40207c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetWindowTextLengthA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402080</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>ReleaseDC</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402084</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetClassInfoExA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402088</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>InvalidateRect</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40208c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>ReleaseDC</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402090</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetForegroundWindow</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402094</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetActiveWindow</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x402098</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>IsWindowVisible</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x40209c</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>RegisterClassA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x4020a0</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                        </WinExecutableFileObj:Imported_Functions>
+                                    </WinExecutableFileObj:Import>
+                                    <WinExecutableFileObj:Import>
+                                        <WinExecutableFileObj:File_Name>PSAPI.dll</WinExecutableFileObj:File_Name>
+                                        <WinExecutableFileObj:Imported_Functions>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>EmptyWorkingSet</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x4020a8</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetModuleBaseNameA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x4020ac</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetMappedFileNameA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x4020b0</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>EnumPageFilesA</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x4020b4</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetWsChanges</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x4020b8</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>GetModuleInformation</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x4020bc</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                        </WinExecutableFileObj:Imported_Functions>
+                                    </WinExecutableFileObj:Import>
+                                    <WinExecutableFileObj:Import>
+                                        <WinExecutableFileObj:File_Name>MSCTF.dll</WinExecutableFileObj:File_Name>
+                                        <WinExecutableFileObj:Imported_Functions>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>DllRegisterServer</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x4020c4</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                            <WinExecutableFileObj:Imported_Function>
+                                                <WinExecutableFileObj:Function_Name>DllGetClassObject</WinExecutableFileObj:Function_Name>
+                                                <WinExecutableFileObj:Virtual_Address>0x4020c8</WinExecutableFileObj:Virtual_Address>
+                                            </WinExecutableFileObj:Imported_Function>
+                                        </WinExecutableFileObj:Imported_Functions>
+                                    </WinExecutableFileObj:Import>
+                                </WinExecutableFileObj:Imports>
+                                <WinExecutableFileObj:Sections>
+                                    <WinExecutableFileObj:Section>
+                                        <WinExecutableFileObj:Section_Header>
+                                            <WinExecutableFileObj:Name>.text</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Virtual_Size>1720</WinExecutableFileObj:Virtual_Size>
+                                            <WinExecutableFileObj:Virtual_Address>0x00001000</WinExecutableFileObj:Virtual_Address>
+                                            <WinExecutableFileObj:Size_Of_Raw_Data>0x00000800</WinExecutableFileObj:Size_Of_Raw_Data>
+                                        </WinExecutableFileObj:Section_Header>
+                                        <WinExecutableFileObj:Entropy>
+                                            <WinExecutableFileObj:Value>4.54107113233</WinExecutableFileObj:Value>
+                                        </WinExecutableFileObj:Entropy>
+                                    </WinExecutableFileObj:Section>
+                                    <WinExecutableFileObj:Section>
+                                        <WinExecutableFileObj:Section_Header>
+                                            <WinExecutableFileObj:Name>.rdata</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Virtual_Size>1392</WinExecutableFileObj:Virtual_Size>
+                                            <WinExecutableFileObj:Virtual_Address>0x00002000</WinExecutableFileObj:Virtual_Address>
+                                            <WinExecutableFileObj:Size_Of_Raw_Data>0x00000600</WinExecutableFileObj:Size_Of_Raw_Data>
+                                        </WinExecutableFileObj:Section_Header>
+                                        <WinExecutableFileObj:Entropy>
+                                            <WinExecutableFileObj:Value>4.67586948726</WinExecutableFileObj:Value>
+                                        </WinExecutableFileObj:Entropy>
+                                    </WinExecutableFileObj:Section>
+                                    <WinExecutableFileObj:Section>
+                                        <WinExecutableFileObj:Section_Header>
+                                            <WinExecutableFileObj:Name>.data</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Virtual_Size>522</WinExecutableFileObj:Virtual_Size>
+                                            <WinExecutableFileObj:Virtual_Address>0x00003000</WinExecutableFileObj:Virtual_Address>
+                                            <WinExecutableFileObj:Size_Of_Raw_Data>0x00000400</WinExecutableFileObj:Size_Of_Raw_Data>
+                                        </WinExecutableFileObj:Section_Header>
+                                        <WinExecutableFileObj:Entropy>
+                                            <WinExecutableFileObj:Value>0.0</WinExecutableFileObj:Value>
+                                        </WinExecutableFileObj:Entropy>
+                                    </WinExecutableFileObj:Section>
+                                    <WinExecutableFileObj:Section>
+                                        <WinExecutableFileObj:Section_Header>
+                                            <WinExecutableFileObj:Name>.rsrc</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Virtual_Size>1387</WinExecutableFileObj:Virtual_Size>
+                                            <WinExecutableFileObj:Virtual_Address>0x00004000</WinExecutableFileObj:Virtual_Address>
+                                            <WinExecutableFileObj:Size_Of_Raw_Data>0x00000600</WinExecutableFileObj:Size_Of_Raw_Data>
+                                        </WinExecutableFileObj:Section_Header>
+                                        <WinExecutableFileObj:Entropy>
+                                            <WinExecutableFileObj:Value>2.24382843204</WinExecutableFileObj:Value>
+                                        </WinExecutableFileObj:Entropy>
+                                    </WinExecutableFileObj:Section>
+                                </WinExecutableFileObj:Sections>
+                            </cybox:Properties>
+                        </maecBundle:Object>
+                    </maecBundle:Objects>
+                </maecPackage:Bundle>
+                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-da6ac68e9b2cd231a445b5b141afe7a7-bnd-3" schema_version="4.0.1">
+                    <maecBundle:Objects>
+                        <maecBundle:Object id="maec-da6ac68e9b2cd231a445b5b141afe7a7-obj-4">
+                            <cybox:Properties xsi:type="FileObj:FileObjectType">
+                                <FileObj:Extracted_Features>
+                                    <cyboxCommon:Strings>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>!This program cannot be run in DOS mode.</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>`.rdata</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>@.data</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>#S8I{v</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>UVQPSP</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>UVSWRW</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>UVSPPW</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>UVQPWR</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>UVPPWP</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>UVPRPQ</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>UVSPSP</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>UVPRWR</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>TlsFree</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>IsDBCSLeadByte</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetFileAttributesW</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>DeleteFileA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetCommandLineA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetCurrentThreadId</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetThreadLocale</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>SwitchToThread</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>VirtualAlloc</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>lstrcatA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>TlsSetValue</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>FindFirstVolumeMountPointA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetUserDefaultLCID</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetSystemDefaultLCID</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>TlsGetValue</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetModuleFileNameA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetModuleHandleW</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>AddAtomA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>SetEndOfFile</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetOEMCP</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>lstrcpyA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>KERNEL32.dll</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>ValidateRect</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetWindowTextA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetWindow</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>IsIconic</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetSystemMetrics</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetWindowLongA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>CloseWindow</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetFocus</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>ShowWindow</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetWindowTextLengthA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>ReleaseDC</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetClassInfoExA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>InvalidateRect</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>ReleaseDC</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetForegroundWindow</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetActiveWindow</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>IsWindowVisible</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>RegisterClassA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>USER32.dll</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>EmptyWorkingSet</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetModuleBaseNameA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetMappedFileNameA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>EnumPageFilesA</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetWsChanges</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>GetModuleInformation</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>PSAPI.dll</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>DllRegisterServer</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>DllGetClassObject</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>MSCTF.dll</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>msbP;%2</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>0Wuii]?</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                        <cyboxCommon:String>
+                                            <cyboxCommon:String_Value>odbO*gj</cyboxCommon:String_Value>
+                                        </cyboxCommon:String>
+                                    </cyboxCommon:Strings>
+                                </FileObj:Extracted_Features>
+                            </cybox:Properties>
+                        </maecBundle:Object>
+                    </maecBundle:Objects>
+                </maecPackage:Bundle>
+            </maecPackage:Findings_Bundles>
+        </maecPackage:Malware_Subject>
+    </maecPackage:Malware_Subjects>
+</maecPackage:MAEC_Package>
