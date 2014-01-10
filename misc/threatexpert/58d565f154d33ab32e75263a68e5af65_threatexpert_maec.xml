@@ -3271,7 +3271,7 @@
                             <maecBundle:Action_Collection name="Service Actions" id="maec-threatexpert_to_maec_58D565F154D33AB32E75263A68E5AF65-actc-4">
                                 <maecBundle:Action_List>
                                     <maecBundle:Action id="maec-threatexpert_to_maec_58D565F154D33AB32E75263A68E5AF65-act-7">
-                                        <cybox:Name xsi:type="maecVocabs:ServiceActionNameVocab-1.0">modify service configuration</cybox:Name>
+                                        <cybox:Name xsi:type="maecVocabs:ServiceActionNameVocab-1.0">modify service configuration configuration</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-threatexpert_to_maec_58D565F154D33AB32E75263A68E5AF65-obj-6">
                                                 <cybox:Properties xsi:type="WinServiceObj:WindowsServiceObjectType">
