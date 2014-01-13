@@ -487,7 +487,7 @@
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
                                     <maecBundle:Action id="maec-anubis_to_maec_4d519bf53a8217adc4c15d15f0815993-act-12">
-                                        <cybox:Name xsi:type="maecVocabs:ServiceActionNameVocab-1.0">modify service</cybox:Name>
+                                        <cybox:Name xsi:type="maecVocabs:ServiceActionNameVocab-1.0">modify service configuration</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_4d519bf53a8217adc4c15d15f0815993-obj-14">
                                                 <cybox:Properties xsi:type="WinServiceObj:WindowsServiceObjectType">
@@ -498,7 +498,7 @@
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
                                     <maecBundle:Action id="maec-anubis_to_maec_4d519bf53a8217adc4c15d15f0815993-act-13">
-                                        <cybox:Name xsi:type="maecVocabs:ServiceActionNameVocab-1.0">modify service</cybox:Name>
+                                        <cybox:Name xsi:type="maecVocabs:ServiceActionNameVocab-1.0">modify service configuration</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_4d519bf53a8217adc4c15d15f0815993-obj-15">
                                                 <cybox:Properties xsi:type="WinServiceObj:WindowsServiceObjectType">
