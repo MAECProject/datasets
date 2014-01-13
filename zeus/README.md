@@ -17,3 +17,4 @@ Samples are named by the MD5 hash of the original malware, so reports named with
 * `anubis/0bab6936c4ac24257194472e1362d31e_threatexpert_maec.xml` is the MAEC report devired from that ThreatExpert report
 * `cuckoobox/0bab6936c4ac24257194472e1362d31e_report.maec-4.0.1.xml` is a native Cuckoobox MAEC report
 * Each of the ThreatExpert, Anubis, and Cuckoobox reports were created from some Zeus malware sample with the MD5 hash `0bab6936c4ac24257194472e1362d31e`
+* The `_deduplicated` form of each report is the result of running the MAEC report through the MAEC deduplicator. The feature is experimental and is currently on python-maec's `deduplicator` branch at https://github.com/MAECProject/python-maec/blob/deduplicator/maec/utils/deduplicator.py
