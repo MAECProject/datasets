@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE doc [<!ENTITY comma '&#44;'>]>
+<maecPackage:MAEC_Package 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:maecPackage="http://maec.mitre.org/XMLSchema/maec-package-2" 
+ xmlns:maecBundle="http://maec.mitre.org/XMLSchema/maec-bundle-4" 
+ xmlns:maecVocabs="http://maec.mitre.org/default_vocabularies-1" 
+ xmlns:mmdef="http://xml/metadataSharing.xsd" 
+ xmlns:cybox="http://cybox.mitre.org/cybox-2" 
+ xmlns:cyboxCommon="http://cybox.mitre.org/common-2" 
+ xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2" 
+ xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2" 
+ xmlns:WinMutexObj="http://cybox.mitre.org/objects#WinMutexObject-2" 
+ xmlns:WinFileObj="http://cybox.mitre.org/objects#WinFileObject-2" 
+ xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
+ xmlns:WinComputerAccountObj="http://cybox.mitre.org/objects#WinComputerAccountObject-2" 
+ xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2" 
+ xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2" 
+ xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2" 
+ xmlns:MutexObj="http://cybox.mitre.org/objects#MutexObject-2" 
+ xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
+ http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.0.1/maec_package_schema.xsd
+ http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
+ http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
+ http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
+ http://cybox.mitre.org/objects#WinMutexObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Mutex/2.0.1/Win_Mutex_Object.xsd" id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-pkg-1" schema_version="2.0.1">
+    <maecPackage:Malware_Subjects>
+        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-obj-1">
+                <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
+                    <FileObj:Size_In_Bytes>418064</FileObj:Size_In_Bytes>
+                    <FileObj:Hashes>
+                        <cyboxCommon:Hash>
+                            <cyboxCommon:Type>MD5</cyboxCommon:Type>
+                            <cyboxCommon:Simple_Hash_Value>185C8D11C0611CAE7C81F4458BF1ADEA</cyboxCommon:Simple_Hash_Value>
+                        </cyboxCommon:Hash>
+                        <cyboxCommon:Hash>
+                            <cyboxCommon:Type>SHA1</cyboxCommon:Type>
+                            <cyboxCommon:Simple_Hash_Value>6128CC714AB2C12A3FE6E18991E1172A2BBDC1A1</cyboxCommon:Simple_Hash_Value>
+                        </cyboxCommon:Hash>
+                    </FileObj:Hashes>
+                </cybox:Properties>
+            </maecPackage:Malware_Instance_Object_Attributes>
+            <maecPackage:Analyses>
+                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-ana-1">
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-bnd-1"/>
+                    <maecPackage:Tools>
+                        <maecPackage:Tool id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-tol-1">
+                            <cyboxCommon:Name>ThreatExpert</cyboxCommon:Name>
+                            <cyboxCommon:Vendor>ThreatExpert</cyboxCommon:Vendor>
+                        </maecPackage:Tool>
+                    </maecPackage:Tools>
+                </maecPackage:Analysis>
+            </maecPackage:Analyses>
+            <maecPackage:Findings_Bundles>
+                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-bnd-1" schema_version="4.0.1">
+                    <maecBundle:AV_Classifications>
+                        <maecBundle:AV_Classification>
+                            <cyboxCommon:Vendor>Kaspersky</cyboxCommon:Vendor>
+                            <maecBundle:Classification_Name>Backdoor.Win32.Rbot.hyj</maecBundle:Classification_Name>
+                        </maecBundle:AV_Classification>
+                        <maecBundle:AV_Classification>
+                            <cyboxCommon:Vendor>Norton</cyboxCommon:Vendor>
+                            <maecBundle:Classification_Name>Backdoor.Bifrose!gen</maecBundle:Classification_Name>
+                        </maecBundle:AV_Classification>
+                        <maecBundle:AV_Classification>
+                            <cyboxCommon:Vendor>McAfee</cyboxCommon:Vendor>
+                            <maecBundle:Classification_Name>W32/Sdbot.worm!kq</maecBundle:Classification_Name>
+                        </maecBundle:AV_Classification>
+                        <maecBundle:AV_Classification>
+                            <cyboxCommon:Vendor>Sophos</cyboxCommon:Vendor>
+                            <maecBundle:Classification_Name>Mal/BigMole-B</maecBundle:Classification_Name>
+                        </maecBundle:AV_Classification>
+                        <maecBundle:AV_Classification>
+                            <cyboxCommon:Vendor>Ikarus</cyboxCommon:Vendor>
+                            <maecBundle:Classification_Name>Virus.Win32.DelfInject</maecBundle:Classification_Name>
+                        </maecBundle:AV_Classification>
+                    </maecBundle:AV_Classifications>
+                    <maecBundle:Behaviors>
+                        <maecBundle:Behavior id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-bhv-1">
+                            <maecBundle:Description>Contains characteristics of an identified security risk.</maecBundle:Description>
+                        </maecBundle:Behavior>
+                    </maecBundle:Behaviors>
+                    <maecBundle:Collections>
+                        <maecBundle:Action_Collections>
+                            <maecBundle:Action_Collection name="IPC Actions" id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-actc-1">
+                                <maecBundle:Action_List>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-act-1">
+                                        <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-obj-2">
+                                                <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
+                                                    <MutexObj:Name>_x_X_UPDATE_X_x_</MutexObj:Name>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-act-2">
+                                        <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-obj-3">
+                                                <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
+                                                    <MutexObj:Name>_x_X_PASSWORDLIST_X_x_</MutexObj:Name>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-act-3">
+                                        <cybox:Name xsi:type="maecVocabs:SynchronizationActionNameVocab-1.0">create mutex</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_185C8D11C0611CAE7C81F4458BF1ADEA-obj-4">
+                                                <cybox:Properties xsi:type="WinMutexObj:WindowsMutexObjectType">
+                                                    <MutexObj:Name>_x_X_BLOCKMOUSE_X_x_</MutexObj:Name>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                </maecBundle:Action_List>
+                            </maecBundle:Action_Collection>
+                        </maecBundle:Action_Collections>
+                    </maecBundle:Collections>
+                </maecPackage:Bundle>
+            </maecPackage:Findings_Bundles>
+        </maecPackage:Malware_Subject>
+    </maecPackage:Malware_Subjects>
+</maecPackage:MAEC_Package>

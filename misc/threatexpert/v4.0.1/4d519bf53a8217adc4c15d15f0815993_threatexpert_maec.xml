@@ -1,0 +1,608 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE doc [<!ENTITY comma '&#44;'>]>
+<maecPackage:MAEC_Package 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xmlns:maecPackage="http://maec.mitre.org/XMLSchema/maec-package-2" 
+ xmlns:maecBundle="http://maec.mitre.org/XMLSchema/maec-bundle-4" 
+ xmlns:maecVocabs="http://maec.mitre.org/default_vocabularies-1" 
+ xmlns:mmdef="http://xml/metadataSharing.xsd" 
+ xmlns:cybox="http://cybox.mitre.org/cybox-2" 
+ xmlns:cyboxCommon="http://cybox.mitre.org/common-2" 
+ xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2" 
+ xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2" 
+ xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2" 
+ xmlns:WinServiceObj="http://cybox.mitre.org/objects#WinServiceObject-2" 
+ xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2" 
+ xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2" 
+ xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2" 
+ xmlns:WinFileObj="http://cybox.mitre.org/objects#WinFileObject-2" 
+ xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
+ xmlns:WinComputerAccountObj="http://cybox.mitre.org/objects#WinComputerAccountObject-2" 
+ xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2" 
+ xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2" 
+ xmlns:WinProcessObj="http://cybox.mitre.org/objects#WinProcessObject-2" 
+ xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2" 
+ xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2" 
+ xmlns:SocketAddressObj="http://cybox.mitre.org/objects#SocketAddressObject-1" 
+ xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2" 
+ xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2" 
+ xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2" 
+ xmlns:MemoryObj="http://cybox.mitre.org/objects#MemoryObject-2" 
+ xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
+ http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.0.1/maec_package_schema.xsd
+ http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
+ http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
+ http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
+ http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.0.1/Win_Registry_Key_Object.xsd
+ http://cybox.mitre.org/objects#WinServiceObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Service/2.0.1/Win_Service_Object.xsd
+ http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.0.1/Address_Object.xsd
+ http://cybox.mitre.org/objects#PortObject-2 http://cybox.mitre.org/XMLSchema/objects/Port/2.0.1/Port_Object.xsd
+ http://cybox.mitre.org/objects#URIObject-2 http://cybox.mitre.org/XMLSchema/objects/URI/2.0.1/URI_Object.xsd" id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-pkg-1" schema_version="2.0.1">
+    <maecPackage:Malware_Subjects>
+        <maecPackage:Malware_Subject id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-sub-1">
+            <maecPackage:Malware_Instance_Object_Attributes id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-1">
+                <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
+                    <FileObj:Size_In_Bytes>73728</FileObj:Size_In_Bytes>
+                    <FileObj:Hashes>
+                        <cyboxCommon:Hash>
+                            <cyboxCommon:Type>MD5</cyboxCommon:Type>
+                            <cyboxCommon:Simple_Hash_Value>4D519BF53A8217ADC4C15D15F0815993</cyboxCommon:Simple_Hash_Value>
+                        </cyboxCommon:Hash>
+                        <cyboxCommon:Hash>
+                            <cyboxCommon:Type>SHA1</cyboxCommon:Type>
+                            <cyboxCommon:Simple_Hash_Value>FA9674BAB61C37717F8232EBD47AF915F9EB9E49</cyboxCommon:Simple_Hash_Value>
+                        </cyboxCommon:Hash>
+                    </FileObj:Hashes>
+                </cybox:Properties>
+            </maecPackage:Malware_Instance_Object_Attributes>
+            <maecPackage:Analyses>
+                <maecPackage:Analysis method="dynamic" type="triage" id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-ana-1">
+                    <maecPackage:Findings_Bundle_Reference bundle_idref="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-bnd-1"/>
+                    <maecPackage:Tools>
+                        <maecPackage:Tool id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-tol-1">
+                            <cyboxCommon:Name>ThreatExpert</cyboxCommon:Name>
+                            <cyboxCommon:Vendor>ThreatExpert</cyboxCommon:Vendor>
+                        </maecPackage:Tool>
+                    </maecPackage:Tools>
+                </maecPackage:Analysis>
+            </maecPackage:Analyses>
+            <maecPackage:Findings_Bundles>
+                <maecPackage:Bundle defined_subject="false" id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-bnd-1" schema_version="4.0.1">
+                    <maecBundle:AV_Classifications>
+                        <maecBundle:AV_Classification>
+                            <cyboxCommon:Vendor>Microsoft</cyboxCommon:Vendor>
+                            <maecBundle:Classification_Name>Backdoor:Win32/Mdmbot.F</maecBundle:Classification_Name>
+                        </maecBundle:AV_Classification>
+                    </maecBundle:AV_Classifications>
+                    <maecBundle:Behaviors>
+                        <maecBundle:Behavior id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-bhv-1">
+                            <maecBundle:Description>Produces outbound traffic.</maecBundle:Description>
+                        </maecBundle:Behavior>
+                        <maecBundle:Behavior id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-bhv-2">
+                            <maecBundle:Description>Downloads/requests other files from Internet.</maecBundle:Description>
+                        </maecBundle:Behavior>
+                    </maecBundle:Behaviors>
+                    <maecBundle:Collections>
+                        <maecBundle:Action_Collections>
+                            <maecBundle:Action_Collection name="Process Actions" id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-actc-1">
+                                <maecBundle:Action_List>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-1">
+                                        <cybox:Name xsi:type="maecVocabs:ProcessActionNameVocab-1.0">create process</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object idref="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-1">
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                </maecBundle:Action_List>
+                            </maecBundle:Action_Collection>
+                            <maecBundle:Action_Collection name="Registry Actions" id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-actc-2">
+                                <maecBundle:Action_List>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-3">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-4">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-4">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-5">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-5">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-6">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000\Control</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-6">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-7">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-7">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-8">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-8">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-9">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000\Control</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-9">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-10">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000\Control</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>*NewlyCreated*</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>0x00000000</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-10">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-11">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000\Control</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>ActiveService</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>AppMgmt</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-11">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-12">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>Service</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>AppMgmt</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-12">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-13">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>Legacy</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>0x00000001</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-13">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-14">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>ConfigFlags</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>0x00000000</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-14">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-15">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>Class</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>LegacyDriver</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-15">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-16">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>ClassGUID</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>{8ECC055D-047F-11D1-A537-0000F8753ED1}</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-16">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-17">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>DeviceDesc</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>Application Management</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-17">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-18">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Enum\Root\LEGACY_APPMGMT</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>NextInstance</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>0x00000001</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-18">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-19">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000\Control</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>*NewlyCreated*</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>0x00000000</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-19">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-20">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000\Control</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>ActiveService</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>AppMgmt</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-20">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-21">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>Service</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>AppMgmt</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-21">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-22">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>Legacy</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>0x00000001</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-22">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-23">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>ConfigFlags</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>0x00000000</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-23">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-24">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>Class</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>LegacyDriver</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-24">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-25">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>ClassGUID</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>{8ECC055D-047F-11D1-A537-0000F8753ED1}</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-25">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-26">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT\0000</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>DeviceDesc</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>Application Management</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-26">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">create registry key value</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-27">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Enum\Root\LEGACY_APPMGMT</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                    <WinRegistryKeyObj:Values>
+                                                        <WinRegistryKeyObj:Value>
+                                                            <WinRegistryKeyObj:Name>NextInstance</WinRegistryKeyObj:Name>
+                                                            <WinRegistryKeyObj:Data>0x00000001</WinRegistryKeyObj:Data>
+                                                        </WinRegistryKeyObj:Value>
+                                                    </WinRegistryKeyObj:Values>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">output</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-27">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-28">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\ControlSet001\Control\ServiceCurrent</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-28">
+                                        <cybox:Name xsi:type="maecVocabs:RegistryActionNameVocab-1.0">modify registry key</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-29">
+                                                <cybox:Properties xsi:type="WinRegistryKeyObj:WindowsRegistryKeyObjectType">
+                                                    <WinRegistryKeyObj:Key>SYSTEM\CurrentControlSet\Control\ServiceCurrent</WinRegistryKeyObj:Key>
+                                                    <WinRegistryKeyObj:Hive>HKEY_LOCAL_MACHINE</WinRegistryKeyObj:Hive>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                </maecBundle:Action_List>
+                            </maecBundle:Action_Collection>
+                            <maecBundle:Action_Collection name="Service Actions" id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-actc-3">
+                                <maecBundle:Action_List>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-2">
+                                        <cybox:Name xsi:type="maecVocabs:ServiceActionNameVocab-1.0">modify service configuration</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-3">
+                                                <cybox:Properties xsi:type="WinServiceObj:WindowsServiceObjectType">
+                                                    <ProcessObj:Name>AppMgmt</ProcessObj:Name>
+                                                    <ProcessObj:Image_Info>
+                                                        <ProcessObj:File_Name>%System%\svchost.exe -k netsvcs</ProcessObj:File_Name>
+                                                    </ProcessObj:Image_Info>
+                                                    <WinServiceObj:Display_Name>Application Management</WinServiceObj:Display_Name>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                </maecBundle:Action_List>
+                            </maecBundle:Action_Collection>
+                            <maecBundle:Action_Collection name="Network Actions" id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-actc-4">
+                                <maecBundle:Action_List>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-29">
+                                        <cybox:Name xsi:type="maecVocabs:SocketActionNameVocab-1.0">get host by address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-30">
+                                                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                                    <AddressObj:Address_Value>192.5.5.241</AddressObj:Address_Value>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-30">
+                                        <cybox:Name xsi:type="maecVocabs:SocketActionNameVocab-1.0">get host by address</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-31">
+                                                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                                    <AddressObj:Address_Value>110.173.55.187</AddressObj:Address_Value>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-31">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to ip</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-32">
+                                                <cybox:Properties xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
+                                                    <AddressObj:Address_Value>110.173.55.187</AddressObj:Address_Value>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-33">
+                                                <cybox:Properties xsi:type="PortObj:PortObjectType">
+                                                    <PortObj:Port_Value>443</PortObj:Port_Value>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                    <maecBundle:Action id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-act-32">
+                                        <cybox:Name xsi:type="maecVocabs:NetworkActionNameVocab-1.0">connect to url</cybox:Name>
+                                        <cybox:Associated_Objects>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-34">
+                                                <cybox:Properties xsi:type="URIObj:URIObjectType">
+                                                    <URIObj:Value>110.173.55.187</URIObj:Value>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                            <cybox:Associated_Object id="maec-threatexpert_to_maec_4D519BF53A8217ADC4C15D15F0815993-obj-35">
+                                                <cybox:Properties xsi:type="PortObj:PortObjectType">
+                                                    <PortObj:Port_Value>443</PortObj:Port_Value>
+                                                </cybox:Properties>
+                                                <cybox:Association_Type xsi:type="maecVocabs:ActionObjectAssociationTypeVocab-1.0">input</cybox:Association_Type>
+                                            </cybox:Associated_Object>
+                                        </cybox:Associated_Objects>
+                                    </maecBundle:Action>
+                                </maecBundle:Action_List>
+                            </maecBundle:Action_Collection>
+                        </maecBundle:Action_Collections>
+                    </maecBundle:Collections>
+                </maecPackage:Bundle>
+            </maecPackage:Findings_Bundles>
+        </maecPackage:Malware_Subject>
+    </maecPackage:Malware_Subjects>
+</maecPackage:MAEC_Package>
