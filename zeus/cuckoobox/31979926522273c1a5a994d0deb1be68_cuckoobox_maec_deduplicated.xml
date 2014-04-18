@@ -1,34 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE doc [<!ENTITY comma '&#44;'>]>
 <maecPackage:MAEC_Package 
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
- xmlns:maecPackage="http://maec.mitre.org/XMLSchema/maec-package-2" 
- xmlns:maecBundle="http://maec.mitre.org/XMLSchema/maec-bundle-4" 
- xmlns:maecVocabs="http://maec.mitre.org/default_vocabularies-1" 
- xmlns:mmdef="http://xml/metadataSharing.xsd" 
- xmlns:cybox="http://cybox.mitre.org/cybox-2" 
- xmlns:cyboxCommon="http://cybox.mitre.org/common-2" 
- xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2" 
- xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
- xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2" 
- xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2" 
- xmlns:SocketAddressObj="http://cybox.mitre.org/objects#SocketAddressObject-1" 
- xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2" 
- xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2" 
- xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2" 
- xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2" 
- xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2" 
- xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2" 
- xmlns:WinFileObj="http://cybox.mitre.org/objects#WinFileObject-2" 
- xmlns:WinComputerAccountObj="http://cybox.mitre.org/objects#WinComputerAccountObject-2" 
- xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2" 
- xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
- http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.0.1/maec_package_schema.xsd
- http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
- http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
- http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
- http://cybox.mitre.org/objects#NetworkConnectionObject-2 http://cybox.mitre.org/XMLSchema/objects/Network_Connection/2.0.1/Network_Connection_Object.xsd
- http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd" id="maec-31979926522273c1a5a994d0deb1be68-pkg-1" schema_version="2.0.1">
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2"
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2"
+	xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2"
+	xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2"
+	xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2"
+	xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2"
+	xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2"
+	xmlns:SocketAddressObj="http://cybox.mitre.org/objects#SocketAddressObject-1"
+	xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2"
+	xmlns:WinComputerAccountObj="http://cybox.mitre.org/objects#WinComputerAccountObject-2"
+	xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2"
+	xmlns:WinFileObj="http://cybox.mitre.org/objects#WinFileObject-2"
+	xmlns:maecBundle="http://maec.mitre.org/XMLSchema/maec-bundle-4"
+	xmlns:maecPackage="http://maec.mitre.org/XMLSchema/maec-package-2"
+	xmlns:maecVocabs="http://maec.mitre.org/default_vocabularies-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mmdef="http://xml/metadataSharing.xsd"
+	xsi:schemaLocation="http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.1/Address_Object.xsd http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.1/File_Object.xsd http://cybox.mitre.org/objects#NetworkConnectionObject-2 http://cybox.mitre.org/XMLSchema/objects/Network_Connection/2.1/Network_Connection_Object.xsd http://cybox.mitre.org/objects#PortObject-2 http://cybox.mitre.org/XMLSchema/objects/Port/2.1/Port_Object.xsd http://cybox.mitre.org/objects#SocketAddressObject-1 http://cybox.mitre.org/XMLSchema/objects/Socket_Address/1.1/Socket_Address_Object.xsd http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.1/Win_Executable_File_Object.xsd http://cybox.mitre.org/objects#WinFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_File/2.1/Win_File_Object.xsd http://maec.mitre.org/XMLSchema/maec-bundle-4 http://maec.mitre.org/language/version4.1/maec_bundle_schema.xsd http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.1/maec_package_schema.xsd http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.1/maec_default_vocabularies.xsd" id="maec-31979926522273c1a5a994d0deb1be68-pkg-1" schema_version="2.1">
     <maecPackage:Malware_Subjects>
         <maecPackage:Malware_Subject id="maec-31979926522273c1a5a994d0deb1be68-sub-1">
             <maecPackage:Malware_Instance_Object_Attributes id="maec-31979926522273c1a5a994d0deb1be68-obj-1">
@@ -97,7 +90,7 @@
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" content_type="dynamic analysis tool output" id="maec-31979926522273c1a5a994d0deb1be68-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" content_type="dynamic analysis tool output" id="maec-31979926522273c1a5a994d0deb1be68-bnd-1" schema_version="4.1">
                     <maecBundle:Collections>
                         <maecBundle:Action_Collections>
                             <maecBundle:Action_Collection name="Network Actions" id="maec-31979926522273c1a5a994d0deb1be68-actc-1">
@@ -228,7 +221,7 @@
                                 <maecBundle:Object_List>
                                     <maecBundle:Object id="maec-31979926522273c1a5a994d0deb1be68-obj-5">
                                         <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                            <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                            <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                             <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                 <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -249,7 +242,7 @@
                                     </maecBundle:Object>
                                     <maecBundle:Object id="maec-31979926522273c1a5a994d0deb1be68-obj-11">
                                         <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                            <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                            <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                             <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                 <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                     <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -273,7 +266,7 @@
                         </maecBundle:Object_Collections>
                     </maecBundle:Collections>
                 </maecPackage:Bundle>
-                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-31979926522273c1a5a994d0deb1be68-bnd-2" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-31979926522273c1a5a994d0deb1be68-bnd-2" schema_version="4.1">
                     <maecBundle:Objects>
                         <maecBundle:Object id="maec-31979926522273c1a5a994d0deb1be68-obj-3">
                             <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
@@ -502,7 +495,7 @@
                                 <WinExecutableFileObj:Sections>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.text</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.text</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>1850</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00001000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00000800</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -513,7 +506,7 @@
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.rdata</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.rdata</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>1424</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00002000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00000600</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -524,7 +517,7 @@
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.data</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.data</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>135168</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00003000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00001200</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -535,7 +528,7 @@
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.rsrc</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.rsrc</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>581</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00024000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00002000</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -549,7 +542,7 @@
                         </maecBundle:Object>
                     </maecBundle:Objects>
                 </maecPackage:Bundle>
-                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-31979926522273c1a5a994d0deb1be68-bnd-3" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-31979926522273c1a5a994d0deb1be68-bnd-3" schema_version="4.1">
                     <maecBundle:Objects>
                         <maecBundle:Object id="maec-31979926522273c1a5a994d0deb1be68-obj-4">
                             <cybox:Properties xsi:type="FileObj:FileObjectType">

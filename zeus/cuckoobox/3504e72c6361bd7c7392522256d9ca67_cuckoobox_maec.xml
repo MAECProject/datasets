@@ -1,46 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE doc [<!ENTITY comma '&#44;'>]>
-<!--
-Cuckoo Sandbox MAEC 4.0.1 malware analysis report
-http://www.cuckoosandbox.org
--->
 <maecPackage:MAEC_Package 
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
- xmlns:maecPackage="http://maec.mitre.org/XMLSchema/maec-package-2" 
- xmlns:maecBundle="http://maec.mitre.org/XMLSchema/maec-bundle-4" 
- xmlns:maecVocabs="http://maec.mitre.org/default_vocabularies-1" 
- xmlns:mmdef="http://xml/metadataSharing.xsd" 
- xmlns:cybox="http://cybox.mitre.org/cybox-2" 
- xmlns:cyboxCommon="http://cybox.mitre.org/common-2" 
- xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2" 
- xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
- xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2" 
- xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2" 
- xmlns:APIObj="http://cybox.mitre.org/objects#APIObject-2" 
- xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2" 
- xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2" 
- xmlns:LibraryObj="http://cybox.mitre.org/objects#LibraryObject-2" 
- xmlns:SocketAddressObj="http://cybox.mitre.org/objects#SocketAddressObject-1" 
- xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2" 
- xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2" 
- xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2" 
- xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2" 
- xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2" 
- xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2" 
- xmlns:WinFileObj="http://cybox.mitre.org/objects#WinFileObject-2" 
- xmlns:WinComputerAccountObj="http://cybox.mitre.org/objects#WinComputerAccountObject-2" 
- xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2" 
- xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
- http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.0.1/maec_package_schema.xsd
- http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
- http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
- http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
- http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.0.1/Process_Object.xsd
- http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
- http://cybox.mitre.org/objects#APIObject-2 http://cybox.mitre.org/XMLSchema/objects/API/2.0.1/API_Object.xsd
- http://cybox.mitre.org/objects#WinHandleObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Handle/2.0.1/Win_Handle_Object.xsd
- http://cybox.mitre.org/objects#NetworkConnectionObject-2 http://cybox.mitre.org/XMLSchema/objects/Network_Connection/2.0.1/Network_Connection_Object.xsd
- http://cybox.mitre.org/objects#LibraryObject-2 http://cybox.mitre.org/XMLSchema/objects/Library/2.0.1/Library_Object.xsd" id="maec-3504e72c6361bd7c7392522256d9ca67-pkg-1" schema_version="2.0.1">
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:APIObj="http://cybox.mitre.org/objects#APIObject-2"
+	xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2"
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2"
+	xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2"
+	xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2"
+	xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2"
+	xmlns:LibraryObj="http://cybox.mitre.org/objects#LibraryObject-2"
+	xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2"
+	xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2"
+	xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2"
+	xmlns:SocketAddressObj="http://cybox.mitre.org/objects#SocketAddressObject-1"
+	xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2"
+	xmlns:WinComputerAccountObj="http://cybox.mitre.org/objects#WinComputerAccountObject-2"
+	xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2"
+	xmlns:WinFileObj="http://cybox.mitre.org/objects#WinFileObject-2"
+	xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2"
+	xmlns:maecBundle="http://maec.mitre.org/XMLSchema/maec-bundle-4"
+	xmlns:maecPackage="http://maec.mitre.org/XMLSchema/maec-package-2"
+	xmlns:maecVocabs="http://maec.mitre.org/default_vocabularies-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mmdef="http://xml/metadataSharing.xsd"
+	xsi:schemaLocation="http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd http://cybox.mitre.org/objects#APIObject-2 http://cybox.mitre.org/XMLSchema/objects/API/2.1/API_Object.xsd http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.1/Address_Object.xsd http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.1/File_Object.xsd http://cybox.mitre.org/objects#LibraryObject-2 http://cybox.mitre.org/XMLSchema/objects/Library/2.1/Library_Object.xsd http://cybox.mitre.org/objects#NetworkConnectionObject-2 http://cybox.mitre.org/XMLSchema/objects/Network_Connection/2.1/Network_Connection_Object.xsd http://cybox.mitre.org/objects#PortObject-2 http://cybox.mitre.org/XMLSchema/objects/Port/2.1/Port_Object.xsd http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.1/Process_Object.xsd http://cybox.mitre.org/objects#SocketAddressObject-1 http://cybox.mitre.org/XMLSchema/objects/Socket_Address/1.1/Socket_Address_Object.xsd http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.1/Win_Executable_File_Object.xsd http://cybox.mitre.org/objects#WinFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_File/2.1/Win_File_Object.xsd http://cybox.mitre.org/objects#WinHandleObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Handle/2.1/Win_Handle_Object.xsd http://maec.mitre.org/XMLSchema/maec-bundle-4 http://maec.mitre.org/language/version4.1/maec_bundle_schema.xsd http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.1/maec_package_schema.xsd http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.1/maec_default_vocabularies.xsd" id="maec-3504e72c6361bd7c7392522256d9ca67-pkg-1" schema_version="2.1">
     <maecPackage:Malware_Subjects>
         <maecPackage:Malware_Subject id="maec-3504e72c6361bd7c7392522256d9ca67-sub-1">
             <maecPackage:Malware_Instance_Object_Attributes id="maec-3504e72c6361bd7c7392522256d9ca67-obj-1">
@@ -109,7 +94,7 @@ http://www.cuckoosandbox.org
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" content_type="dynamic analysis tool output" id="maec-3504e72c6361bd7c7392522256d9ca67-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" content_type="dynamic analysis tool output" id="maec-3504e72c6361bd7c7392522256d9ca67-bnd-1" schema_version="4.1">
                     <maecBundle:Process_Tree>
                         <maecBundle:Root_Process xsi:type="maecBundle:ProcessTreeNodeType" id="maec-3504e72c6361bd7c7392522256d9ca67-pro-1">
                             <ProcessObj:PID>1388</ProcessObj:PID>
@@ -131,7 +116,7 @@ http://www.cuckoosandbox.org
                         <maecBundle:Action_Collections>
                             <maecBundle:Action_Collection name="System Actions" id="maec-3504e72c6361bd7c7392522256d9ca67-actc-1">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655" action_status="Success" ordinal_position="1" id="maec-3504e72c6361bd7c7392522256d9ca67-act-1">
+                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655000" action_status="Success" ordinal_position="1" id="maec-3504e72c6361bd7c7392522256d9ca67-act-1">
                                         <cybox:Name>get dll handle</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object idref="maec-3504e72c6361bd7c7392522256d9ca67-obj-6">
@@ -139,7 +124,7 @@ http://www.cuckoosandbox.org
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655" action_status="Success" ordinal_position="2" id="maec-3504e72c6361bd7c7392522256d9ca67-act-2">
+                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655000" action_status="Success" ordinal_position="2" id="maec-3504e72c6361bd7c7392522256d9ca67-act-2">
                                         <cybox:Name xsi:type="maecVocabs:LibraryActionNameVocab-1.0">get function address</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-7">
@@ -166,7 +151,7 @@ http://www.cuckoosandbox.org
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655" action_status="Success" ordinal_position="3" id="maec-3504e72c6361bd7c7392522256d9ca67-act-3">
+                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655000" action_status="Success" ordinal_position="3" id="maec-3504e72c6361bd7c7392522256d9ca67-act-3">
                                         <cybox:Name xsi:type="maecVocabs:LibraryActionNameVocab-1.0">get function address</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-10">
@@ -193,7 +178,7 @@ http://www.cuckoosandbox.org
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655" action_status="Success" ordinal_position="6" id="maec-3504e72c6361bd7c7392522256d9ca67-act-6">
+                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655000" action_status="Success" ordinal_position="6" id="maec-3504e72c6361bd7c7392522256d9ca67-act-6">
                                         <cybox:Name>get dll handle</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object idref="maec-3504e72c6361bd7c7392522256d9ca67-obj-16">
@@ -201,7 +186,7 @@ http://www.cuckoosandbox.org
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655" action_status="Success" ordinal_position="7" id="maec-3504e72c6361bd7c7392522256d9ca67-act-7">
+                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655000" action_status="Success" ordinal_position="7" id="maec-3504e72c6361bd7c7392522256d9ca67-act-7">
                                         <cybox:Name xsi:type="maecVocabs:LibraryActionNameVocab-1.0">get function address</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-17">
@@ -228,7 +213,7 @@ http://www.cuckoosandbox.org
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655" action_status="Success" ordinal_position="8" id="maec-3504e72c6361bd7c7392522256d9ca67-act-8">
+                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655000" action_status="Success" ordinal_position="8" id="maec-3504e72c6361bd7c7392522256d9ca67-act-8">
                                         <cybox:Name xsi:type="maecVocabs:LibraryActionNameVocab-1.0">get function address</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-20">
@@ -255,7 +240,7 @@ http://www.cuckoosandbox.org
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655" action_status="Success" ordinal_position="9" id="maec-3504e72c6361bd7c7392522256d9ca67-act-9">
+                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655000" action_status="Success" ordinal_position="9" id="maec-3504e72c6361bd7c7392522256d9ca67-act-9">
                                         <cybox:Name xsi:type="maecVocabs:LibraryActionNameVocab-1.0">get function address</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-23">
@@ -286,7 +271,7 @@ http://www.cuckoosandbox.org
                             </maecBundle:Action_Collection>
                             <maecBundle:Action_Collection name="Process Actions" id="maec-3504e72c6361bd7c7392522256d9ca67-actc-2">
                                 <maecBundle:Action_List>
-                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655" action_status="Success" ordinal_position="4" id="maec-3504e72c6361bd7c7392522256d9ca67-act-4">
+                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655000" action_status="Success" ordinal_position="4" id="maec-3504e72c6361bd7c7392522256d9ca67-act-4">
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">free process virtual memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-13">
@@ -298,7 +283,7 @@ http://www.cuckoosandbox.org
                                             </cybox:Associated_Object>
                                         </cybox:Associated_Objects>
                                     </maecBundle:Action>
-                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655" action_status="Success" ordinal_position="5" id="maec-3504e72c6361bd7c7392522256d9ca67-act-5">
+                                    <maecBundle:Action timestamp="2013-12-24T05:29:09.655000" action_status="Success" ordinal_position="5" id="maec-3504e72c6361bd7c7392522256d9ca67-act-5">
                                         <cybox:Name xsi:type="maecVocabs:ProcessMemoryActionNameVocab-1.0">free process virtual memory</cybox:Name>
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-14">
@@ -319,7 +304,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-26">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -345,7 +330,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-27">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -371,7 +356,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-28">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -397,7 +382,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-29">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -423,7 +408,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-30">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -449,7 +434,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-31">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -475,7 +460,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-32">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -501,7 +486,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-33">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -527,7 +512,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-34">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -553,7 +538,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-35">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -579,7 +564,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-36">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -605,7 +590,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-37">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -631,7 +616,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-38">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -657,7 +642,7 @@ http://www.cuckoosandbox.org
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-39">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">UDP</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>UDP</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
                                                         <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr">
                                                             <AddressObj:Address_Value>192.168.56.101</AddressObj:Address_Value>
@@ -733,14 +718,14 @@ http://www.cuckoosandbox.org
                         </maecBundle:Object_Collections>
                     </maecBundle:Collections>
                 </maecPackage:Bundle>
-                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-3504e72c6361bd7c7392522256d9ca67-bnd-2" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-3504e72c6361bd7c7392522256d9ca67-bnd-2" schema_version="4.1">
                     <maecBundle:Objects>
                         <maecBundle:Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-3">
                             <cybox:Properties xsi:type="WinExecutableFileObj:WindowsExecutableFileObjectType">
                                 <WinExecutableFileObj:Sections>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>Crta</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">Crta</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>12288</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00001000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0xff003000</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -751,7 +736,7 @@ http://www.cuckoosandbox.org
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>D3ch</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">D3ch</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>4096</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00004000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00000200</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -762,7 +747,7 @@ http://www.cuckoosandbox.org
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>jrg</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">jrg</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>4096</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00005000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00000000</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -773,7 +758,7 @@ http://www.cuckoosandbox.org
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.ivsfr</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.ivsfr</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>4096</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00006000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00000600</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -784,7 +769,7 @@ http://www.cuckoosandbox.org
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.qrd</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.qrd</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>4096</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00007000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00000000</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -795,7 +780,7 @@ http://www.cuckoosandbox.org
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.rsvky</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.rsvky</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>4096</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00008000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00000200</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -806,7 +791,7 @@ http://www.cuckoosandbox.org
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.rserv</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.rserv</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>4096</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x00009000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x0000ff00</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -817,7 +802,7 @@ http://www.cuckoosandbox.org
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.rawe</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.rawe</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>65536</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x0000a000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x0000ff00</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -828,7 +813,7 @@ http://www.cuckoosandbox.org
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.jtg</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.jtg</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>4096</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x0001a000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00001000</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -839,7 +824,7 @@ http://www.cuckoosandbox.org
                                     </WinExecutableFileObj:Section>
                                     <WinExecutableFileObj:Section>
                                         <WinExecutableFileObj:Section_Header>
-                                            <WinExecutableFileObj:Name>.avdhr</WinExecutableFileObj:Name>
+                                            <WinExecutableFileObj:Name datatype="string">.avdhr</WinExecutableFileObj:Name>
                                             <WinExecutableFileObj:Virtual_Size>4096</WinExecutableFileObj:Virtual_Size>
                                             <WinExecutableFileObj:Virtual_Address>0x0001b000</WinExecutableFileObj:Virtual_Address>
                                             <WinExecutableFileObj:Size_Of_Raw_Data>0x00000000</WinExecutableFileObj:Size_Of_Raw_Data>
@@ -853,7 +838,7 @@ http://www.cuckoosandbox.org
                         </maecBundle:Object>
                     </maecBundle:Objects>
                 </maecPackage:Bundle>
-                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-3504e72c6361bd7c7392522256d9ca67-bnd-3" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" content_type="static analysis tool output" id="maec-3504e72c6361bd7c7392522256d9ca67-bnd-3" schema_version="4.1">
                     <maecBundle:Objects>
                         <maecBundle:Object id="maec-3504e72c6361bd7c7392522256d9ca67-obj-4">
                             <cybox:Properties xsi:type="FileObj:FileObjectType">
