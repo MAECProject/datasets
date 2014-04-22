@@ -1,46 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE doc [<!ENTITY comma '&#44;'>]>
 <maecPackage:MAEC_Package 
- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
- xmlns:maecPackage="http://maec.mitre.org/XMLSchema/maec-package-2" 
- xmlns:maecBundle="http://maec.mitre.org/XMLSchema/maec-bundle-4" 
- xmlns:maecVocabs="http://maec.mitre.org/default_vocabularies-1" 
- xmlns:mmdef="http://xml/metadataSharing.xsd" 
- xmlns:cybox="http://cybox.mitre.org/cybox-2" 
- xmlns:cyboxCommon="http://cybox.mitre.org/common-2" 
- xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2" 
- xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2" 
- xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2" 
- xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2" 
- xmlns:WinServiceObj="http://cybox.mitre.org/objects#WinServiceObject-2" 
- xmlns:WinProcessObj="http://cybox.mitre.org/objects#WinProcessObject-2" 
- xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2" 
- xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2" 
- xmlns:PipeObj="http://cybox.mitre.org/objects#PipeObject-2" 
- xmlns:WinFileObj="http://cybox.mitre.org/objects#WinFileObject-2" 
- xmlns:WinComputerAccountObj="http://cybox.mitre.org/objects#WinComputerAccountObject-2" 
- xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2" 
- xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2" 
- xmlns:SocketAddressObj="http://cybox.mitre.org/objects#SocketAddressObject-1" 
- xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2" 
- xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2" 
- xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2" 
- xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2" 
- xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2" 
- xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2" 
- xmlns:MemoryObj="http://cybox.mitre.org/objects#MemoryObject-2" 
- xsi:schemaLocation="http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.0.1/maec_default_vocabularies.xsd
- http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.0.1/maec_package_schema.xsd
- http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.0.1/cybox_core.xsd
- http://maec.mitre.org/default_vocabularies-1 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.0.1/cybox_default_vocabularies.xsd
- http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.0.1/Win_Executable_File_Object.xsd
- http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.0.1/Process_Object.xsd
- http://cybox.mitre.org/objects#NetworkConnectionObject-2 http://cybox.mitre.org/XMLSchema/objects/Network_Connection/2.0.1/Network_Connection_Object.xsd
- http://cybox.mitre.org/objects#WinServiceObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Service/2.0.1/Win_Service_Object.xsd
- http://cybox.mitre.org/objects#WinProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Process/2.0.1/Win_Process_Object.xsd
- http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.0.1/Win_Registry_Key_Object.xsd
- http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.0.1/File_Object.xsd
- http://cybox.mitre.org/objects#PipeObject-2 http://cybox.mitre.org/XMLSchema/objects/Pipe/2.0.1/Pipe_Object.xsd" id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-pkg-1" schema_version="2.0.1">
+	xmlns:cyboxCommon="http://cybox.mitre.org/common-2"
+	xmlns:cybox="http://cybox.mitre.org/cybox-2"
+	xmlns:cyboxVocabs="http://cybox.mitre.org/default_vocabularies-2"
+	xmlns:AccountObj="http://cybox.mitre.org/objects#AccountObject-2"
+	xmlns:AddressObj="http://cybox.mitre.org/objects#AddressObject-2"
+	xmlns:DNSQueryObj="http://cybox.mitre.org/objects#DNSQueryObject-2"
+	xmlns:DNSRecordObj="http://cybox.mitre.org/objects#DNSRecordObject-2"
+	xmlns:FileObj="http://cybox.mitre.org/objects#FileObject-2"
+	xmlns:HTTPSessionObj="http://cybox.mitre.org/objects#HTTPSessionObject-2"
+	xmlns:MemoryObj="http://cybox.mitre.org/objects#MemoryObject-2"
+	xmlns:NetworkConnectionObj="http://cybox.mitre.org/objects#NetworkConnectionObject-2"
+	xmlns:PipeObj="http://cybox.mitre.org/objects#PipeObject-2"
+	xmlns:PortObj="http://cybox.mitre.org/objects#PortObject-2"
+	xmlns:ProcessObj="http://cybox.mitre.org/objects#ProcessObject-2"
+	xmlns:SocketAddressObj="http://cybox.mitre.org/objects#SocketAddressObject-1"
+	xmlns:URIObj="http://cybox.mitre.org/objects#URIObject-2"
+	xmlns:WinComputerAccountObj="http://cybox.mitre.org/objects#WinComputerAccountObject-2"
+	xmlns:WinExecutableFileObj="http://cybox.mitre.org/objects#WinExecutableFileObject-2"
+	xmlns:WinFileObj="http://cybox.mitre.org/objects#WinFileObject-2"
+	xmlns:WinHandleObj="http://cybox.mitre.org/objects#WinHandleObject-2"
+	xmlns:WinProcessObj="http://cybox.mitre.org/objects#WinProcessObject-2"
+	xmlns:WinRegistryKeyObj="http://cybox.mitre.org/objects#WinRegistryKeyObject-2"
+	xmlns:WinServiceObj="http://cybox.mitre.org/objects#WinServiceObject-2"
+	xmlns:maecBundle="http://maec.mitre.org/XMLSchema/maec-bundle-4"
+	xmlns:maecPackage="http://maec.mitre.org/XMLSchema/maec-package-2"
+	xmlns:maecVocabs="http://maec.mitre.org/default_vocabularies-1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mmdef="http://xml/metadataSharing.xsd"
+	xsi:schemaLocation="http://cybox.mitre.org/common-2 http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd http://cybox.mitre.org/cybox-2 http://cybox.mitre.org/XMLSchema/core/2.1/cybox_core.xsd http://cybox.mitre.org/default_vocabularies-2 http://cybox.mitre.org/XMLSchema/default_vocabularies/2.1/cybox_default_vocabularies.xsd http://cybox.mitre.org/objects#AddressObject-2 http://cybox.mitre.org/XMLSchema/objects/Address/2.1/Address_Object.xsd http://cybox.mitre.org/objects#FileObject-2 http://cybox.mitre.org/XMLSchema/objects/File/2.1/File_Object.xsd http://cybox.mitre.org/objects#NetworkConnectionObject-2 http://cybox.mitre.org/XMLSchema/objects/Network_Connection/2.1/Network_Connection_Object.xsd http://cybox.mitre.org/objects#PipeObject-2 http://cybox.mitre.org/XMLSchema/objects/Pipe/2.1/Pipe_Object.xsd http://cybox.mitre.org/objects#PortObject-2 http://cybox.mitre.org/XMLSchema/objects/Port/2.1/Port_Object.xsd http://cybox.mitre.org/objects#ProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Process/2.1/Process_Object.xsd http://cybox.mitre.org/objects#SocketAddressObject-1 http://cybox.mitre.org/XMLSchema/objects/Socket_Address/1.1/Socket_Address_Object.xsd http://cybox.mitre.org/objects#WinExecutableFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Executable_File/2.1/Win_Executable_File_Object.xsd http://cybox.mitre.org/objects#WinFileObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_File/2.1/Win_File_Object.xsd http://cybox.mitre.org/objects#WinProcessObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Process/2.1/Win_Process_Object.xsd http://cybox.mitre.org/objects#WinRegistryKeyObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Registry_Key/2.1/Win_Registry_Key_Object.xsd http://cybox.mitre.org/objects#WinServiceObject-2 http://cybox.mitre.org/XMLSchema/objects/Win_Service/2.1/Win_Service_Object.xsd http://maec.mitre.org/XMLSchema/maec-bundle-4 http://maec.mitre.org/language/version4.1/maec_bundle_schema.xsd http://maec.mitre.org/XMLSchema/maec-package-2 http://maec.mitre.org/language/version4.1/maec_package_schema.xsd http://maec.mitre.org/default_vocabularies-1 http://maec.mitre.org/language/version4.1/maec_default_vocabularies.xsd" id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-pkg-1" schema_version="2.1">
     <maecPackage:Malware_Subjects>
         <maecPackage:Malware_Subject id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-sub-1">
             <maecPackage:Malware_Instance_Object_Attributes id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-1">
@@ -74,7 +62,7 @@
                 </maecPackage:Analysis>
             </maecPackage:Analyses>
             <maecPackage:Findings_Bundles>
-                <maecPackage:Bundle defined_subject="false" id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-bnd-1" schema_version="4.0.1">
+                <maecPackage:Bundle defined_subject="false" id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-bnd-1" schema_version="4.1">
                     <maecBundle:AV_Classifications>
                         <maecBundle:AV_Classification>
                             <cyboxCommon:Vendor>Ikarus</cyboxCommon:Vendor>
@@ -243,9 +231,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-105">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">tcp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>tcp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -253,7 +241,7 @@
                                                         </SocketAddressObj:Port>
                                                     </NetworkConnectionObj:Source_Socket_Address>
                                                     <NetworkConnectionObj:Destination_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="false">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="false">
                                                             <AddressObj:Address_Value>85.17.90.205</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -270,9 +258,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-106">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -294,9 +282,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-107">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">tcp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>tcp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -304,7 +292,7 @@
                                                         </SocketAddressObj:Port>
                                                     </NetworkConnectionObj:Source_Socket_Address>
                                                     <NetworkConnectionObj:Destination_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="false">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="false">
                                                             <AddressObj:Address_Value>94.100.176.20</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -321,9 +309,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-108">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">tcp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>tcp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -331,7 +319,7 @@
                                                         </SocketAddressObj:Port>
                                                     </NetworkConnectionObj:Source_Socket_Address>
                                                     <NetworkConnectionObj:Destination_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="false">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="false">
                                                             <AddressObj:Address_Value>209.85.218.31</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -348,9 +336,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-109">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">tcp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>tcp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -358,7 +346,7 @@
                                                         </SocketAddressObj:Port>
                                                     </NetworkConnectionObj:Source_Socket_Address>
                                                     <NetworkConnectionObj:Destination_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="false">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="false">
                                                             <AddressObj:Address_Value>66.111.4.70</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -375,9 +363,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-110">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">tcp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>tcp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -385,7 +373,7 @@
                                                         </SocketAddressObj:Port>
                                                     </NetworkConnectionObj:Source_Socket_Address>
                                                     <NetworkConnectionObj:Destination_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="false">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="false">
                                                             <AddressObj:Address_Value>216.157.145.27</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -402,9 +390,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-111">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -426,9 +414,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-112">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -450,9 +438,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-113">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -474,9 +462,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-114">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -498,9 +486,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-115">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -522,9 +510,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-116">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -546,9 +534,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-117">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -570,9 +558,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-118">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -594,9 +582,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-119">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -618,9 +606,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-120">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -642,9 +630,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-121">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -666,9 +654,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-122">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -690,9 +678,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-123">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -714,9 +702,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-124">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -738,9 +726,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-125">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -762,9 +750,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-126">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -786,9 +774,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-127">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -810,9 +798,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-128">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -834,9 +822,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-129">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -858,9 +846,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-130">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
@@ -882,9 +870,9 @@
                                         <cybox:Associated_Objects>
                                             <cybox:Associated_Object id="maec-anubis_to_maec_bff0a4e8b5c2383d5967a795edf09acb-obj-131">
                                                 <cybox:Properties xsi:type="NetworkConnectionObj:NetworkConnectionObjectType">
-                                                    <NetworkConnectionObj:Layer4_Protocol datatype="string">udp</NetworkConnectionObj:Layer4_Protocol>
+                                                    <NetworkConnectionObj:Layer4_Protocol>udp</NetworkConnectionObj:Layer4_Protocol>
                                                     <NetworkConnectionObj:Source_Socket_Address xsi:type="SocketAddressObj:SocketAddressObjectType">
-                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" is_source="true">
+                                                        <SocketAddressObj:IP_Address xsi:type="AddressObj:AddressObjectType" category="ipv4-addr" is_source="true">
                                                             <AddressObj:Address_Value>0.0.0.0</AddressObj:Address_Value>
                                                         </SocketAddressObj:IP_Address>
                                                         <SocketAddressObj:Port xsi:type="PortObj:PortObjectType">
